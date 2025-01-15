@@ -77,7 +77,7 @@ sys.path.append(parent_dir)
 # This section imports the Qt UI classes.
 # ========================================================================== #
 
-from modules.pyside6_qt_flame_classes import (
+from modules.classes import (
     pyside6_qt_button,
     pyside6_qt_clickable_line_edit,
     pyside6_qt_label,
@@ -101,7 +101,7 @@ from modules.pyside6_qt_flame_classes import (
 # This section imports the pyflame functions.
 # ========================================================================== #
 
-from modules.pyside6_qt_flame_functions import (
+from modules.functions import (
     pyside6_qt_get_flame_version,
     pyside6_qt_get_shot_name,
     pyside6_qt_file_browser,

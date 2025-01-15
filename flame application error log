@@ -1,0 +1,66 @@
+
+## Errors/Warnings in application log
+
+[warn] 3974450176 pythonHook.C:152 01/15/25:17:37:47.627 [PYTHON HOOK] 'customUIAction' hook have been deprecated. Support for it is not guaranteed in the future. Current used in '/opt/Autodesk/presets/2025.2.2/shotgun/flame_hooks/sg_initialize.py'.
+[warn] 3974450176 pythonHook.C:152 01/15/25:17:37:47.627 [PYTHON HOOK] 'customUIAction' hook have been deprecated. Support for it is not guaranteed in the future. Current used in '/opt/Autodesk/presets/2025.2.2/shotgun/flame_hooks/python_console.py'.
+[error] 3974450176 CoPythonUtils.C:341 01/15/25:17:37:47.702 Python encountered ModuleNotFoundError("No module named 'classes'") in unknown code
+[error] 3974450176 pythonHook.C:818 01/15/25:17:37:47.702 [PYTHON HOOK] An error occurred. Ignoring python hooks from /opt/Autodesk/shared/python/logik_projekt/openclip_tools/logik_projekt_openclip/scripts/logik_projekt_openclip_precomp.py
+[error] 3974450176 CoPythonUtils.C:341 01/15/25:17:37:47.703 Python encountered ModuleNotFoundError("No module named 'classes'") in unknown code
+[error] 3974450176 pythonHook.C:818 01/15/25:17:37:47.703 [PYTHON HOOK] An error occurred. Ignoring python hooks from /opt/Autodesk/shared/python/logik_projekt/openclip_tools/logik_projekt_openclip/scripts/logik_projekt_openclip_neat_video.py
+[error] 3974450176 CoPythonUtils.C:341 01/15/25:17:37:47.704 Python encountered ModuleNotFoundError("No module named 'classes'") in unknown code
+[error] 3974450176 pythonHook.C:818 01/15/25:17:37:47.704 [PYTHON HOOK] An error occurred. Ignoring python hooks from /opt/Autodesk/shared/python/logik_projekt/openclip_tools/logik_projekt_openclip/scripts/logik_projekt_openclip_comp.py
+[error] 3974450176 CoPythonUtils.C:341 01/15/25:17:37:47.704 Python encountered ModuleNotFoundError("No module named 'classes'") in unknown code
+[error] 3974450176 pythonHook.C:818 01/15/25:17:37:47.704 [PYTHON HOOK] An error occurred. Ignoring python hooks from /opt/Autodesk/shared/python/logik_projekt/openclip_tools/logik_projekt_openclip/scripts/logik_projekt_openclip_mattes.py
+[error] 3974450176 CoPythonUtils.C:341 01/15/25:17:37:47.705 Python encountered ModuleNotFoundError("No module named 'classes'") in unknown code
+[error] 3974450176 pythonHook.C:818 01/15/25:17:37:47.705 [PYTHON HOOK] An error occurred. Ignoring python hooks from /opt/Autodesk/shared/python/logik_projekt/openclip_tools/logik_projekt_openclip/scripts/logik_projekt_openclip_multichannel.py
+[error] 3974450176 CoPythonUtils.C:341 01/15/25:17:37:47.707 Python encountered ModuleNotFoundError("No module named 'pyside6_qt_get_flame_version'") in unknown code
+[error] 3974450176 pythonHook.C:818 01/15/25:17:37:47.707 [PYTHON HOOK] An error occurred. Ignoring python hooks from /opt/Autodesk/shared/python/logik_projekt/openclip_tools/logik_projekt_openclip/scripts/pyside6_qt_flame_functions.py
+[error] 3974450176 CoPythonUtils.C:341 01/15/25:17:37:47.725 Python encountered ImportError("cannot import name 'pyside6_qt_output_config_ui' from partially initialized module 'modules.functions.pyside6_qt_output_config_ui' (most likely due to a circular import) (/opt/Autodesk/shared/python/logik_projekt/openclip_tools/logik_projekt_openclip/scripts/modules/functions/pyside6_qt_output_config_ui.py)") in unknown code
+[error] 3974450176 pythonHook.C:818 01/15/25:17:37:47.725 [PYTHON HOOK] An error occurred. Ignoring python hooks from /opt/Autodesk/shared/python/logik_projekt/openclip_tools/logik_projekt_openclip/scripts/pyside6_qt_flame_modules.py
+[error] 3974450176 pythonHook.C:646 01/15/25:17:37:47.730 [PYTHON HOOK] Duplicate module name found pyside6_qt_flame_classes (/opt/Autodesk/shared/python/logik_projekt/openclip_tools/logik_projekt_openclip/scripts/modules/pyside6_qt_flame_classes.py vs /opt/Autodesk/shared/python/logik_projekt/openclip_tools/logik_projekt_openclip/scripts/pyside6_qt_flame_classes.py). Python does not allow more than one module with a given name to be loaded at the same time. /opt/Autodesk/shared/python/logik_projekt/openclip_tools/logik_projekt_openclip/scripts/pyside6_qt_flame_classes.py will be used.
+[error] 3974450176 CoPythonUtils.C:341 01/15/25:17:37:47.731 Python encountered ModuleNotFoundError("No module named 'nuke'") in unknown code
+[error] 3974450176 pythonHook.C:818 01/15/25:17:37:47.731 [PYTHON HOOK] An error occurred. Ignoring python hooks from /opt/Autodesk/shared/python/logik_projekt/projekt_tools/logik_projekt_create_scripts/config/menu.py
+[error] 3974450176 CoPythonUtils.C:341 01/15/25:17:37:47.737 Python encountered ModuleNotFoundError("No module named 'define_job_structure'") in unknown code
+[error] 3974450176 pythonHook.C:818 01/15/25:17:37:47.737 [PYTHON HOOK] An error occurred. Ignoring python hooks from /opt/Autodesk/shared/python/logik_projekt/projekt_tools/logik_projekt_create_scripts/scripts/create_after_effects_script.py
+[warn] 3974450176 backburnerPrefs.C:1181 01/15/25:17:37:48.584 ... Fetched storage ID '35CBD786-7086-46A6-8214-768352718E85-Backburner' for 'localhost:0'
+[warn] 3974450176 dlnfs.C:871 01/15/25:17:38:03.834 Sys.symlink('HI=35CBD786-7086-46A6-8214-768352718E85;PI=7054;HN=studio1;PN=flame;T=1736959083;LT=1736959083;', '/opt/Autodesk/clip/stonefs/889_test_test_test_2025_2_2_studio1.prj/.recover/Shared Libraries.clibs.lck') failed: No such file or directory
+[warn] 3974450176 dlnfs.C:896 01/15/25:17:38:03.834 symlink('HI=35CBD786-7086-46A6-8214-768352718E85;PI=7054;HN=studio1;PN=flame;T=1736959083;LT=1736959083;', '/opt/Autodesk/clip/stonefs/889_test_test_test_2025_2_2_studio1.prj/.recover/Shared Libraries.clibs.lck') failed: No such file or directory
+[warn] 3974450176 catalogEntry.C:1350 01/15/25:17:38:03.872 Re-stamped /opt/Autodesk/clip/stonefs/889_test_test_test_2025_2_2_studio1.prj/.#project.000.clib
+[warn] 3974450176 dlnfs.C:871 01/15/25:17:38:04.012 Sys.symlink('HI=35CBD786-7086-46A6-8214-768352718E85;PI=7054;HN=studio1;PN=flame;T=1736959083;LT=1736959084;', '/opt/Autodesk/clip/stonefs/889_test_test_test_2025_2_2_studio1.prj/studio1.wksp/.recover/.#workspace.wks.lck') failed: No such file or directory
+[warn] 3974450176 dlnfs.C:896 01/15/25:17:38:04.012 symlink('HI=35CBD786-7086-46A6-8214-768352718E85;PI=7054;HN=studio1;PN=flame;T=1736959083;LT=1736959084;', '/opt/Autodesk/clip/stonefs/889_test_test_test_2025_2_2_studio1.prj/studio1.wksp/.recover/.#workspace.wks.lck') failed: No such file or directory
+[error] 3974450176 video.C:2080 01/15/25:17:38:05.401 VIDEO WINDOW: no device matching (1920,1080,8-bit 23976p, YCrCb Rec.709 4:2:2, Normal)
+[error] 3974450176 video.C:2083 01/15/25:17:38:05.401 VIDEO WINDOW: video preview will be disabled.
+[error] 3974450176 FuTools.C:173 01/15/25:17:38:06.533 DLmpd daemon on 169.254.193.231 is not responding.
+[error] 3974450176 FuTools.C:192 01/15/25:17:38:06.533 Could not test existence of process 6612 on host 169.254.193.231.
+[error] 3974450176 FuTools.C:173 01/15/25:17:38:07.537 DLmpd daemon on 169.254.72.240 is not responding.
+[error] 3974450176 FuTools.C:192 01/15/25:17:38:07.537 Could not test existence of process 11860 on host 169.254.72.240.
+[error] 3974450176 FuTools.C:173 01/15/25:17:38:08.540 DLmpd daemon on 169.254.231.17 is not responding.
+[error] 3974450176 FuTools.C:192 01/15/25:17:38:08.540 Could not test existence of process 72828 on host 169.254.231.17.
+[warn] 3974450176 dlnfs.C:871 01/15/25:17:38:53.083 Sys.symlink('HI=35CBD786-7086-46A6-8214-768352718E85;PI=7054;HN=studio1;PN=flame;T=1736959083;LT=1736959133;', '/opt/Autodesk/presets/2025.2.2/status/cf_ofx_ignore_list.cfg.lck') failed: File exists
+[warn] 3974450176 dlnfs.C:896 01/15/25:17:38:53.083 symlink('HI=35CBD786-7086-46A6-8214-768352718E85;PI=7054;HN=studio1;PN=flame;T=1736959083;LT=1736959133;', '/opt/Autodesk/presets/2025.2.2/status/cf_ofx_ignore_list.cfg.lck') failed: File exists
+[warn] 3974450176 dlnfs.C:871 01/15/25:17:38:53.091 Sys.symlink('HI=35CBD786-7086-46A6-8214-768352718E85;PI=7054;HN=studio1;PN=flame;T=1736959083;LT=1736959133;', '/opt/Autodesk/presets/2025.2.2/status/cf_ofx_ignore_list.cfg.lck_rec') failed: File exists
+[warn] 3974450176 dlnfs.C:896 01/15/25:17:38:53.091 symlink('HI=35CBD786-7086-46A6-8214-768352718E85;PI=7054;HN=studio1;PN=flame;T=1736959083;LT=1736959133;', '/opt/Autodesk/presets/2025.2.2/status/cf_ofx_ignore_list.cfg.lck_rec') failed: File exists
+[warn] 3974450176 catalogEntry.C:1350 01/15/25:17:39:18.215 Re-stamped /opt/Autodesk/clip/stonefs/889_test_test_test_2025_2_2_studio1.prj/studio1.wksp/Libraries.000.clibs
+[warn] 3974450176 catalogEntry.C:1350 01/15/25:17:39:18.263 Re-stamped /opt/Autodesk/clip/stonefs/889_test_test_test_2025_2_2_studio1.prj/studio1.wksp/.#workspace.000.wks
+[warn] 3974450176 catalogEntry.C:1350 01/15/25:17:39:18.279 Re-stamped /opt/Autodesk/clip/stonefs/889_test_test_test_2025_2_2_studio1.prj/studio1.wksp/.#workspace.000.wks
+[warn] 3974450176 catalogEntry.C:1350 01/15/25:17:39:18.407 Re-stamped /opt/Autodesk/clip/stonefs/889_test_test_test_2025_2_2_studio1.prj/.#project.000.clib
+[warn] 3974450176 pythonHook.C:152 01/15/25:17:39:18.714 [PYTHON HOOK] 'customUIAction' hook have been deprecated. Support for it is not guaranteed in the future. Current used in '/opt/Autodesk/presets/2025.2.2/shotgun/flame_hooks/sg_initialize.py'.
+[warn] 3974450176 pythonHook.C:152 01/15/25:17:39:18.714 [PYTHON HOOK] 'customUIAction' hook have been deprecated. Support for it is not guaranteed in the future. Current used in '/opt/Autodesk/presets/2025.2.2/shotgun/flame_hooks/python_console.py'.
+[error] 3974450176 pythonHook.C:646 01/15/25:17:39:18.724 [PYTHON HOOK] Duplicate module name found pyside6_qt_flame_functions (/opt/Autodesk/shared/python/logik_projekt/openclip_tools/logik_projekt_openclip/scripts/pyside6_qt_flame_functions.py vs /opt/Autodesk/shared/python/logik_projekt/openclip_tools/logik_projekt_openclip/scripts/modules/pyside6_qt_flame_functions.py). Python does not allow more than one module with a given name to be loaded at the same time. /opt/Autodesk/shared/python/logik_projekt/openclip_tools/logik_projekt_openclip/scripts/modules/pyside6_qt_flame_functions.py will be used.
+[error] 3974450176 pythonHook.C:646 01/15/25:17:39:18.726 [PYTHON HOOK] Duplicate module name found pyside6_qt_flame_classes (/opt/Autodesk/shared/python/logik_projekt/openclip_tools/logik_projekt_openclip/scripts/modules/pyside6_qt_flame_classes.py vs /opt/Autodesk/shared/python/logik_projekt/openclip_tools/logik_projekt_openclip/scripts/pyside6_qt_flame_classes.py). Python does not allow more than one module with a given name to be loaded at the same time. /opt/Autodesk/shared/python/logik_projekt/openclip_tools/logik_projekt_openclip/scripts/pyside6_qt_flame_classes.py will be used.
+[error] 3974450176 CoPythonUtils.C:341 01/15/25:17:39:18.727 Python encountered ModuleNotFoundError("No module named 'nuke'") in unknown code
+[error] 3974450176 pythonHook.C:818 01/15/25:17:39:18.727 [PYTHON HOOK] An error occurred. Ignoring python hooks from /opt/Autodesk/shared/python/logik_projekt/projekt_tools/logik_projekt_create_scripts/config/menu.py
+[warn] 3974450176 catalogEntry.C:1350 01/15/25:17:39:18.748 Re-stamped /opt/Autodesk/clip/stonefs/889_test_test_test_2025_2_2_studio1.prj/studio1.wksp/desktops.000.clib
+[warn] 3974450176 catalogEntry.C:1350 01/15/25:17:39:18.748 Re-stamped /opt/Autodesk/clip/stonefs/889_test_test_test_2025_2_2_studio1.prj/studio1.wksp/Libraries.000.clibs
+[warn] 3974450176 catalogEntry.C:1350 01/15/25:17:39:18.807 Re-stamped /opt/Autodesk/clip/stonefs/889_test_test_test_2025_2_2_studio1.prj/studio1.wksp/.#workspace.000.wks
+[warn] 3974450176 catalogEntry.C:1350 01/15/25:17:39:18.850 Re-stamped /opt/Autodesk/clip/stonefs/889_test_test_test_2025_2_2_studio1.prj/studio1.wksp/.#workspace.000.wks
+[warn] 3974450176 catalogEntry.C:1350 01/15/25:17:39:18.888 Re-stamped /opt/Autodesk/clip/stonefs/889_test_test_test_2025_2_2_studio1.prj/studio1.wksp/.#workspace.000.wks
+[warn] 3974450176 catalogEntry.C:1350 01/15/25:17:39:19.039 Re-stamped /opt/Autodesk/clip/stonefs/889_test_test_test_2025_2_2_studio1.prj/studio1.wksp/.#workspace.000.wks
+[warn] 3974450176 catalogEntry.C:1350 01/15/25:17:39:19.099 Re-stamped /opt/Autodesk/clip/stonefs/889_test_test_test_2025_2_2_studio1.prj/studio1.wksp/.#workspace.000.wks
+[warn] 3974450176 catalogEntry.C:1350 01/15/25:17:39:26.926 Re-stamped /opt/Autodesk/clip/stonefs/889_test_test_test_2025_2_2_studio1.prj/.#project.000.clib
+
+[error] 3974450176 pythonHook.C:646 01/15/25:17:37:47.730 [PYTHON HOOK] Duplicate module name found pyside6_qt_flame_classes (
+    /opt/Autodesk/shared/python/logik_projekt/openclip_tools/logik_projekt_openclip/scripts/modules/pyside6_qt_flame_classes.py vs 
+    /opt/Autodesk/shared/python/logik_projekt/openclip_tools/logik_projekt_openclip/scripts/pyside6_qt_flame_classes.py). 
+    Python does not allow more than one module with a given name to be loaded at the same time. 
+    /opt/Autodesk/shared/python/logik_projekt/openclip_tools/logik_projekt_openclip/scripts/pyside6_qt_flame_classes.py will be used.
