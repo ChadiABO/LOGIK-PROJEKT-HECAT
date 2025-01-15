@@ -314,7 +314,7 @@ class LayoutLeft(QWidget):
         self.template_summary = QTextEdit()
         self.template_summary.setReadOnly(True)
         self.template_summary.setMaximumWidth(widget_max_width)
-        self.template_summary.setMinimumHeight(352)
+        self.template_summary.setMinimumHeight(312)
         summary_label = QLabel("Template Summary:")
         summary_label.setBuddy(self.template_summary)
         summary_label.setMaximumWidth(label_max_width)

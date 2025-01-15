@@ -463,10 +463,21 @@ def main():
         the_projekt_flame_dir = the_projekt_information.get('the_projekt_flame_name')
 
         # Define the projekt flame setups directory based on the flame version
-        if the_sanitized_version.startswith("2025"):
-            the_projekt_flame_setups_dir = the_projekt_flame_dir
-        else:
-            the_projekt_flame_setups_dir = os.path.join(the_projekt_flame_dir, 'setups')
+        
+# ------------------------------------------------ # THIS WORKS FOR FLAME 2025
+
+        # Define the projekt flame setups directory for flame 2025
+        the_projekt_flame_setups_dir = the_projekt_flame_dir
+
+# ------------------------------------------------ # THIS WORKS FOR FLAME 2026
+
+        # # Define the projekt flame setups directory based on the flame version
+        # if the_sanitized_version.startswith("2025"):
+        #     the_projekt_flame_setups_dir = the_projekt_flame_dir
+        # else:
+        #     the_projekt_flame_setups_dir = os.path.join(the_projekt_flame_dir, 'setups')
+
+# -------------------------------------------------------------------------- #
 
         bookmarks_file = 'resources/tmp/current_projekt_bookmarks.json'
         tmp_bookmarks_file = 'resources/tmp/tmp_bookmarks.json'
@@ -516,16 +527,25 @@ def main():
         # Print a banner head
         logger.log_and_print(f"{banner_head('Creating Projekt XML File')}")
 
-        # Call the create_xml_file function based on the flame version
-        if the_sanitized_version.startswith("2025"):
+# ------------------------------------------------ # THIS WORKS FOR FLAME 2025
 
-            # Call the create_xml_file_legacy function
-            create_xml_file_legacy(the_projekt_information, projekt_xml_path, logger)
+        # Call the create_xml_file_legacy function
+        create_xml_file_legacy(the_projekt_information, projekt_xml_path, logger)
+        
+# ------------------------------------------------ # THIS WORKS FOR FLAME 2026
 
-        else:
+        # # Call the create_xml_file function based on the flame version
+        # if the_sanitized_version.startswith("2025"):
 
-            # Call the create_xml_file function
-            create_xml_file(the_projekt_information, projekt_xml_path, logger)
+        #     # Call the create_xml_file_legacy function
+        #     create_xml_file_legacy(the_projekt_information, projekt_xml_path, logger)
+
+        # else:
+
+        #     # Call the create_xml_file function
+        #     create_xml_file(the_projekt_information, projekt_xml_path, logger)
+
+# -------------------------------------------------------------------------- #
 
         # Print a separator
         logger.log_and_print(f"\n{separator}")
@@ -535,16 +555,25 @@ def main():
         # Print a banner head
         logger.log_and_print(f"{banner_head('Creating Flame Projekt')}")
 
-        # Call the run_wiretap_create_node function based on the flame version
-        if the_sanitized_version.startswith("2025"):
+# ------------------------------------------------ # THIS WORKS FOR FLAME 2025
 
-            # Call the run_wiretap_create_node_legacy function
-            run_wiretap_create_node_legacy(the_projekt_flame_name, projekt_xml_path, separator)
+        # Call the run_wiretap_create_node_legacy function
+        run_wiretap_create_node_legacy(the_projekt_flame_name, projekt_xml_path, separator)
+        
+# ------------------------------------------------ # THIS WORKS FOR FLAME 2026
 
-        else:
+        # # Call the run_wiretap_create_node function based on the flame version
+        # if the_sanitized_version.startswith("2025"):
 
-            # Call the run_wiretap_create_node function
-            run_wiretap_create_node(the_projekt_flame_name, projekt_xml_path, separator)
+        #     # Call the run_wiretap_create_node_legacy function
+        #     run_wiretap_create_node_legacy(the_projekt_flame_name, projekt_xml_path, separator)
+
+        # else:
+
+        #     # Call the run_wiretap_create_node function
+        #     run_wiretap_create_node(the_projekt_flame_name, projekt_xml_path, separator)
+
+# -------------------------------------------------------------------------- #
 
         # Print a separator
         logger.log_and_print(f"\n{separator}")

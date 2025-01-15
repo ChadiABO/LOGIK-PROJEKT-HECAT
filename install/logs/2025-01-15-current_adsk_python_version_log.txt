@@ -1,0 +1,41 @@
+
++ --------------------------------------------------------------------------- +
+
+  2025-01-15 16:33:34 - Reading preference file:
+  2025-01-15 16:33:34 - /Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/install/current_adsk_python_version.pref
+  2025-01-15 16:33:34 - 
+  2025-01-15 16:33:34 - Preference file loaded:
+  2025-01-15 16:33:34 - /opt/Autodesk/python/2026.pr211/bin/python
+  2025-01-15 16:33:34 - 
+  2025-01-15 16:33:34 - Analyzing directory: /opt/Autodesk/python
+  2025-01-15 16:33:34 - Sorted contents of /opt/Autodesk/python:
+  2025-01-15 16:33:34 - 2025.2.2
+  2025-01-15 16:33:34 - 2025.1.2
+  2025-01-15 16:33:34 - 
+  2025-01-15 16:33:34 - The highest version is: 2025.2.2
+  2025-01-15 16:33:34 - 
+  2025-01-15 16:33:34 - Python version 2025.2.2 is available and executable
+  2025-01-15 16:33:34 - Updated preference file with:
+  2025-01-15 16:33:34 - /opt/Autodesk/python/2025.2.2/bin/python
+  2025-01-15 16:33:34 - 
+
++ --------------------------------------------------------------------------- +
+
+  2025-01-15 16:33:34 - Creating macOS application: LOGIK-PROJEKT.app
+  2025-01-15 16:33:34 - Creating the macOS application components
+
++ --------------------------------------------------------------------------- +
+
+  2025-01-15 16:33:34 - Creating LOGIK-PROJEKT shell script for linux: run_logikprojekt_linux.sh
+  2025-01-15 16:33:34 - Making the file executable: run_logikprojekt_linux.sh
+  2025-01-15 16:33:34 - Creating macOS application shell script: run_logikprojekt_macos
+
++ --------------------------------------------------------------------------- +
+
+  2025-01-15 16:33:34 - Creating desktop entry file: LOGIK-PROJEKT.desktop
+  2025-01-15 16:33:34 - Making the file executable: LOGIK-PROJEKT.desktop
+  2025-01-15 16:33:34 - This script is not configured to move files on macOS (Darwin).
+  2025-01-15 16:33:34 - File 'LOGIK-PROJEKT.desktop' has been created and made executable.
+
++ --------------------------------------------------------------------------- +
+
