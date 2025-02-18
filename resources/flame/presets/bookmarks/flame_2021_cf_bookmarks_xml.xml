@@ -1,0 +1,113 @@
+<DlBookmark>
+  <Version>1</Version>
+  <Section Name="Project">
+    <Bookmark Name="flame setups" Path="&lt;project home&gt;" Visibility="Global"/>
+    <Bookmark Name="PROJEKTS" Path="/PROJKEKTS/" Visibility="Global"/>
+    <Bookmark Name="projekt_home" Path="/PROJEKTS/&lt;project nickname&gt;/" Visibility="Global"/>
+    <Folder Name="projekt directories">
+      <Folder Name="assets">
+        <Bookmark Name="artwork" Path="/PROJEKTS/&lt;project nickname&gt;/assets/artwork/" Visibility="Global"/>
+        <Folder Name="audio">
+          <Bookmark Name="dub" Path="/PROJEKTS/&lt;project nickname&gt;/assets/audio/dub/" Visibility="Global"/>
+          <Bookmark Name="mix" Path="/PROJEKTS/&lt;project nickname&gt;/assets/audio/mix/" Visibility="Global"/>
+          <Bookmark Name="music" Path="/PROJEKTS/&lt;project nickname&gt;/assets/audio/music/" Visibility="Global"/>
+          <Bookmark Name="production" Path="/PROJEKTS/&lt;project nickname&gt;/assets/audio/production/" Visibility="Global"/>
+          <Bookmark Name="sound_effects" Path="/PROJEKTS/&lt;project nickname&gt;/assets/audio/sound_effects/" Visibility="Global"/>
+          <Bookmark Name="stems" Path="/PROJEKTS/&lt;project nickname&gt;/assets/audio/stems/" Visibility="Global"/>
+          <Bookmark Name="voiceover" Path="/PROJEKTS/&lt;project nickname&gt;/assets/audio/voiceover/" Visibility="Global"/>
+        </Folder>
+        <Bookmark Name="cgi" Path="/PROJEKTS/&lt;project nickname&gt;/assets/cgi/" Visibility="Global"/>
+        <Bookmark Name="font" Path="/PROJEKTS/&lt;project nickname&gt;/assets/font/" Visibility="Global"/>
+        <Folder Name="footage">
+          <Bookmark Name="graded" Path="/PROJEKTS/&lt;project nickname&gt;/assets/footage/graded/" Visibility="Global"/>
+          <Bookmark Name="raw" Path="/PROJEKTS/&lt;project nickname&gt;/assets/footage/raw/" Visibility="Global"/>
+          <Bookmark Name="stock" Path="/PROJEKTS/&lt;project nickname&gt;/assets/footage/stock/" Visibility="Global"/>
+          <Bookmark Name="transcodes" Path="/PROJEKTS/&lt;project nickname&gt;/assets/footage/transcodes/" Visibility="Global"/>
+        </Folder>
+        <Bookmark Name="graphics" Path="/PROJEKTS/&lt;project nickname&gt;/assets/graphics/" Visibility="Global"/>
+        <Bookmark Name="images" Path="/PROJEKTS/&lt;project nickname&gt;/assets/images/" Visibility="Global"/>
+        <Bookmark Name="legal" Path="/PROJEKTS/&lt;project nickname&gt;/assets/legal/" Visibility="Global"/>
+        <Bookmark Name="matchmoving" Path="/PROJEKTS/&lt;project nickname&gt;/assets/matchmoving/" Visibility="Global"/>
+        <Bookmark Name="miscellaneous" Path="/PROJEKTS/&lt;project nickname&gt;/assets/miscellaneous/" Visibility="Global"/>
+        <Bookmark Name="paint" Path="/PROJEKTS/&lt;project nickname&gt;/assets/paint/" Visibility="Global"/>
+        <Bookmark Name="photoshop" Path="/PROJEKTS/&lt;project nickname&gt;/assets/photoshop/" Visibility="Global"/>
+        <Bookmark Name="roto" Path="/PROJEKTS/&lt;project nickname&gt;/assets/roto/" Visibility="Global"/>
+        <Bookmark Name="slates" Path="/PROJEKTS/&lt;project nickname&gt;/assets/slates/" Visibility="Global"/>
+        <Bookmark Name="subtitles" Path="/PROJEKTS/&lt;project nickname&gt;/assets/subtitles/" Visibility="Global"/>
+        <Bookmark Name="supers" Path="/PROJEKTS/&lt;project nickname&gt;/assets/supers/" Visibility="Global"/>
+        <Bookmark Name="titles" Path="/PROJEKTS/&lt;project nickname&gt;/assets/titles/" Visibility="Global"/>
+        <Bookmark Name="tracking" Path="/PROJEKTS/&lt;project nickname&gt;/assets/tracking/" Visibility="Global"/>
+        <Bookmark Name="video" Path="/PROJEKTS/&lt;project nickname&gt;/assets/video/" Visibility="Global"/>
+      </Folder>
+      <Folder Name="editorial">
+        <Bookmark Name="aaf" Path="/PROJEKTS/&lt;project nickname&gt;/editorial/aaf/" Visibility="Global"/>
+        <Bookmark Name="adobe_premiere" Path="/PROJEKTS/&lt;project nickname&gt;/editorial/adobe_premiere/" Visibility="Global"/>
+        <Bookmark Name="avid_media_composer" Path="/PROJEKTS/&lt;project nickname&gt;/editorial/avid_media_composer/" Visibility="Global"/>
+        <Bookmark Name="davinci_resolve" Path="/PROJEKTS/&lt;project nickname&gt;/editorial/davinci_resolve/" Visibility="Global"/>
+        <Bookmark Name="edl" Path="/PROJEKTS/&lt;project nickname&gt;/editorial/edl/" Visibility="Global"/>
+        <Bookmark Name="final_cut_pro" Path="/PROJEKTS/&lt;project nickname&gt;/editorial/final_cut_pro/" Visibility="Global"/>
+        <Bookmark Name="prep" Path="/PROJEKTS/&lt;project nickname&gt;/editorial/prep/" Visibility="Global"/>
+        <Bookmark Name="xml" Path="/PROJEKTS/&lt;project nickname&gt;/editorial/xml/" Visibility="Global"/>
+      </Folder>
+      <Folder Name="flame">
+        <Bookmark Name="archives" Path="/PROJEKTS/&lt;project nickname&gt;/flame/archives/" Visibility="Global"/>
+        <Bookmark Name="iterations" Path="/PROJEKTS/&lt;project nickname&gt;/flame/iterations/" Visibility="Global"/>
+        <Bookmark Name="setups" Path="/PROJEKTS/&lt;project nickname&gt;/flame/setups/" Visibility="Global"/>
+      </Folder>
+      <Folder Name="masters">
+        <Bookmark Name="master_edits" Path="/PROJEKTS/&lt;project nickname&gt;/masters/master_edits/" Visibility="Global"/>
+        <Bookmark Name="slated_masters" Path="/PROJEKTS/&lt;project nickname&gt;/masters/slated_masters/" Visibility="Global"/>
+        <Bookmark Name="versioned_masters" Path="/PROJEKTS/&lt;project nickname&gt;/masters/versioned_masters/" Visibility="Global"/>
+      </Folder>
+      <Folder Name="reference">
+        <Bookmark Name="reference_images" Path="/PROJEKTS/&lt;project nickname&gt;/reference/reference_images/" Visibility="Global"/>
+        <Bookmark Name="reference_movies" Path="/PROJEKTS/&lt;project nickname&gt;/reference/reference_movies/" Visibility="Global"/>
+        <Bookmark Name="reference_style_guide" Path="/PROJEKTS/&lt;project nickname&gt;/reference/reference_style_guide/" Visibility="Global"/>
+      </Folder>
+      <Folder Name="scenes">
+        <Bookmark Name="3ds" Path="/PROJEKTS/&lt;project nickname&gt;/scenes/3ds/" Visibility="Global"/>
+        <Bookmark Name="alembic" Path="/PROJEKTS/&lt;project nickname&gt;/scenes/alembic/" Visibility="Global"/>
+        <Bookmark Name="baselight" Path="/PROJEKTS/&lt;project nickname&gt;/scenes/baselight/" Visibility="Global"/>
+        <Bookmark Name="blender" Path="/PROJEKTS/&lt;project nickname&gt;/scenes/blender/" Visibility="Global"/>
+        <Bookmark Name="c4d" Path="/PROJEKTS/&lt;project nickname&gt;/scenes/c4d/" Visibility="Global"/>
+        <Bookmark Name="cut" Path="/PROJEKTS/&lt;project nickname&gt;/scenes/cut/" Visibility="Global"/>
+        <Bookmark Name="fbx" Path="/PROJEKTS/&lt;project nickname&gt;/scenes/fbx/" Visibility="Global"/>
+        <Bookmark Name="geometry" Path="/PROJEKTS/&lt;project nickname&gt;/scenes/geometry/" Visibility="Global"/>
+        <Bookmark Name="houdini" Path="/PROJEKTS/&lt;project nickname&gt;/scenes/houdini/" Visibility="Global"/>
+        <Bookmark Name="maya" Path="/PROJEKTS/&lt;project nickname&gt;/scenes/maya/" Visibility="Global"/>
+        <Bookmark Name="resolve" Path="/PROJEKTS/&lt;project nickname&gt;/scenes/resolve/" Visibility="Global"/>
+        <Bookmark Name="unity" Path="/PROJEKTS/&lt;project nickname&gt;/scenes/unity/" Visibility="Global"/>
+        <Bookmark Name="unreal_engine" Path="/PROJEKTS/&lt;project nickname&gt;/scenes/unreal_engine/" Visibility="Global"/>
+        <Bookmark Name="usd" Path="/PROJEKTS/&lt;project nickname&gt;/scenes/usd/" Visibility="Global"/>
+      </Folder>
+      <Folder Name="shots">
+        <Bookmark Name="shots" Path="/PROJEKTS/&lt;project nickname&gt;/shots/shots/" Visibility="Global"/>
+      </Folder>
+      <Folder Name="tmp">
+        <Bookmark Name="tmp" Path="/PROJEKTS/&lt;project nickname&gt;/tmp/tmp/" Visibility="Global"/>
+      </Folder>
+      <Folder Name="utilities">
+        <Bookmark Name="flame_volortoolkit (linux)" Path="/opt/Autodesk/Synergy/SynColor/Shared/transforms/flame_colortoolkit/" Visibility="Global"/>
+        <Bookmark Name="flame_volortoolkit (macos)" Path="/Applications/Autodesk/Synergy/SynColor/Shared/transforms/flame_colortoolkit/" Visibility="Global"/>
+      </Folder>
+      <Folder Name="version">
+        <Bookmark Name="version" Path="/PROJEKTS/&lt;project nickname&gt;/version/version/" Visibility="Global"/>
+      </Folder>
+      <Folder Name="work_in_progress">
+        <Bookmark Name="postings" Path="/PROJEKTS/&lt;project nickname&gt;/work_in_progress/postings/" Visibility="Global"/>
+      </Folder>
+    </Folder>
+  </Section>
+  <Section Name="User">
+    <Bookmark Name="User Home" Path="&lt;user home&gt;" Visibility="Global"/>
+  </Section>
+  <Section Name="Shared">
+    <Bookmark Name="GitHub" Path="&lt;github&gt;" Visibility="Web Links"/>
+    <Folder Name="Volumes">
+      <Bookmark Name="ADSK_BACKUP" Path="/Volumes/ADSK_BACKUP/" Visibility="Global"/>
+      <Bookmark Name="ARCHIVE" Path="/Volumes/ARCHIVE/" Visibility="Global"/>
+      <Bookmark Name="PROJEKTS" Path="/Volumes/PROJEKTS/" Visibility="Global"/>
+      <Bookmark Name="RESOURCES" Path="/Volumes/RESOURCES/" Visibility="Global"/>
+    </Folder>
+  </Section>
+</DlBookmark>

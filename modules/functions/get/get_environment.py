@@ -204,7 +204,9 @@ class GetEnvironment:
     def projekt_user_name():
         """Get the current username."""
         try:
-            return os.getlogin()
+            # return os.getlogin()  # Existing code  doesn't work on macOS - returns 'root'
+            return getpass.getuser()  # New option works on macOS 15.3
+            # return os.environ.get('USER', 'unknown')  # Alt New option works on macOS 15.3
         except Exception as e:
             return str(e)
 
