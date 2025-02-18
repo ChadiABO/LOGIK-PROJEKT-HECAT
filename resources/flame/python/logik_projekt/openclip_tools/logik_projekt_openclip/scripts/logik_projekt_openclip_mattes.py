@@ -52,11 +52,19 @@ from functools import partial
 
 from pathlib import Path
 
-from PySide6 import (
-    QtWidgets,
-    QtCore,
-    QtGui
-)
+# Third Party library imports
+try:
+    from PySide6 import (
+        QtWidgets,
+        QtCore,
+        QtGui,
+    )
+except ImportError:
+    from PySide2 import (
+        QtWidgets,
+        QtCore,
+        QtGui,
+    )
 
 from typing import (
     Union,
