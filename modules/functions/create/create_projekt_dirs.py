@@ -32,9 +32,9 @@
 # -------------------------------------------------------------------------- #
 
 # File Name:        create_projekt_dirs.py
-# Version:          0.9.9
+# Version:          2.0.0
 # Created:          2024-01-19
-# Modified:         2024-08-31
+# Modified:         2024-12-31
 
 # ========================================================================== #
 # This section defines the import statements and directory paths.
@@ -86,8 +86,10 @@ def get_resource_path(relative_path):
 
 # Set the path to the 'modules' directory
 modules_dir = get_resource_path('modules')
+
 # Set the path to the 'resources' directory
 resources_dir = get_resource_path('resources')
+
 # Append the modules path to the system path
 if modules_dir not in sys.path:
     sys.path.append(modules_dir)
@@ -193,10 +195,11 @@ def create_the_projekt_directories(
         the_projekts_dir,
         the_projekt_name,
         the_projekts_flame_dir,
+        the_sanitized_version,
         bookmarks_file,
         tmp_bookmarks_file,
         the_projekt_dirs_json_dir,
-        the_projekt_dirs_json_files
+        the_projekt_dirs_json_files,
     ):
 
     def _write_bookmarks(file_path, bookmarks):
@@ -230,10 +233,55 @@ def create_the_projekt_directories(
         )
         return formatted.replace('//', '/')
 
+    # def _collect_keys_values(item, bookmarks_list, the_projekts_dir, the_projekt_name, the_projekts_flame_dir, current_folder_bookmarks=None):
+    #     if isinstance(item, dict):
+    #         path = _format_path(item.get('path', ''), the_projekts_dir, the_projekt_name, the_projekts_flame_dir)
+    #         # ... rest of the function ...
+    #         if path:
+    #             full_path = '/' + path.lstrip('/')
+    #             if not os.path.exists(full_path):
+    #                 os.makedirs(full_path)
+    #                 print(f"  Successfully created directory: {full_path}")
+
+    #             bookmark_name = item.get('bookmark_name', '')
+    #             if bookmark_name:
+    #                 bookmark_entry = {
+    #                     'Bookmark': bookmark_name,
+    #                     'Path': full_path,
+    #                     'Visibility': item.get('bookmark_visibility', 'Global')
+    #                 }
+
+    #                 if item.get('bookmark_type') == 'folder':
+    #                     folder_name = bookmark_name
+    #                     print(f"\n\n  Processing bookmarks: {folder_name}\n")
+    #                     folder_bookmarks = _find_bookmark_folder(bookmarks_list, folder_name)
+    #                     if folder_bookmarks is None:
+    #                         folder_entry = {
+    #                             'Folder': folder_name,
+    #                             'Bookmarks': [bookmark_entry]
+    #                         }
+    #                         bookmarks_list.append(folder_entry)
+    #                         current_folder_bookmarks = folder_entry['Bookmarks']
+    #                     else:
+    #                         folder_bookmarks.append(bookmark_entry)
+    #                         current_folder_bookmarks = folder_bookmarks
+    #                 else:
+    #                     if current_folder_bookmarks is not None:
+    #                         current_folder_bookmarks.append(bookmark_entry)
+    #                     else:
+    #                         bookmarks_list.append(bookmark_entry)
+
+    #         children = item.get('children', {})
+    #         if children:
+    #             for key, value in children.items():
+    #                 # _collect_keys_values(value, bookmarks_list, projekts_dir, projekt_dir, projekt_flame_dir, current_folder_bookmarks)
+
+    #                 # ... in the recursive call ...
+    #                 _collect_keys_values(value, bookmarks_list, the_projekts_dir, the_projekt_name, the_projekts_flame_dir, current_folder_bookmarks)
+
     def _collect_keys_values(item, bookmarks_list, the_projekts_dir, the_projekt_name, the_projekts_flame_dir, current_folder_bookmarks=None):
         if isinstance(item, dict):
             path = _format_path(item.get('path', ''), the_projekts_dir, the_projekt_name, the_projekts_flame_dir)
-            # ... rest of the function ...
             if path:
                 full_path = '/' + path.lstrip('/')
                 if not os.path.exists(full_path):
@@ -251,13 +299,16 @@ def create_the_projekt_directories(
                     if item.get('bookmark_type') == 'folder':
                         folder_name = bookmark_name
                         print(f"\n\n  Processing bookmarks: {folder_name}\n")
-                        folder_bookmarks = _find_bookmark_folder(bookmarks_list, folder_name)
+                        folder_bookmarks = _find_bookmark_folder(current_folder_bookmarks or bookmarks_list, folder_name)
                         if folder_bookmarks is None:
                             folder_entry = {
                                 'Folder': folder_name,
                                 'Bookmarks': [bookmark_entry]
                             }
-                            bookmarks_list.append(folder_entry)
+                            if current_folder_bookmarks is not None:
+                                current_folder_bookmarks.append(folder_entry)
+                            else:
+                                bookmarks_list.append(folder_entry)
                             current_folder_bookmarks = folder_entry['Bookmarks']
                         else:
                             folder_bookmarks.append(bookmark_entry)
@@ -271,10 +322,14 @@ def create_the_projekt_directories(
             children = item.get('children', {})
             if children:
                 for key, value in children.items():
-                    # _collect_keys_values(value, bookmarks_list, projekts_dir, projekt_dir, projekt_flame_dir, current_folder_bookmarks)
-
-                    # ... in the recursive call ...
-                    _collect_keys_values(value, bookmarks_list, the_projekts_dir, the_projekt_name, the_projekts_flame_dir, current_folder_bookmarks)
+                    _collect_keys_values(
+                        value,
+                        bookmarks_list,
+                        the_projekts_dir,
+                        the_projekt_name,
+                        the_projekts_flame_dir,
+                        current_folder_bookmarks
+                    )
 
     bookmarks_file_header = {
         "DlBookmark": {
@@ -413,4 +468,12 @@ if __name__ == "__main__":
 # version:          0.9.9
 # modified:         2024-08-31 - 16:51:09
 # comments:         prep for release - code appears to be functional
+# -------------------------------------------------------------------------- #
+# version:          1.9.9
+# modified:         2024-12-25 - 09:50:13
+# comments:         Preparation for future features
+# -------------------------------------------------------------------------- #
+# version:          2.0.0
+# modified:         2024-12-31 - 11:17:16
+# comments:         Improved legibility and minor modifications
 # -------------------------------------------------------------------------- #

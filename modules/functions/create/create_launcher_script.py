@@ -32,9 +32,9 @@
 # -------------------------------------------------------------------------- #
 
 # File Name:        create_launch_script.py
-# Version:          0.9.9
+# Version:          2.0.0
 # Created:          2024-01-19
-# Modified:         2024-08-31
+# Modified:         2024-12-31
 
 # ========================================================================== #
 # This section defines the import statements and directory paths.
@@ -86,8 +86,10 @@ def get_resource_path(relative_path):
 
 # Set the path to the 'modules' directory
 modules_dir = get_resource_path('modules')
+
 # Set the path to the 'resources' directory
 resources_dir = get_resource_path('resources')
+
 # Append the modules path to the system path
 if modules_dir not in sys.path:
     sys.path.append(modules_dir)
@@ -189,6 +191,8 @@ separator = '# ' + '-' * 75 + ' #'
 
 # Function to create projekt flame archive script
 def create_projekt_flame_launcher_script(
+        the_hostname,
+        the_projekt_os,
         the_projekts_dir,
         the_projekt_flame_dirs,
         the_adsk_dir,
@@ -196,9 +200,9 @@ def create_projekt_flame_launcher_script(
         the_adsk_dir_macos,
         the_projekt_name,
         the_projekt_flame_name,
-        the_hostname,
+        the_sanitized_version,
+        the_software_version,  # This is unique for this function
         separator,
-        the_software_version
     ):
     
     # Nested function to generate backup filename with current date
@@ -288,6 +292,19 @@ def create_projekt_flame_launcher_script(
 
     # the_timestamp = f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
 
+    # if the_software_version contains 'flame' set app_starter to 'startFlame'
+    if 'flame' in the_software_version:
+        app_starter = 'startFlame'
+    # if the_software_version contains 'flare' set app_starter to 'startFlare'
+    elif 'flare' in the_software_version:
+        app_starter = 'startFlare'
+    # if the_software_version contains 'assist' set app_starter to 'startFlameAssist'
+    elif 'assist' in the_software_version:
+        app_starter = 'startFlameAssist'
+    # if the_software_version contains 'project' set app_starter to 'startProjectServer'
+    elif 'flame' in the_software_version:
+        app_starter = 'startProjectServer'
+
     # Set the search and replace strings
     search_replace = {
         "LauncherScriptName": f"{the_projekt_name}-flame_first_run-{the_hostname}.sh",
@@ -301,8 +318,11 @@ def create_projekt_flame_launcher_script(
         "LogikProjektFlameDirectories": f"{the_projekt_flame_dirs}",
         "LogikProjektFlameDirectory": f"{the_projekt_flame_dir_path}",
         "FlameFirstRunName": f"{the_projekt_name}-flame_first_run-{the_hostname}.log",
-        "FlameSoftwareVersion": f"{the_software_version}"
+        "FlameSoftwareVersion": f"{the_software_version}",
+        "ApplicationStarter": f"{app_starter}"
     }
+
+    # If the_software_version contains flame
 
     # Modify the script file with the search and replace dictionary
     modify_script_file(tgt_launcher_script, search_replace)
@@ -320,6 +340,8 @@ def main():
 
     # Call the functions to backup logs and files
     create_projekt_flame_launcher_script(
+        the_hostname,
+        the_projekt_os,
         the_projekts_dir,
         the_projekt_flame_dirs,
         the_adsk_dir,
@@ -327,9 +349,9 @@ def main():
         the_adsk_dir_macos,
         the_projekt_name,
         the_projekt_flame_name,
-        the_hostname,
+        the_sanitized_version,
+        the_software_version,  # This is unique for this function
         separator,
-        the_software_version
     )
 
 if __name__ == "__main__":
@@ -365,4 +387,12 @@ if __name__ == "__main__":
 # version:          0.9.9
 # modified:         2024-08-31 - 16:51:09
 # comments:         prep for release - code appears to be functional
+# -------------------------------------------------------------------------- #
+# version:          1.9.9
+# modified:         2024-12-25 - 09:50:12
+# comments:         Preparation for future features
+# -------------------------------------------------------------------------- #
+# version:          2.0.0
+# modified:         2024-12-31 - 11:17:16
+# comments:         Improved legibility and minor modifications
 # -------------------------------------------------------------------------- #

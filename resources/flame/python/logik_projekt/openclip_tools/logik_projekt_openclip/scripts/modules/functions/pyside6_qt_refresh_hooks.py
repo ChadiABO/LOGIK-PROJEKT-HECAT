@@ -32,9 +32,9 @@
 # -------------------------------------------------------------------------- #
 
 # File Name:        pyside6_qt_refresh_hooks.py
-# Version:          0.5.0
+# Version:          1.0.2
 # Created:          2024-01-19
-# Modified:         2024-08-31
+# Modified:         2025-01-19
 
 # ========================================================================== #
 # This section imports the necessary modules.
@@ -61,11 +61,18 @@ import xml
 import xml.etree.ElementTree as ET
 
 # Third Party library imports
-from PySide6 import (
-    QtWidgets,
-    QtCore,
-    QtGui
-)
+try:
+    from PySide6 import (
+        QtWidgets,
+        QtCore,
+        QtGui,
+    )
+except ImportError:
+    from PySide2 import (
+        QtWidgets,
+        QtCore,
+        QtGui,
+    )
 
 # ========================================================================== #
 # This section imports the pyflame functions.
@@ -327,4 +334,16 @@ def pyside6_qt_refresh_hooks(script_name: Optional[str]='') -> None:
 # version:               0.5.0
 # modified:              2024-08-31 - 18:26:05
 # comments:              prep for release.
+# -------------------------------------------------------------------------- #
+# version:               1.0.0
+# modified:              2024-10-30 - 07:35:27
+# comments:              Refactored PySide6 Output Node Config UI.
+# -------------------------------------------------------------------------- #
+# version:               1.0.1
+# modified:              2024-11-16 - 16:52:07
+# comments:              Fixed circular import statements
+# -------------------------------------------------------------------------- #
+# version:               1.0.2
+# modified:              2025-01-19 - 17:47:48
+# comments:              Changed import statements to fix shell errors.
 # -------------------------------------------------------------------------- #

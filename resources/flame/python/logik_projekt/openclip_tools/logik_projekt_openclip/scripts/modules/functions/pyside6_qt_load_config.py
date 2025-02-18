@@ -32,9 +32,9 @@
 # -------------------------------------------------------------------------- #
 
 # File Name:        pyside6_qt_load_config.py
-# Version:          0.5.0
+# Version:          1.0.2
 # Created:          2024-01-19
-# Modified:         2024-08-31
+# Modified:         2025-01-19
 
 # ========================================================================== #
 # This section imports the necessary modules.
@@ -61,11 +61,18 @@ import xml
 import xml.etree.ElementTree as ET
 
 # Third Party library imports
-from PySide6 import (
-    QtWidgets,
-    QtCore,
-    QtGui
-)
+try:
+    from PySide6 import (
+        QtWidgets,
+        QtCore,
+        QtGui,
+    )
+except ImportError:
+    from PySide2 import (
+        QtWidgets,
+        QtCore,
+        QtGui,
+    )
 
 # from ..classes.pyside6_qt_message_window import pyside6_qt_message_window
 
@@ -235,13 +242,13 @@ def pyside6_qt_load_config(script_name: str, script_path: str, config_values: Di
 
         pyside6_qt_print(script_name, f'Config file not found. Creating default config file: {config_xml}')
 
-        # Create config folder if it doesn't exist
+        # # Create config folder if it doesn't exist
 
-        if not os.path.isdir(config_path):
-            try:
-                os.makedirs(config_path)
-            except:
-                pyside6_qt_message_window('error', f'{script_name}: Error', f'Unable to create folder: {config_path}<br>Check folder permissions')
+        # if not os.path.isdir(config_path):
+        #     try:
+        #         os.makedirs(config_path)
+        #     except:
+        #         pyside6_qt_message_window('error', f'{script_name}: Error', f'Unable to create folder: {config_path}<br>Check folder permissions')
 
         # Create and save XML config file
 
@@ -296,7 +303,8 @@ def pyside6_qt_load_config(script_name: str, script_path: str, config_values: Di
     # Set config paths
 
     config_path = os.path.join(script_path, 'config')
-    config_xml = os.path.join(config_path, 'config.xml')
+    # config_xml = os.path.join(config_path, 'config.xml')
+    config_xml = os.path.join(script_path, 'config.xml')
     print(f'    Config path: {config_xml}\n')
 
     # Create default config file if it doesn't exist
@@ -505,4 +513,16 @@ def pyside6_qt_load_config(script_name: str, script_path: str, config_values: Di
 # version:               0.5.0
 # modified:              2024-08-31 - 18:26:05
 # comments:              prep for release.
+# -------------------------------------------------------------------------- #
+# version:               1.0.0
+# modified:              2024-10-30 - 07:35:27
+# comments:              Refactored PySide6 Output Node Config UI.
+# -------------------------------------------------------------------------- #
+# version:               1.0.1
+# modified:              2024-11-16 - 16:52:07
+# comments:              Fixed circular import statements
+# -------------------------------------------------------------------------- #
+# version:               1.0.2
+# modified:              2025-01-19 - 17:47:48
+# comments:              Changed import statements to fix shell errors.
 # -------------------------------------------------------------------------- #
