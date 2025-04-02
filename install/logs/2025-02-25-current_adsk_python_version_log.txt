@@ -1,0 +1,43 @@
+
++ --------------------------------------------------------------------------- +
+
+  2025-02-25 16:55:25 - Reading preference file:
+  2025-02-25 16:55:25 - /Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/install/current_adsk_python_version.pref
+  2025-02-25 16:55:25 - 
+  2025-02-25 16:55:25 - Preference file loaded:
+  2025-02-25 16:55:25 - /opt/Autodesk/python/2025.2.2/bin/python
+  2025-02-25 16:55:25 - 
+  2025-02-25 16:55:25 - Analyzing directory: /opt/Autodesk/python
+  2025-02-25 16:55:25 - Sorted contents of /opt/Autodesk/python:
+  2025-02-25 16:55:25 - 2025.2.2
+  2025-02-25 16:55:25 - 
+  2025-02-25 16:55:25 - The highest version is: 2025.2.2
+  2025-02-25 16:55:25 - 
+  2025-02-25 16:55:25 - Python version 2025.2.2 is available and executable
+  2025-02-25 16:55:25 - 
+  2025-02-25 16:55:25 - No update needed.
+  2025-02-25 16:55:25 - 
+  2025-02-25 16:55:25 - Preference file already contains the latest version:
+  2025-02-25 16:55:25 - /opt/Autodesk/python/2025.2.2/bin/python
+
++ --------------------------------------------------------------------------- +
+
+  2025-02-25 16:55:25 - Creating macOS application: LOGIK-PROJEKT.app
+  2025-02-25 16:55:25 - Creating the macOS application components
+
++ --------------------------------------------------------------------------- +
+
+  2025-02-25 16:55:25 - Creating LOGIK-PROJEKT shell script for linux: run_logikprojekt_linux.sh
+  2025-02-25 16:55:25 - Making the file executable: run_logikprojekt_linux.sh
+chmod: changing permissions of 'run_logikprojekt_linux.sh': Operation not permitted
+  2025-02-25 16:55:25 - Creating macOS application shell script: run_logikprojekt_macos
+
++ --------------------------------------------------------------------------- +
+
+  2025-02-25 16:55:25 - Creating desktop entry file: LOGIK-PROJEKT.desktop
+  2025-02-25 16:55:25 - Making the file executable: LOGIK-PROJEKT.desktop
+  2025-02-25 16:55:25 - Moving the file to ~/.local/share/applications/
+  2025-02-25 16:55:25 - File 'LOGIK-PROJEKT.desktop' has been created and made executable.
+
++ --------------------------------------------------------------------------- +
+
