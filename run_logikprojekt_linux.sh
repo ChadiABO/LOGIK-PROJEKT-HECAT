@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT
-/opt/Autodesk/python/2025.2.2/bin/python /Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/logik_projekt.py
+cd /System/Volumes/Data/mnt/COMMON/GitHub/LOGIK-PROJEKT-HECAT
+/opt/Autodesk/python/2025.2.2/bin/python /System/Volumes/Data/mnt/COMMON/GitHub/LOGIK-PROJEKT-HECAT/logik_projekt.py
