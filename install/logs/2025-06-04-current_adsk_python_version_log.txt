@@ -1,0 +1,64 @@
+
++ --------------------------------------------------------------------------- +
+
+  2025-06-04 21:00:44 - Reading preference file:
+  2025-06-04 21:00:44 - /Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/install/current_adsk_python_version.pref
+  2025-06-04 21:00:44 - 
+  2025-06-04 21:00:44 - Preference file loaded:
+  2025-06-04 21:00:44 - /opt/Autodesk/python/2025.2.2/bin/python
+  2025-06-04 21:00:44 - 
+  2025-06-04 21:00:44 - Analyzing directory: /opt/Autodesk/python
+  2025-06-04 21:00:44 - Sorted contents of /opt/Autodesk/python:
+  2025-06-04 21:00:44 - 2026.0.1
+  2025-06-04 21:00:44 - 
+  2025-06-04 21:00:44 - The highest version is: 2026.0.1
+  2025-06-04 21:00:44 - 
+  2025-06-04 21:00:44 - Python version 2026.0.1 is available and executable
+  2025-06-04 21:00:44 - Updated preference file with:
+  2025-06-04 21:00:44 - /opt/Autodesk/python/2026.0.1/bin/python
+  2025-06-04 21:00:44 - 
+
++ --------------------------------------------------------------------------- +
+
+
++ --------------------------------------------------------------------------- +
+
+  2025-06-04 21:00:51 - Reading preference file:
+  2025-06-04 21:00:51 - /Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/install/current_adsk_python_version.pref
+  2025-06-04 21:00:51 - 
+  2025-06-04 21:00:51 - Preference file loaded:
+  2025-06-04 21:00:51 - /opt/Autodesk/python/2026.0.1/bin/python
+  2025-06-04 21:00:51 - 
+  2025-06-04 21:00:51 - Analyzing directory: /opt/Autodesk/python
+  2025-06-04 21:00:51 - Sorted contents of /opt/Autodesk/python:
+  2025-06-04 21:00:51 - 2026.0.1
+  2025-06-04 21:00:51 - 
+  2025-06-04 21:00:51 - The highest version is: 2026.0.1
+  2025-06-04 21:00:51 - 
+  2025-06-04 21:00:51 - Python version 2026.0.1 is available and executable
+  2025-06-04 21:00:51 - 
+  2025-06-04 21:00:51 - No update needed.
+  2025-06-04 21:00:51 - 
+  2025-06-04 21:00:51 - Preference file already contains the latest version:
+  2025-06-04 21:00:51 - /opt/Autodesk/python/2026.0.1/bin/python
+
++ --------------------------------------------------------------------------- +
+
+  2025-06-04 21:00:51 - Creating macOS application: LOGIK-PROJEKT.app
+  2025-06-04 21:00:51 - Creating the macOS application components
+
++ --------------------------------------------------------------------------- +
+
+  2025-06-04 21:00:51 - Creating LOGIK-PROJEKT shell script for linux: run_logikprojekt_linux.sh
+  2025-06-04 21:00:51 - Making the file executable: run_logikprojekt_linux.sh
+  2025-06-04 21:00:51 - Creating macOS application shell script: run_logikprojekt_macos
+
++ --------------------------------------------------------------------------- +
+
+  2025-06-04 21:00:51 - Creating desktop entry file: LOGIK-PROJEKT.desktop
+  2025-06-04 21:00:51 - Making the file executable: LOGIK-PROJEKT.desktop
+  2025-06-04 21:00:51 - This script is not configured to move files on macOS (Darwin).
+  2025-06-04 21:00:51 - File 'LOGIK-PROJEKT.desktop' has been created and made executable.
+
++ --------------------------------------------------------------------------- +
+
