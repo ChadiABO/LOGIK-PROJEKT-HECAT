@@ -67,12 +67,11 @@ Looking for templates in: /Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/resource
   readme
 
   Found 54 template files
-  Error reading JSON configuration file: [Errno 2] No such file or directory: '/Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/modules/functions/update/resources/cfg/projekt_configuration/roots/projekt_roots.json'  # ADDRESSED
 
 # ============================ CREATING PROJEKT ============================= #
 
 # --------------------------------------------------------------------------- #
-projekt: lions_film
+projekt: 555_test_test
 
 # --------------------------------------------------------------------------- #
 
@@ -90,22 +89,22 @@ framestore: N/A
 
 datestamp: 2025_06_08
 
-timestamp: 17_07_22
+timestamp: 17_55_33
 
 # ========================= THE PROJEKT INFORMATION ========================= #
 
 
-the_projekt_serial_number: 
+the_projekt_serial_number: 555
 
-the_projekt_client_name: lions
+the_projekt_client_name: test
 
-the_projekt_campaign_name: film
+the_projekt_campaign_name: test
 
-the_projekt_name: lions_film
+the_projekt_name: 555_test_test
 
-the_projekt_resolution: 4096 x 2160 | DCP 4K Full 1.90
+the_projekt_resolution: 3840 x 2160 | UHDTV 4K 16:9
 
-the_projekt_width: 4096
+the_projekt_width: 3840
 
 the_projekt_height: 2160
 
@@ -115,17 +114,17 @@ the_projekt_display_aspect_ratio:
 
 the_projekt_pixel_aspect_ratio: 
 
-the_projekt_aspect_ratio: 1.8962963
+the_projekt_aspect_ratio: 1.7777778
 
 the_projekt_bit_depth: 16-bit fp
 
-the_projekt_frame_rate: 24 fps
+the_projekt_frame_rate: 25 fps
 
 the_projekt_scan_mode: PROGRESSIVE
 
 the_projekt_start_frame: 1001
 
-the_projekt_init_config: 4096x2160@24000p.cfg
+the_projekt_init_config: 3840x2160@25000p.cfg
 
 the_projekt_color_science: ADSK_ACES_1.1
 
@@ -149,13 +148,13 @@ the_sanitized_sw_ver:
 
 the_sanitized_version: 
 
-the_projekt_flame_name: lions_film_2026_0_1_studio1
+the_projekt_flame_name: 555_test_test_2026_0_1_studio1
 
-xml_project_dir: /Volumes/flame_projekts/lions_film_2026_0_1_studio1
+xml_project_dir: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1
 
-xml_setup_dir: /Volumes/flame_projekts/lions_film_2026_0_1_studio1/setups
+xml_setup_dir: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups
 
-xml_media_dir: /Volumes/flame_projekts/lions_film_2026_0_1_studio1/media
+xml_media_dir: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/media
 
 xml_ocio_config: /opt/Autodesk/colour_mgmt/configs/flame_configs/2026.0/aces2.0_config/config.ocio
 
@@ -197,12 +196,12 @@ umask 0
 -h 127.0.0.1:IFFFS \
 -n /projects \
 -t PROJECT \
--d "lions_film_2026_0_1_studio1" \
+-d "555_test_test_2026_0_1_studio1" \
 -s XML \
 -f "resources/tmp/current_projekt_parameters.xml"
 # ---------------------------------------------------------------------- #
 Command output:
-Created node '/projects/C8CDB799-E6D2-4D59-AC16-F1B34BD277D4'.
+Created node '/projects/08160B59-7EFF-4787-AB4B-45BD813A759D'.
 # --------------------------------------------------------------------------- #
 
 # ====================== CREATING PROJEKT DIRECTORIES ======================= #
@@ -216,44 +215,232 @@ Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/cfg.j
 Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/docs.json
 
 Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/editorial.json
-Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/flame.json
 
+Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/flame.json
 Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/masters.json
 Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/reference.json
 
 Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/scenes.json
-
 Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/shots.json
 
 Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/software.json
 
 Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/tmp.json
+
 Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/utilities.json
 
 Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/version.json
+
 Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/work_in_progress.json
-
+Successfully created directory: /PROJEKTS/555_test_test/assets
 Processing bookmarks: assets
-
+Successfully created directory: /PROJEKTS/555_test_test/assets/artwork
+Successfully created directory: /PROJEKTS/555_test_test/assets/audio
 Processing bookmarks: audio
 
+Successfully created directory: /PROJEKTS/555_test_test/assets/audio/dub
+Successfully created directory: /PROJEKTS/555_test_test/assets/audio/mix
+Successfully created directory: /PROJEKTS/555_test_test/assets/audio/music
+Successfully created directory: /PROJEKTS/555_test_test/assets/audio/production
+Successfully created directory: /PROJEKTS/555_test_test/assets/audio/sound_effects
+Successfully created directory: /PROJEKTS/555_test_test/assets/audio/stems
+Successfully created directory: /PROJEKTS/555_test_test/assets/audio/voiceover
+Successfully created directory: /PROJEKTS/555_test_test/assets/cgi
+Successfully created directory: /PROJEKTS/555_test_test/assets/font
+Successfully created directory: /PROJEKTS/555_test_test/assets/footage
 Processing bookmarks: footage
+
+Successfully created directory: /PROJEKTS/555_test_test/assets/footage/graded
+Successfully created directory: /PROJEKTS/555_test_test/assets/footage/raw
+Successfully created directory: /PROJEKTS/555_test_test/assets/footage/stock
+Successfully created directory: /PROJEKTS/555_test_test/assets/footage/transcodes
+Successfully created directory: /PROJEKTS/555_test_test/assets/graphics
+Successfully created directory: /PROJEKTS/555_test_test/assets/images
+Successfully created directory: /PROJEKTS/555_test_test/assets/legal
+Successfully created directory: /PROJEKTS/555_test_test/assets/matchmoving
+Successfully created directory: /PROJEKTS/555_test_test/assets/miscellaneous
+Successfully created directory: /PROJEKTS/555_test_test/assets/paint
+Successfully created directory: /PROJEKTS/555_test_test/assets/photoshop
+Successfully created directory: /PROJEKTS/555_test_test/assets/roto
+Successfully created directory: /PROJEKTS/555_test_test/assets/slates
+Successfully created directory: /PROJEKTS/555_test_test/assets/subtitles
+Successfully created directory: /PROJEKTS/555_test_test/assets/supers
+Successfully created directory: /PROJEKTS/555_test_test/assets/titles
+Successfully created directory: /PROJEKTS/555_test_test/assets/tracking
+Successfully created directory: /PROJEKTS/555_test_test/assets/video
+Successfully created directory: /PROJEKTS/555_test_test/backup
+Successfully created directory: /PROJEKTS/555_test_test/backup/backup_scripts
+Successfully created directory: /PROJEKTS/555_test_test/cfg
+Successfully created directory: /PROJEKTS/555_test_test/cfg/log
+Successfully created directory: /PROJEKTS/555_test_test/cfg/pref
+Successfully created directory: /PROJEKTS/555_test_test/cfg/template
+Successfully created directory: /PROJEKTS/555_test_test/cfg/workstation
+Successfully created directory: /PROJEKTS/555_test_test/docs
+Successfully created directory: /PROJEKTS/555_test_test/docs/agreements
+Successfully created directory: /PROJEKTS/555_test_test/docs/agreements/employment
+Successfully created directory: /PROJEKTS/555_test_test/docs/agreements/memoranda_of_understanding
+Successfully created directory: /PROJEKTS/555_test_test/docs/agreements/non_disclosure
+Successfully created directory: /PROJEKTS/555_test_test/docs/agreements/service
+Successfully created directory: /PROJEKTS/555_test_test/docs/briefs
+Successfully created directory: /PROJEKTS/555_test_test/docs/briefs/design_briefs
+Successfully created directory: /PROJEKTS/555_test_test/docs/briefs/marketing_briefs
+Successfully created directory: /PROJEKTS/555_test_test/docs/briefs/projekt_briefs
+Successfully created directory: /PROJEKTS/555_test_test/docs/contracts
+Successfully created directory: /PROJEKTS/555_test_test/docs/contracts/client_contracts
+Successfully created directory: /PROJEKTS/555_test_test/docs/contracts/lease_contracts
+Successfully created directory: /PROJEKTS/555_test_test/docs/contracts/vendor_contracts
+Successfully created directory: /PROJEKTS/555_test_test/docs/designs
+Successfully created directory: /PROJEKTS/555_test_test/docs/designs/mockups
+Successfully created directory: /PROJEKTS/555_test_test/docs/designs/specifications
+Successfully created directory: /PROJEKTS/555_test_test/docs/designs/wireframes
+Successfully created directory: /PROJEKTS/555_test_test/docs/estimates
+Successfully created directory: /PROJEKTS/555_test_test/docs/estimates/cost_estimates
+Successfully created directory: /PROJEKTS/555_test_test/docs/estimates/projekt_estimates
+Successfully created directory: /PROJEKTS/555_test_test/docs/estimates/time_estimates
+Successfully created directory: /PROJEKTS/555_test_test/docs/financial
+Successfully created directory: /PROJEKTS/555_test_test/docs/financial/budgets
+Successfully created directory: /PROJEKTS/555_test_test/docs/financial/invoices
+Successfully created directory: /PROJEKTS/555_test_test/docs/financial/reports
+Successfully created directory: /PROJEKTS/555_test_test/docs/financial/statements
+Successfully created directory: /PROJEKTS/555_test_test/docs/guidelines
+Successfully created directory: /PROJEKTS/555_test_test/docs/guidelines/branding
+Successfully created directory: /PROJEKTS/555_test_test/docs/guidelines/compliance
+Successfully created directory: /PROJEKTS/555_test_test/docs/guidelines/localization
+Successfully created directory: /PROJEKTS/555_test_test/docs/guidelines/styleguide
+Successfully created directory: /PROJEKTS/555_test_test/docs/handbooks
+Successfully created directory: /PROJEKTS/555_test_test/docs/handbooks/employee
+Successfully created directory: /PROJEKTS/555_test_test/docs/handbooks/policy
+Successfully created directory: /PROJEKTS/555_test_test/docs/handbooks/training
+Successfully created directory: /PROJEKTS/555_test_test/docs/invoices
+Successfully created directory: /PROJEKTS/555_test_test/docs/invoices/client
+Successfully created directory: /PROJEKTS/555_test_test/docs/invoices/paid
+Successfully created directory: /PROJEKTS/555_test_test/docs/invoices/unpaid
+Successfully created directory: /PROJEKTS/555_test_test/docs/invoices/vendor
+Successfully created directory: /PROJEKTS/555_test_test/docs/job_description
+Successfully created directory: /PROJEKTS/555_test_test/docs/job_description/administrative_roles
+Successfully created directory: /PROJEKTS/555_test_test/docs/job_description/management_roles
+Successfully created directory: /PROJEKTS/555_test_test/docs/job_description/technical_roles
+Successfully created directory: /PROJEKTS/555_test_test/docs/knowledge_base
+Successfully created directory: /PROJEKTS/555_test_test/docs/knowledge_base/faqs
+Successfully created directory: /PROJEKTS/555_test_test/docs/knowledge_base/how_to_guides
+Successfully created directory: /PROJEKTS/555_test_test/docs/knowledge_base/troubleshooting
+Successfully created directory: /PROJEKTS/555_test_test/docs/licenses
+Successfully created directory: /PROJEKTS/555_test_test/docs/licenses/product_licenses
+Successfully created directory: /PROJEKTS/555_test_test/docs/licenses/service_licenses
+Successfully created directory: /PROJEKTS/555_test_test/docs/licenses/software_licenses
+Successfully created directory: /PROJEKTS/555_test_test/docs/memoranda
+Successfully created directory: /PROJEKTS/555_test_test/docs/memoranda/external_memos
+Successfully created directory: /PROJEKTS/555_test_test/docs/memoranda/internal_memos
+Successfully created directory: /PROJEKTS/555_test_test/docs/memoranda/meeting_memos
+Successfully created directory: /PROJEKTS/555_test_test/docs/non_disclosure
+Successfully created directory: /PROJEKTS/555_test_test/docs/non_disclosure/client_ndas
+Successfully created directory: /PROJEKTS/555_test_test/docs/non_disclosure/employee_ndas
+Successfully created directory: /PROJEKTS/555_test_test/docs/non_disclosure/vendor_ndas
+Successfully created directory: /PROJEKTS/555_test_test/docs/org_charts
+Successfully created directory: /PROJEKTS/555_test_test/docs/org_charts/company_charts
+Successfully created directory: /PROJEKTS/555_test_test/docs/org_charts/department_charts
+Successfully created directory: /PROJEKTS/555_test_test/docs/org_charts/team_charts
+Successfully created directory: /PROJEKTS/555_test_test/docs/policies
+Successfully created directory: /PROJEKTS/555_test_test/docs/policies/hr_policies
+Successfully created directory: /PROJEKTS/555_test_test/docs/policies/it_policies
+Successfully created directory: /PROJEKTS/555_test_test/docs/policies/operational_policies
+Successfully created directory: /PROJEKTS/555_test_test/docs/quotations
+Successfully created directory: /PROJEKTS/555_test_test/docs/quotations/client_quotations
+Successfully created directory: /PROJEKTS/555_test_test/docs/quotations/service_quotations
+Successfully created directory: /PROJEKTS/555_test_test/docs/quotations/vendor_quotations
+Successfully created directory: /PROJEKTS/555_test_test/docs/reports
+Successfully created directory: /PROJEKTS/555_test_test/docs/reports/annual_reports
+Successfully created directory: /PROJEKTS/555_test_test/docs/reports/projekt_reports
+Successfully created directory: /PROJEKTS/555_test_test/docs/reports/quarterly_reports
+Successfully created directory: /PROJEKTS/555_test_test/docs/schedules
+Successfully created directory: /PROJEKTS/555_test_test/docs/schedules/meeting_schedules
+Successfully created directory: /PROJEKTS/555_test_test/docs/schedules/projekt_schedules
+Successfully created directory: /PROJEKTS/555_test_test/docs/schedules/training_schedules
+Successfully created directory: /PROJEKTS/555_test_test/docs/technical
+Successfully created directory: /PROJEKTS/555_test_test/docs/technical/technical_manuals
+Successfully created directory: /PROJEKTS/555_test_test/docs/technical/technical_reports
+Successfully created directory: /PROJEKTS/555_test_test/docs/technical/technical_specifications
+Successfully created directory: /PROJEKTS/555_test_test/docs/user_guides
+Successfully created directory: /PROJEKTS/555_test_test/docs/user_guides/product_user_guides
+Successfully created directory: /PROJEKTS/555_test_test/docs/user_guides/service_user_guides
+Successfully created directory: /PROJEKTS/555_test_test/docs/user_guides/software_user_guides
+Successfully created directory: /PROJEKTS/555_test_test/docs/vendor_list
+Successfully created directory: /PROJEKTS/555_test_test/docs/vendor_list/approved_vendors
+Successfully created directory: /PROJEKTS/555_test_test/docs/vendor_list/blacklisted_vendors
+Successfully created directory: /PROJEKTS/555_test_test/docs/vendor_list/preferred_vendors
+Successfully created directory: /PROJEKTS/555_test_test/docs/workflows
+Successfully created directory: /PROJEKTS/555_test_test/docs/workflows/approval_workflows
+Successfully created directory: /PROJEKTS/555_test_test/docs/workflows/operational_workflows
+Successfully created directory: /PROJEKTS/555_test_test/docs/workflows/process_workflows
+Successfully created directory: /PROJEKTS/555_test_test/docs/xml
+Successfully created directory: /PROJEKTS/555_test_test/docs/xml/xml_templates
+Successfully created directory: /PROJEKTS/555_test_test/docs/xml/xslt_templates
+Successfully created directory: /PROJEKTS/555_test_test/editorial
 Processing bookmarks: editorial
+
+Successfully created directory: /PROJEKTS/555_test_test/editorial/aaf
+Successfully created directory: /PROJEKTS/555_test_test/editorial/adobe_premiere
+Successfully created directory: /PROJEKTS/555_test_test/editorial/avid_media_composer
+Successfully created directory: /PROJEKTS/555_test_test/editorial/davinci_resolve
+Successfully created directory: /PROJEKTS/555_test_test/editorial/edl
+Successfully created directory: /PROJEKTS/555_test_test/editorial/final_cut_pro
+Successfully created directory: /PROJEKTS/555_test_test/editorial/prep
+Successfully created directory: /PROJEKTS/555_test_test/editorial/xml
+Successfully created directory: /PROJEKTS/555_test_test/flame
 Processing bookmarks: flame
+
+Successfully created directory: /PROJEKTS/555_test_test/flame/archives
+Successfully created directory: /PROJEKTS/555_test_test/flame/iterations
+Successfully created directory: /PROJEKTS/555_test_test/flame/setups
+Successfully created directory: /PROJEKTS/555_test_test/masters
 Processing bookmarks: masters
+Successfully created directory: /PROJEKTS/555_test_test/masters/master_edits
+Successfully created directory: /PROJEKTS/555_test_test/masters/slated_masters
+Successfully created directory: /PROJEKTS/555_test_test/masters/versioned_masters
+Successfully created directory: /PROJEKTS/555_test_test/reference
 Processing bookmarks: reference
 
+Successfully created directory: /PROJEKTS/555_test_test/reference/reference_images
+Successfully created directory: /PROJEKTS/555_test_test/reference/reference_movies
+Successfully created directory: /PROJEKTS/555_test_test/reference/reference_style_guide
+Successfully created directory: /PROJEKTS/555_test_test/scenes
 Processing bookmarks: scenes
 
+Successfully created directory: /PROJEKTS/555_test_test/scenes/3ds
+Successfully created directory: /PROJEKTS/555_test_test/scenes/alembic
+Successfully created directory: /PROJEKTS/555_test_test/scenes/baselight
+Successfully created directory: /PROJEKTS/555_test_test/scenes/blender
+Successfully created directory: /PROJEKTS/555_test_test/scenes/c4d
+Successfully created directory: /PROJEKTS/555_test_test/scenes/cut
+Successfully created directory: /PROJEKTS/555_test_test/scenes/fbx
+Successfully created directory: /PROJEKTS/555_test_test/scenes/geometry
+Successfully created directory: /PROJEKTS/555_test_test/scenes/houdini
+Successfully created directory: /PROJEKTS/555_test_test/scenes/maya
+Successfully created directory: /PROJEKTS/555_test_test/scenes/resolve
+Successfully created directory: /PROJEKTS/555_test_test/scenes/unity
+Successfully created directory: /PROJEKTS/555_test_test/scenes/unreal_engine
+Successfully created directory: /PROJEKTS/555_test_test/scenes/usd
+Successfully created directory: /PROJEKTS/555_test_test/shots
 Processing bookmarks: shots
 
+Successfully created directory: /PROJEKTS/555_test_test/software
+Successfully created directory: /PROJEKTS/555_test_test/software/applications
+Successfully created directory: /PROJEKTS/555_test_test/tmp
 Processing bookmarks: tmp
 
+Successfully created directory: /PROJEKTS/555_test_test/utilities
 Processing bookmarks: utilities
 
+Successfully created directory: /PROJEKTS/555_test_test/utilities/Synergy
+Successfully created directory: /PROJEKTS/555_test_test/utilities/Synergy/SynColor
+Successfully created directory: /PROJEKTS/555_test_test/utilities/Synergy/SynColor/Shared
+Successfully created directory: /PROJEKTS/555_test_test/version
 Processing bookmarks: version
 
+Successfully created directory: /PROJEKTS/555_test_test/work_in_progress
 Processing bookmarks: work_in_progress
+
+Successfully created directory: /PROJEKTS/555_test_test/work_in_progress/postings
 Additional bookmarks written to resources/tmp/tmp_bookmarks.json
 Bookmarks file updated successfully.
 # --------------------------------------------------------------------------- #
@@ -264,32 +451,1976 @@ Bookmarks file updated successfully.
 Reading JSON config file: resources/cfg/projekt_configuration/tree/flame/flame_setup_dirs.json
 
 Successfully loaded JSON data.
-* Error: An unexpected error occurred: [Errno 45] Operation not supported: '/opt/Autodesk/project/lions_film_2026_0_1_studio1'  # ADDRESSED
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/2dtransform
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/2dtransform/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/2dtransform/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/2dtransform/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/3dblur
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/3dblur/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/3dblur/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/3dblur/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/aaf
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/action
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/action/contextmenu
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/action/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/action/ibl
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/action/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/action/transitions
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/audio
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/audio/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/audio/pref/ALSA
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/automatte
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/automatte/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/automatte/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/automatte/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/autostabilize
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/autostabilize/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/autostabilize/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/autostabilize/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/average
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/average/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/average/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/average/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/axis
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/batch
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/batch/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/batch/log
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/batch/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/batchclip
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/batchclip/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/batchclip/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/batchclip/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/blendComp
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/blendComp/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/blendComp/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/blendComp/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/blur
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/blur/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/blur/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/blur/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/blur/presets/DEFOCUS
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/bumpDisplace
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/bumpDisplace/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/bumpDisplace/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/bumpDisplace/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/burn_letterbox
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/burn_letterbox/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/burn_letterbox/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/burn_letterbox/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/burn_metadata
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/burn_metadata/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/burn_metadata/overlay
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/burn_metadata/overlay/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/burn_metadata/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/burn_metadata/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/ccurves
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/ccurves/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/ccurves/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/ccurves/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/cfg
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/cfg/linux
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/cfg/linux/template
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/check
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/check/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/check/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/check/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/clamp
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/clamp/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/clamp/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/clamp/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/colour_correct
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/colour_correct/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/colour_correct/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/colour_correct/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/colourwarper
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/colourwarper/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/colourwarper/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/colourwarper/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/combine
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/combine/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/combine/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/combine/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/comp
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/comp/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/compound
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/compound/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/compound/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/compound/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/comp/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/comp/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/cryptoMatte
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/cryptoMatte/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/cryptoMatte/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/cryptoMatte/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/damage
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/damage/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/damage/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/damage/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/damage/presets/ANALOG
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/damage/presets/DIGITAL
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/damage/presets/FILM
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/deal
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/deal/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/deal/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/deal/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/deform
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/deform/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/deform/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/deform/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/degrain
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/degrain/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/degrain/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/degrain/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/deinterlace
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/deinterlace/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/deinterlace/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/deinterlace/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/denoise
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/denoise/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/denoise/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/denoise/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/depthOfField
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/depthOfField/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/depthOfField/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/depthOfField/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/difference
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/difference/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/difference/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/difference/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/dissolve
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/dissolve/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/dissolve/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/dissolve/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/distort
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/distort/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/distort/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/distort/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/edge
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/edgeDetect
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/edgeDetect/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/edgeDetect/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/edgeDetect/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/edge/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/edge/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/edge/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/edl
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/audio_file
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/audio_file/AIFF
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/audio_file/AIFF-C
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/audio_file/AVR
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/audio_file/BICSF
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/audio_file/MP3
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/audio_file/NEXTSND
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/audio_file/WAVE
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/distribution_package
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/distribution_package/Dolby Vision
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/file_sequence
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/file_sequence/Alias
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/file_sequence/Cineon
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/file_sequence/DPX
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/file_sequence/Jpeg
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/file_sequence/Maya
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/file_sequence/OpenEXR
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/file_sequence/Pict
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/file_sequence/Pixar
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/file_sequence/Png
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/file_sequence/SGI
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/file_sequence/Softimage
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/file_sequence/Targa
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/file_sequence/Tiff
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/file_sequence/Wavefront
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/movie_file
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/movie_file/Apple Final Cut Pro
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/movie_file/AVC-Intra
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/movie_file/Avid Media Composer
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/movie_file/Cinedeck
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/movie_file/DVCPro HD
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/movie_file/H.264
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/movie_file/MP4
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/movie_file/Panasonic
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/movie_file/QuickTime
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/movie_file/Sony XAVC
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/movie_file/Sony XDCAM
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/sequence_publish
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/sequence_publish/Apple Final Cut Pro
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/sequence_publish/Avid Media Composer
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/sequence_publish/Avid Pro Tools
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/sequence_publish/DaVinci Resolve
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/sequence_publish/EDL Publish
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/sequence_publish/Filmlight Baselight
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/sequence_publish/Shot Publish
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/sequence_publish/Simple Publish
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/sequence_publish/Source Media Export
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/flame/sequence_publish/Source Media Publish
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/shotgun
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/shotgun/audio_file
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/shotgun/distribution_package
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/shotgun/file_sequence
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/shotgun/movie_file
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/export/presets/shotgun/sequence_publish
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/exposure
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/exposure/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/exposure/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/exposure/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/expressions
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/fieldmerge
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/fieldmerge/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/fieldmerge/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/fieldmerge/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/filmrestore
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/filmrestore/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/filmrestore/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/filter
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/filter/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/filter/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/filter/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/flip
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/flip/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/flip/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/flip/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/gateway_import
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/gateway_import/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/gateway_import/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/gateway_import/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/glow
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/glow/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/glow/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/glow/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/gmask
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/gmask/default
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/gmask/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/gmask/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/gmask/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/gmask/transitions
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/gmask/transitions/SMPTE
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/gradient
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/gradient/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/gradient/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/gradient/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/hdr
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/hdr/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/hdr/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/hdr/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/histo2d
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/histo2d/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/histo2d/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/histo2d/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/hub
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/hub/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/hub/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/hub/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/image
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/image/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/image/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/images
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/import
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/import/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/import/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/import/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/interlace
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/interlace/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/interlace/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/interlace/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/key
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyer3d
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyer3d/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyer3d/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyer3d/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyerChannel
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyerChannel/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyerChannel/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyerChannel/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyerHLS
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyerHLS/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyerHLS/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyerHLS/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyerRGB
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyerRGBCMYL
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyerRGBCMYL/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyerRGBCMYL/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyerRGBCMYL/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyerRGB/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyerRGB/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyerRGB/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyerYUV
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyerYUV/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyerYUV/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/keyerYUV/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/key/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/key/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/key/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/lensDistort
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/lensDistort/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/lens_distortion
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/lens_distortion/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/lens_distortion/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/lens_distortion/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/lensDistort/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/lensDistort/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/look
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/look/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/look/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/look/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/lut
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/lutfloat
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/lut/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/lut/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mapConvert
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mapConvert/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mapConvert/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mapConvert/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mask
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mask/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mask/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mask/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/masterkey
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/masterkey/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/masterkey/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/masterkey/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/matchbox
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/matchbox/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/matchbox/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/matchGrain
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/matchGrain/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/matchGrain/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/matchGrain/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mattecurves
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mattecurves/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mattecurves/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mattecurves/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mediahub
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mediahub/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/media_import
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/media_import/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mediaImport
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mediaImport/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mediaImport/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mix
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mix/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mix/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mix/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/modularKeyer
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/modularKeyer/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/modularKeyer/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/modularKeyer/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mono
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mono/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mono/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/mono/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/motif
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/motif/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/motif/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/motif/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/motion_analysis
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/motion_analysis/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/motion_analysis/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/motion_analysis/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/motionBlur
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/motionBlur/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/motionBlur/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/motionBlur/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/motion_convert
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/motion_convert/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/motion_convert/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/motion_convert/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/note
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/note/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/note/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/note/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/openfx
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/openfx/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/openfx/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/openfx/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/optics
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/optics/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/optics/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/optics/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/output
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/output/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/output/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/output/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/overlays
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/overlays/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/paint
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/paint/autopaint
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/paint/brush
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/paint/cutout
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/paint/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/paint/geometry
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/paint/mask
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/paint/palette
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/paint/picture
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/paint/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/paint/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/paint/set
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/particules
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/path
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/pixelspread
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/pixelspread/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/pixelspread/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/pixelspread/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/posterize
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/posterize/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/posterize/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/posterize/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/pulldown
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/pulldown/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/pulldown/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/pulldown/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/pybox
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/pybox/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/pybox/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/pybox/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/python
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/quickcomp
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/quickcomp/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/quickcomp/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/quickcomp/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/recursiveOps
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/recursiveOps/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/recursiveOps/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/recursiveOps/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/regrain
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/regrain/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/regrain/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/regrain/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/repeat
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/repeat/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/repeat/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/repeat/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/resize
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/resize/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/resize/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/resize/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/separate
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/separate/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/separate/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/separate/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/sparks
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/sparks/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stabilizer
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stabilizer/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stabilizer/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/status
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stereo
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stereoAnaglyph
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stereoAnaglyph/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stereoAnaglyph/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stereoAnaglyph/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stereo/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stereoInterlace
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stereoInterlace/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stereoInterlace/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stereoInterlace/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stereo/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stereo/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stereoToolbox
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stereoToolbox/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stereoToolbox/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stereoToolbox/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stmap
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stmap/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stmap/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stmap/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stylize
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stylize/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stylize/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/stylize/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/substance
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/substance/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/substance/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/substance/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/subtitle
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/subtitle/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/subtitle/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/subtitle/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/syncolor
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/syncolor/policy
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/syncolor/policy/user_color_spaces
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/syncolor/transforms
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/text
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/text/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/text/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/text/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/timewarp
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/timewarp/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/timewarp/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/timewarp/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/tmp
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/viewing
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/viewing/flame
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/viewing/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/viewing/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/warper
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/warper/magnet
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/warper/pref
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/warper/presets
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/wipe
+Successfully created directory: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/xml
 # --------------------------------------------------------------------------- #
 
 # =================== LINKING BATCH ITERATIONS DIRECTORY ==================== #
+
+
 Linking batch iterations directory
 
-from: /PROJEKTS/lions_film/flame/iterations
+from: /PROJEKTS/555_test_test/flame/iterations
 to:
-/opt/Autodesk/project/lions_film_2026_0_1_studio1/setups/batch/flame/iterations
-Traceback (most recent call last):
-  File "/Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/modules/functions/create/create_projekt.py", line 1216, in <module>
-main()
-  File "/Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/modules/functions/create/create_projekt.py", line 669, in main
-    symlink_iterations_dir(
-  File "/Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/modules/functions/link/link_iterations_dir.py", line 255, in symlink_iterations_dir
-os.makedirs(os.path.dirname(target_path), exist_ok=True)
-  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/os.py", line 215, in makedirs
-    makedirs(head, exist_ok=exist_ok)
-  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/os.py", line 215, in makedirs
-    makedirs(head, exist_ok=exist_ok)
-  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/os.py", line 215, in makedirs
-    makedirs(head, exist_ok=exist_ok)
-  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/os.py", line 225, in makedirs
-    mkdir(name, mode)
-OSError: [Errno 45] Operation not supported: '/opt/Autodesk/project/lions_film_2026_0_1_studio1'
-Error executing modules/functions/create/create_projekt.py. Exit code: 1
+/Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/batch/flame/iterations
+
+Successfully linked: iterations -> iterations
+
+# --------------------------------------------------------------------------- #
+
+# ===================== LINKING FLAME SETUP DIRECTORIES ===================== #
+
+
+Linking flame setup directories
+
+from: /Volumes/flame_projekts/555_test_test_2026_0_1_studio1
+to:
+/PROJEKTS/555_test_test/flame/setups/studio1
+
+Successfully linked: catalog -> catalog
+Successfully linked: media -> media
+Successfully linked: setups -> setups
+# --------------------------------------------------------------------------- #
+
+# ================== COPYING INIT CONFIG TO FLAME PROJEKT =================== #
+
+Copying file from /Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/resources/flame/presets/cfg/init.cfg/template/3840x2160@25000p.cfg to /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/cfg/555_test_test_2026_0_1_studio1.cfg
+# --------------------------------------------------------------------------- #
+
+# ========================== COPYING ARCHIVE PREFS ========================== #
+
+
+creating archive preferences.
+/Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/status/ArchiveCurrent.json
+
+/Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/status/project.json
+
+project archive prefs created.
+project archive cache prefs created.
+# --------------------------------------------------------------------------- #
+
+# ======================= COPYING BATCH PROJECT BINS ======================== #
+
+
+creating batch project bin.
+building file list ... done
+./
+_project.AP0_ARRI_LogC3.batch
+_project.AP0_ARRI_LogC4.batch
+_project.AP0_Apple_Log.batch
+_project.AP0_BMD.batch
+_project.AP0_Canon_D55.batch
+_project.AP0_Canon_TUNG.batch
+_project.AP0_Log3G10.batch
+_project.AP0_Panasonic_VLog.batch
+_project.AP0_Rec709.batch
+_project.AP0_S3SGamut3_Cine.batch
+_project.AP0_S3SGamut3_CineVenice.batch
+_project.AP0_S3SGamut3_Venice.batch
+_project.AP0_S3_SGamut3.batch
+_project.AP0_Scene_Linear.batch
+_project.AP1_ARRI_LogC3.batch
+_project.AP1_ARRI_LogC4.batch
+_project.AP1_Apple_Log.batch
+_project.AP1_BMD.batch
+_project.AP1_Canon_D55.batch
+_project.AP1_Canon_TUNG.batch
+_project.AP1_Log3G10.batch
+_project.AP1_Panasonic_VLog.batch
+_project.AP1_Rec709.batch
+_project.AP1_S3SGamut3_Cine.batch
+_project.AP1_S3SGamut3_CineVenice.batch
+_project.AP1_S3SGamut3_Venice.batch
+_project.AP1_S3_SGamut3.batch
+_project.AP1_Scene_Linear.batch
+_project.linux_color_toolkit.batch
+_project.macOS_color_toolkit.batch
+project_batch.bin
+_project.AP0_ARRI_LogC3/
+_project.AP0_ARRI_LogC3/AP0_to_ARRI_LogC3.lut_node
+_project.AP0_ARRI_LogC3/ARRI_LogC3_to_AP0.lut_node
+_project.AP0_ARRI_LogC3/WORKFLOW_AP0_ARRI_LogC3.compass_node
+_project.AP0_ARRI_LogC3/root.root_node
+_project.AP0_ARRI_LogC4/
+_project.AP0_ARRI_LogC4/AP0_to_ARRI_LogC4.lut_node
+_project.AP0_ARRI_LogC4/ARRI_LogC4_to_AP0.lut_node
+_project.AP0_ARRI_LogC4/WORKFLOW_AP0_ARRI_LogC4.compass_node
+_project.AP0_ARRI_LogC4/root.root_node
+_project.AP0_Apple_Log/
+_project.AP0_Apple_Log/AP0_to_Apple_Log.lut_node
+_project.AP0_Apple_Log/Apple_Log_to_AP0.lut_node
+_project.AP0_Apple_Log/WORKFLOW_AP0_Apple_Log.compass_node
+_project.AP0_Apple_Log/root.root_node
+_project.AP0_BMD/
+_project.AP0_BMD/AP0_to_BMD.lut_node
+_project.AP0_BMD/BMD_to_AP0.lut_node
+_project.AP0_BMD/WORKFLOW_AP0_BMD.compass_node
+_project.AP0_BMD/root.root_node
+_project.AP0_Canon_D55/
+_project.AP0_Canon_D55/AP0_to_Canon_Daylight.lut_node
+_project.AP0_Canon_D55/Canon_Daylight_to_AP0.lut_node
+_project.AP0_Canon_D55/WORKFLOW_AP0_Canon_Daylight.compass_node
+_project.AP0_Canon_D55/root.root_node
+_project.AP0_Canon_TUNG/
+_project.AP0_Canon_TUNG/AP0_to_Canon_Tungsten.lut_node
+_project.AP0_Canon_TUNG/Canon_Tungsten_to_AP0.lut_node
+_project.AP0_Canon_TUNG/WORKFLOW_AP0_Canon_Tungsten.compass_node
+_project.AP0_Canon_TUNG/root.root_node
+_project.AP0_Log3G10/
+_project.AP0_Log3G10/AP0_to_R3D_Log3G10.lut_node
+_project.AP0_Log3G10/R3D_Log3G10_to_AP0.lut_node
+_project.AP0_Log3G10/WORKFLOW_AP0_Log3G10.compass_node
+_project.AP0_Log3G10/root.root_node
+_project.AP0_Panasonic_VLog/
+_project.AP0_Panasonic_VLog/AP0_to_Panasonic_VLog.lut_node
+_project.AP0_Panasonic_VLog/Panasonic_VLog_to_AP0.lut_node
+_project.AP0_Panasonic_VLog/WORKFLOW_AP0_Panasonic_VLog.compass_node
+_project.AP0_Panasonic_VLog/root.root_node
+_project.AP0_Rec709/
+_project.AP0_Rec709/AP0_to_Rec709.lut_node
+_project.AP0_Rec709/Rec709_to_AP0.lut_node
+_project.AP0_Rec709/WORKFLOW_AP0_Rec709.compass_node
+_project.AP0_Rec709/root.root_node
+_project.AP0_S3SGamut3_Cine/
+_project.AP0_S3SGamut3_Cine/AP0_to_S3SGamut3_Cine.lut_node
+_project.AP0_S3SGamut3_Cine/S3SGamut3_Cine_to_AP0.lut_node
+_project.AP0_S3SGamut3_Cine/WORKFLOW_AP0_S3SGamut3_Cine.compass_node
+_project.AP0_S3SGamut3_Cine/root.root_node
+_project.AP0_S3SGamut3_CineVenice/
+_project.AP0_S3SGamut3_CineVenice/AP0_to_S3SGamut3_Cine_Venice.lut_node
+_project.AP0_S3SGamut3_CineVenice/S3SGamut3_Cine_Venice_to_AP0.lut_node
+_project.AP0_S3SGamut3_CineVenice/WORKFLOW_AP0_S3SGamut3_Cine_Venice.compass_node
+_project.AP0_S3SGamut3_CineVenice/root.root_node
+_project.AP0_S3SGamut3_Venice/
+_project.AP0_S3SGamut3_Venice/AP0_to_S3SGamut3_Venice.lut_node
+_project.AP0_S3SGamut3_Venice/S3SGamut3_Venice_to_AP0.lut_node
+_project.AP0_S3SGamut3_Venice/WORKFLOW_AP0_S3SGamut3_Venice.compass_node
+_project.AP0_S3SGamut3_Venice/root.root_node
+_project.AP0_S3_SGamut3/
+_project.AP0_S3_SGamut3/AP0_to_S3SGamut3.lut_node
+_project.AP0_S3_SGamut3/S3SGamut3_to_AP0.lut_node
+_project.AP0_S3_SGamut3/WORKFLOW_AP0_S3SGamut3.compass_node
+_project.AP0_S3_SGamut3/root.root_node
+_project.AP0_Scene_Linear/
+_project.AP0_Scene_Linear/AP0_to_LinearRec709_sRGB.lut_node
+_project.AP0_Scene_Linear/LinearRec709_sRGB_to_AP0.lut_node
+_project.AP0_Scene_Linear/WORKFLOW_AP0_Scene_Linear_Rec709_sRGB.compass_node
+_project.AP0_Scene_Linear/root.root_node
+_project.AP1_ARRI_LogC3/
+_project.AP1_ARRI_LogC3/AP1_to_ARRI_LogC3.lut_node
+_project.AP1_ARRI_LogC3/ARRI_LogC3_to_AP1.lut_node
+_project.AP1_ARRI_LogC3/WORKFLOW_AP1_ARRI_LogC3.compass_node
+_project.AP1_ARRI_LogC3/root.root_node
+_project.AP1_ARRI_LogC4/
+_project.AP1_ARRI_LogC4/AP1_to_ARRI_LogC4.lut_node
+_project.AP1_ARRI_LogC4/ARRI_LogC4_to_AP1.lut_node
+_project.AP1_ARRI_LogC4/WORKFLOW_AP1_ARRI_LogC4.compass_node
+_project.AP1_ARRI_LogC4/root.root_node
+_project.AP1_Apple_Log/
+_project.AP1_Apple_Log/AP1_to_Apple_Log.lut_node
+_project.AP1_Apple_Log/Apple_Log_to_AP1.lut_node
+_project.AP1_Apple_Log/WORKFLOW_AP1_Apple_Log.compass_node
+_project.AP1_Apple_Log/root.root_node
+_project.AP1_BMD/
+_project.AP1_BMD/AP1_to_BMD.lut_node
+_project.AP1_BMD/BMD_to_AP1.lut_node
+_project.AP1_BMD/WORKFLOW_AP1_BMD.compass_node
+_project.AP1_BMD/root.root_node
+_project.AP1_Canon_D55/
+_project.AP1_Canon_D55/AP1_to_Canon_Daylight.lut_node
+_project.AP1_Canon_D55/Canon_Daylight_to_AP1.lut_node
+_project.AP1_Canon_D55/WORKFLOW_AP1_Canon_Daylight.compass_node
+_project.AP1_Canon_D55/root.root_node
+_project.AP1_Canon_TUNG/
+_project.AP1_Canon_TUNG/AP1_to_Canon_Tungsten.lut_node
+_project.AP1_Canon_TUNG/Canon_Tungsten_to_AP1.lut_node
+_project.AP1_Canon_TUNG/WORKFLOW_AP1_Canon_Tungsten.compass_node
+_project.AP1_Canon_TUNG/root.root_node
+_project.AP1_Log3G10/
+_project.AP1_Log3G10/AP1_to_R3D_Log3G10.lut_node
+_project.AP1_Log3G10/R3D_Log3G10_to_AP1.lut_node
+_project.AP1_Log3G10/WORKFLOW_AP1_Log3G10.compass_node
+_project.AP1_Log3G10/root.root_node
+_project.AP1_Panasonic_VLog/
+_project.AP1_Panasonic_VLog/AP1_to_Panasonic_VLog.lut_node
+_project.AP1_Panasonic_VLog/Panasonic_VLog_to_AP1.lut_node
+_project.AP1_Panasonic_VLog/WORKFLOW_AP1_Panasonic_VLog.compass_node
+_project.AP1_Panasonic_VLog/root.root_node
+_project.AP1_Rec709/
+_project.AP1_Rec709/AP1_to_Rec709.lut_node
+_project.AP1_Rec709/Rec709_to_AP1.lut_node
+_project.AP1_Rec709/WORKFLOW_AP1_Rec709.compass_node
+_project.AP1_Rec709/root.root_node
+_project.AP1_S3SGamut3_Cine/
+_project.AP1_S3SGamut3_Cine/AP1_to_S3SGamut3_Cine.lut_node
+_project.AP1_S3SGamut3_Cine/S3SGamut3_Cine_to_AP1.lut_node
+_project.AP1_S3SGamut3_Cine/WORKFLOW_AP1_S3SGamut3_Cine.compass_node
+_project.AP1_S3SGamut3_Cine/root.root_node
+_project.AP1_S3SGamut3_CineVenice/
+_project.AP1_S3SGamut3_CineVenice/AP1_to_S3SGamut3_Cine_Venice.lut_node
+_project.AP1_S3SGamut3_CineVenice/S3SGamut3_Cine_Venice_to_AP1.lut_node
+_project.AP1_S3SGamut3_CineVenice/WORKFLOW_AP1_S3SGamut3_Cine_Venice.compass_node
+_project.AP1_S3SGamut3_CineVenice/root.root_node
+_project.AP1_S3SGamut3_Venice/
+_project.AP1_S3SGamut3_Venice/AP1_to_S3SGamut3_Venice.lut_node
+_project.AP1_S3SGamut3_Venice/S3SGamut3_Venice_to_AP1.lut_node
+_project.AP1_S3SGamut3_Venice/WORKFLOW_AP1_S3SGamut3_Venice.compass_node
+_project.AP1_S3SGamut3_Venice/root.root_node
+_project.AP1_S3_SGamut3/
+_project.AP1_S3_SGamut3/AP1_to_S3SGamut3.lut_node
+_project.AP1_S3_SGamut3/S3SGamut3_to_AP1.lut_node
+_project.AP1_S3_SGamut3/WORKFLOW_AP1_S3SGamut3.compass_node
+_project.AP1_S3_SGamut3/root.root_node
+_project.AP1_Scene_Linear/
+_project.AP1_Scene_Linear/AP1_to_LinearRec709_sRGB.lut_node
+_project.AP1_Scene_Linear/LinearRec709_sRGB_to_AP1.lut_node
+_project.AP1_Scene_Linear/WORKFLOW_AP1_Scene_Linear_Rec709_sRGB.compass_node
+_project.AP1_Scene_Linear/root.root_node
+_project.linux_color_toolkit/
+_project.linux_color_toolkit/AP0_to_AP1.lut_node
+_project.linux_color_toolkit/AP0_to_ARRI_LogC3.lut_node
+_project.linux_color_toolkit/AP0_to_ARRI_LogC4.lut_node
+_project.linux_color_toolkit/AP0_to_Apple_Log.lut_node
+_project.linux_color_toolkit/AP0_to_BMD.lut_node
+_project.linux_color_toolkit/AP0_to_Canon_Daylight.lut_node
+_project.linux_color_toolkit/AP0_to_Canon_Tungsten.lut_node
+_project.linux_color_toolkit/AP0_to_LinearRec709_sRGB.lut_node
+_project.linux_color_toolkit/AP0_to_Panasonic_VLog.lut_node
+_project.linux_color_toolkit/AP0_to_R3D_Log3G10.lut_node
+_project.linux_color_toolkit/AP0_to_Rec709.lut_node
+_project.linux_color_toolkit/AP0_to_S3SGamut3.lut_node
+_project.linux_color_toolkit/AP0_to_S3SGamut3_Cine_Venice.lut_node
+_project.linux_color_toolkit/AP0_to_S3SGamut3_Venice.lut_node
+_project.linux_color_toolkit/AP1_to_ARRI_LogC3.lut_node
+_project.linux_color_toolkit/AP1_to_ARRI_LogC4.lut_node
+_project.linux_color_toolkit/AP1_to_Apple_Log.lut_node
+_project.linux_color_toolkit/AP1_to_BMD.lut_node
+_project.linux_color_toolkit/AP1_to_Canon_Daylight.lut_node
+_project.linux_color_toolkit/AP1_to_Canon_Tungsten.lut_node
+_project.linux_color_toolkit/AP1_to_LinearRec709_sRGB.lut_node
+_project.linux_color_toolkit/AP1_to_Panasonic_VLog.lut_node
+_project.linux_color_toolkit/AP1_to_R3D_Log3G10.lut_node
+_project.linux_color_toolkit/AP1_to_Rec709.lut_node
+_project.linux_color_toolkit/AP1_to_S3SGamut3.lut_node
+_project.linux_color_toolkit/AP1_to_S3SGamut3_Cine_Venice.lut_node
+_project.linux_color_toolkit/AP1_to_S3SGamut3_Venice.lut_node
+_project.linux_color_toolkit/ARRI_LogC3_to_AP0.lut_node
+_project.linux_color_toolkit/ARRI_LogC3_to_AP1.lut_node
+_project.linux_color_toolkit/ARRI_LogC3_to_Rec709.lut_node
+_project.linux_color_toolkit/ARRI_LogC4_to_AP0.lut_node
+_project.linux_color_toolkit/ARRI_LogC4_to_AP1.lut_node
+_project.linux_color_toolkit/ARRI_LogC4_to_Rec709.lut_node
+_project.linux_color_toolkit/Apple_Log_to_AP0.lut_node
+_project.linux_color_toolkit/Apple_Log_to_AP1.lut_node
+_project.linux_color_toolkit/Apple_Log_to_Rec709.lut_node
+_project.linux_color_toolkit/BMD_to_AP0.lut_node
+_project.linux_color_toolkit/BMD_to_AP1.lut_node
+_project.linux_color_toolkit/BMD_to_Rec709.lut_node
+_project.linux_color_toolkit/Canon_Daylight_to_AP0.lut_node
+_project.linux_color_toolkit/Canon_Daylight_to_AP1.lut_node
+_project.linux_color_toolkit/Canon_Daylight_to_Rec709.lut_node
+_project.linux_color_toolkit/Canon_Tungsten_to_AP0.lut_node
+_project.linux_color_toolkit/Canon_Tungsten_to_AP1.lut_node
+_project.linux_color_toolkit/Canon_Tungsten_to_Rec709.lut_node
+_project.linux_color_toolkit/IDENTITY_ARRI_LogC3.mux_node
+_project.linux_color_toolkit/IDENTITY_ARRI_LogC4.mux_node
+_project.linux_color_toolkit/IDENTITY_Apple_Log.mux_node
+_project.linux_color_toolkit/IDENTITY_BMD.mux_node
+_project.linux_color_toolkit/IDENTITY_Canon_Daylight.mux_node
+_project.linux_color_toolkit/IDENTITY_Canon_Tungsten.mux_node
+_project.linux_color_toolkit/IDENTITY_Panasonic_VLog.mux_node
+_project.linux_color_toolkit/IDENTITY_R3D_Log3G10.mux_node
+_project.linux_color_toolkit/IDENTITY_S3SGamut3.mux_node
+_project.linux_color_toolkit/IDENTITY_S3SGamut3_Cine_Venice.mux_node
+_project.linux_color_toolkit/IDENTITY_S3SGamut3_Venice.mux_node
+_project.linux_color_toolkit/KODAK_Digital_LAD.compass_node
+_project.linux_color_toolkit/LinearRec709_sRGB_to_AP0.lut_node
+_project.linux_color_toolkit/LinearRec709_sRGB_to_Rec709.lut_node
+_project.linux_color_toolkit/Log_to_Lin__classic.lut_node
+_project.linux_color_toolkit/Log_to_Lin__classic_AP0.lut_node
+_project.linux_color_toolkit/Ls_Contacts218.1.glsl
+_project.linux_color_toolkit/Ls_Contacts218.matchbox_node
+_project.linux_color_toolkit/Ls_Contacts218.xml
+_project.linux_color_toolkit/Ls_Contacts589.1.glsl
+_project.linux_color_toolkit/Ls_Contacts589.matchbox_node
+_project.linux_color_toolkit/Ls_Contacts589.xml
+_project.linux_color_toolkit/Ls_Contacts590.1.glsl
+_project.linux_color_toolkit/Ls_Contacts590.matchbox_node
+_project.linux_color_toolkit/Ls_Contacts590.xml
+_project.linux_color_toolkit/Ls_Contacts591.1.glsl
+_project.linux_color_toolkit/Ls_Contacts591.matchbox_node
+_project.linux_color_toolkit/Ls_Contacts591.xml
+_project.linux_color_toolkit/Ls_Contacts592.1.glsl
+_project.linux_color_toolkit/Ls_Contacts592.matchbox_node
+_project.linux_color_toolkit/Ls_Contacts592.xml
+_project.linux_color_toolkit/Ls_Contacts594.1.glsl
+_project.linux_color_toolkit/Ls_Contacts594.matchbox_node
+_project.linux_color_toolkit/Ls_Contacts594.xml
+_project.linux_color_toolkit/Ls_Contacts595.1.glsl
+_project.linux_color_toolkit/Ls_Contacts595.matchbox_node
+_project.linux_color_toolkit/Ls_Contacts595.xml
+_project.linux_color_toolkit/Ls_Contacts596.1.glsl
+_project.linux_color_toolkit/Ls_Contacts596.matchbox_node
+_project.linux_color_toolkit/Ls_Contacts596.xml
+_project.linux_color_toolkit/Ls_Contacts597.1.glsl
+_project.linux_color_toolkit/Ls_Contacts597.matchbox_node
+_project.linux_color_toolkit/Ls_Contacts597.xml
+_project.linux_color_toolkit/Ls_Contacts598.1.glsl
+_project.linux_color_toolkit/Ls_Contacts598.matchbox_node
+_project.linux_color_toolkit/Ls_Contacts598.xml
+_project.linux_color_toolkit/Ls_Contacts599.1.glsl
+_project.linux_color_toolkit/Ls_Contacts599.matchbox_node
+_project.linux_color_toolkit/Ls_Contacts599.xml
+_project.linux_color_toolkit/Panasonic_VLog_to_AP0.lut_node
+_project.linux_color_toolkit/Panasonic_VLog_to_AP1.lut_node
+_project.linux_color_toolkit/Panasonic_VLog_to_Rec709.lut_node
+_project.linux_color_toolkit/R3D_Log3G10_to_AP0.lut_node
+_project.linux_color_toolkit/R3D_Log3G10_to_AP1.lut_node
+_project.linux_color_toolkit/R3D_Log3G10_to_Rec709.lut_node
+_project.linux_color_toolkit/Rec709_to_AP0.lut_node
+_project.linux_color_toolkit/Rec709_to_AP1.lut_node
+_project.linux_color_toolkit/S3SGamut3_Cine_Venice_to_AP0.lut_node
+_project.linux_color_toolkit/S3SGamut3_Cine_Venice_to_AP1.lut_node
+_project.linux_color_toolkit/S3SGamut3_Cine_Venice_to_Rec709.lut_node
+_project.linux_color_toolkit/S3SGamut3_Venice_to_AP0.lut_node
+_project.linux_color_toolkit/S3SGamut3_Venice_to_AP1.lut_node
+_project.linux_color_toolkit/S3SGamut3_Venice_to_Rec709.lut_node
+_project.linux_color_toolkit/S3SGamut3_to_AP0.lut_node
+_project.linux_color_toolkit/S3SGamut3_to_AP1.lut_node
+_project.linux_color_toolkit/S3SGamut3_to_Rec709.lut_node
+_project.linux_color_toolkit/SOURCE_CLIP_ARRI_LogC3.mux_node
+_project.linux_color_toolkit/SOURCE_CLIP_ARRI_LogC4.mux_node
+_project.linux_color_toolkit/SOURCE_CLIP_Apple_Log.mux_node
+_project.linux_color_toolkit/SOURCE_CLIP_BMD.mux_node
+_project.linux_color_toolkit/SOURCE_CLIP_Canon_Daylight.mux_node
+_project.linux_color_toolkit/SOURCE_CLIP_Canon_Tungsten.mux_node
+_project.linux_color_toolkit/SOURCE_CLIP_Panasonic_VLog.mux_node
+_project.linux_color_toolkit/SOURCE_CLIP_R3D_Log3G10.mux_node
+_project.linux_color_toolkit/SOURCE_CLIP_S3SGamut3.mux_node
+_project.linux_color_toolkit/SOURCE_CLIP_S3SGamut3_Cine_Venice.mux_node
+_project.linux_color_toolkit/SOURCE_CLIP_S3SGamut3_Venice.mux_node
+_project.linux_color_toolkit/burnmetadata10004589.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004590.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004591.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004592.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004593.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004594.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004595.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004596.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004597.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004598.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004599.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004600.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004601.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004602.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004603.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004604.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004609.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004610.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004611.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004612.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004613.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004614.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004615.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004616.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004617.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004618.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004619.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004620.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004621.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004622.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004623.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004624.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004625.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004626.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004627.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004628.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004629.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004630.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004631.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata10004632.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata220.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata222.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata224.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata226.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata_ARRI_LogC3.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata_ARRI_LogC4.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata_Apple_Log.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata_BMD.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata_Canon_Daylight.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata_Canon_Tungsten.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata_Panasonic_VLog.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata_R3D_Log3G10.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata_S3SGamut3.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata_S3SGamut3_Cine_Venice.burnmetadata_node
+_project.linux_color_toolkit/burnmetadata_S3SGamut3_Venice.burnmetadata_node
+_project.linux_color_toolkit/clip591.clip_node
+_project.linux_color_toolkit/clip591.clip_node_clip
+_project.linux_color_toolkit/clip591.clip_node_format
+_project.linux_color_toolkit/clip591.lut_node
+_project.linux_color_toolkit/clip591.resize
+_project.linux_color_toolkit/clip591.resize_node
+_project.linux_color_toolkit/clrmgmt10002596.lut_node
+_project.linux_color_toolkit/clrmgmt10002603.lut_node
+_project.linux_color_toolkit/clrmgmt10002604.lut_node
+_project.linux_color_toolkit/clrmgmt10002605.lut_node
+_project.linux_color_toolkit/clrmgmt10002606.lut_node
+_project.linux_color_toolkit/clrmgmt10002607.lut_node
+_project.linux_color_toolkit/clrmgmt10002608.lut_node
+_project.linux_color_toolkit/clrmgmt10002609.lut_node
+_project.linux_color_toolkit/clrmgmt10002610.lut_node
+_project.linux_color_toolkit/clrmgmt10002611.lut_node
+_project.linux_color_toolkit/clrmgmt10002612.lut_node
+_project.linux_color_toolkit/clrmgmt10002613.lut_node
+_project.linux_color_toolkit/clrmgmt10002614.lut_node
+_project.linux_color_toolkit/clrmgmt10002615.lut_node
+_project.linux_color_toolkit/clrmgmt10002616.lut_node
+_project.linux_color_toolkit/clrmgmt10002617.lut_node
+_project.linux_color_toolkit/clrmgmt10002618.lut_node
+_project.linux_color_toolkit/clrmgmt10002624.lut_node
+_project.linux_color_toolkit/clrmgmt10002625.lut_node
+_project.linux_color_toolkit/clrmgmt10002626.lut_node
+_project.linux_color_toolkit/clrmgmt10002627.lut_node
+_project.linux_color_toolkit/clrmgmt10002634.lut_node
+_project.linux_color_toolkit/clrmgmt10002635.lut_node
+_project.linux_color_toolkit/clrmgmt10002636.lut_node
+_project.linux_color_toolkit/clrmgmt10002637.lut_node
+_project.linux_color_toolkit/clrmgmt10002639.lut_node
+_project.linux_color_toolkit/clrmgmt10002640.lut_node
+_project.linux_color_toolkit/clrmgmt10002641.lut_node
+_project.linux_color_toolkit/clrmgmt10002642.lut_node
+_project.linux_color_toolkit/clrmgmt10002643.lut_node
+_project.linux_color_toolkit/clrmgmt10002644.lut_node
+_project.linux_color_toolkit/clrmgmt10002645.lut_node
+_project.linux_color_toolkit/clrmgmt10002646.lut_node
+_project.linux_color_toolkit/clrmgmt10002647.lut_node
+_project.linux_color_toolkit/clrmgmt10002648.lut_node
+_project.linux_color_toolkit/clrmgmt10002649.lut_node
+_project.linux_color_toolkit/clrmgmt10002650.lut_node
+_project.linux_color_toolkit/clrmgmt10002651.lut_node
+_project.linux_color_toolkit/clrmgmt10002652.lut_node
+_project.linux_color_toolkit/clrmgmt10002653.lut_node
+_project.linux_color_toolkit/clrmgmt10002654.lut_node
+_project.linux_color_toolkit/clrmgmt219.lut_node
+_project.linux_color_toolkit/clrmgmt221.lut_node
+_project.linux_color_toolkit/clrmgmt223.lut_node
+_project.linux_color_toolkit/elbow1.elbow_node
+_project.linux_color_toolkit/elbow10.elbow_node
+_project.linux_color_toolkit/elbow11.elbow_node
+_project.linux_color_toolkit/elbow12.elbow_node
+_project.linux_color_toolkit/elbow13.elbow_node
+_project.linux_color_toolkit/elbow14.elbow_node
+_project.linux_color_toolkit/elbow15.elbow_node
+_project.linux_color_toolkit/elbow16.elbow_node
+_project.linux_color_toolkit/elbow17.elbow_node
+_project.linux_color_toolkit/elbow18.elbow_node
+_project.linux_color_toolkit/elbow19.elbow_node
+_project.linux_color_toolkit/elbow2.elbow_node
+_project.linux_color_toolkit/elbow20.elbow_node
+_project.linux_color_toolkit/elbow21.elbow_node
+_project.linux_color_toolkit/elbow22.elbow_node
+_project.linux_color_toolkit/elbow23.elbow_node
+_project.linux_color_toolkit/elbow24.elbow_node
+_project.linux_color_toolkit/elbow25.elbow_node
+_project.linux_color_toolkit/elbow26.elbow_node
+_project.linux_color_toolkit/elbow27.elbow_node
+_project.linux_color_toolkit/elbow28.elbow_node
+_project.linux_color_toolkit/elbow29.elbow_node
+_project.linux_color_toolkit/elbow3.elbow_node
+_project.linux_color_toolkit/elbow30.elbow_node
+_project.linux_color_toolkit/elbow31.elbow_node
+_project.linux_color_toolkit/elbow32.elbow_node
+_project.linux_color_toolkit/elbow33.elbow_node
+_project.linux_color_toolkit/elbow34.elbow_node
+_project.linux_color_toolkit/elbow35.elbow_node
+_project.linux_color_toolkit/elbow36.elbow_node
+_project.linux_color_toolkit/elbow37.elbow_node
+_project.linux_color_toolkit/elbow38.elbow_node
+_project.linux_color_toolkit/elbow39.elbow_node
+_project.linux_color_toolkit/elbow4.elbow_node
+_project.linux_color_toolkit/elbow40.elbow_node
+_project.linux_color_toolkit/elbow41.elbow_node
+_project.linux_color_toolkit/elbow42.elbow_node
+_project.linux_color_toolkit/elbow43.elbow_node
+_project.linux_color_toolkit/elbow44.elbow_node
+_project.linux_color_toolkit/elbow45.elbow_node
+_project.linux_color_toolkit/elbow46.elbow_node
+_project.linux_color_toolkit/elbow47.elbow_node
+_project.linux_color_toolkit/elbow48.elbow_node
+_project.linux_color_toolkit/elbow49.elbow_node
+_project.linux_color_toolkit/elbow5.elbow_node
+_project.linux_color_toolkit/elbow50.elbow_node
+_project.linux_color_toolkit/elbow51.elbow_node
+_project.linux_color_toolkit/elbow52.elbow_node
+_project.linux_color_toolkit/elbow53.elbow_node
+_project.linux_color_toolkit/elbow54.elbow_node
+_project.linux_color_toolkit/elbow55.elbow_node
+_project.linux_color_toolkit/elbow56.elbow_node
+_project.linux_color_toolkit/elbow57.elbow_node
+_project.linux_color_toolkit/elbow58.elbow_node
+_project.linux_color_toolkit/elbow59.elbow_node
+_project.linux_color_toolkit/elbow6.elbow_node
+_project.linux_color_toolkit/elbow60.elbow_node
+_project.linux_color_toolkit/elbow61.elbow_node
+_project.linux_color_toolkit/elbow62.elbow_node
+_project.linux_color_toolkit/elbow63.elbow_node
+_project.linux_color_toolkit/elbow64.elbow_node
+_project.linux_color_toolkit/elbow65.elbow_node
+_project.linux_color_toolkit/elbow66.elbow_node
+_project.linux_color_toolkit/elbow67.elbow_node
+_project.linux_color_toolkit/elbow68.elbow_node
+_project.linux_color_toolkit/elbow69.elbow_node
+_project.linux_color_toolkit/elbow7.elbow_node
+_project.linux_color_toolkit/elbow71.elbow_node
+_project.linux_color_toolkit/elbow72.elbow_node
+_project.linux_color_toolkit/elbow73.elbow_node
+_project.linux_color_toolkit/elbow74.elbow_node
+_project.linux_color_toolkit/elbow75.elbow_node
+_project.linux_color_toolkit/elbow76.elbow_node
+_project.linux_color_toolkit/elbow77.elbow_node
+_project.linux_color_toolkit/elbow78.elbow_node
+_project.linux_color_toolkit/elbow79.elbow_node
+_project.linux_color_toolkit/elbow80.elbow_node
+_project.linux_color_toolkit/elbow81.elbow_node
+_project.linux_color_toolkit/elbow82.elbow_node
+_project.linux_color_toolkit/elbow83.elbow_node
+_project.linux_color_toolkit/elbow9.elbow_node
+_project.linux_color_toolkit/flame_colortoolkit_ARRI_LogC3.compass_node
+_project.linux_color_toolkit/flame_colortoolkit_ARRI_LogC4.compass_node
+_project.linux_color_toolkit/flame_colortoolkit_Apple_Log.compass_node
+_project.linux_color_toolkit/flame_colortoolkit_BMD_Film5.compass_node
+_project.linux_color_toolkit/flame_colortoolkit_Canon_Daylight.compass_node
+_project.linux_color_toolkit/flame_colortoolkit_Canon_Tungsten.compass_node
+_project.linux_color_toolkit/flame_colortoolkit_Panasonic_VLog.compass_node
+_project.linux_color_toolkit/flame_colortoolkit_R3D_Log3G10.compass_node
+_project.linux_color_toolkit/flame_colortoolkit_SONY_S3SGamut3.compass_node
+_project.linux_color_toolkit/flame_colortoolkit_SONY_S3SGamut3_Cine_Venice.compass_node
+_project.linux_color_toolkit/flame_colortoolkit_SONY_S3SGamut3_Venice.compass_node
+_project.linux_color_toolkit/mux14.mux_node
+_project.linux_color_toolkit/note1.note_node
+_project.linux_color_toolkit/note2.note_node
+_project.linux_color_toolkit/root.root_node
+_project.macOS_color_toolkit/
+_project.macOS_color_toolkit/AP0_to_AP1.lut_node
+_project.macOS_color_toolkit/AP0_to_ARRI_LogC3.lut_node
+_project.macOS_color_toolkit/AP0_to_ARRI_LogC4.lut_node
+_project.macOS_color_toolkit/AP0_to_Apple_Log.lut_node
+_project.macOS_color_toolkit/AP0_to_BMD.lut_node
+_project.macOS_color_toolkit/AP0_to_Canon_Daylight.lut_node
+_project.macOS_color_toolkit/AP0_to_Canon_Tungsten.lut_node
+_project.macOS_color_toolkit/AP0_to_LinearRec709_sRGB.lut_node
+_project.macOS_color_toolkit/AP0_to_Panasonic_VLog.lut_node
+_project.macOS_color_toolkit/AP0_to_R3D_Log3G10.lut_node
+_project.macOS_color_toolkit/AP0_to_Rec709.lut_node
+_project.macOS_color_toolkit/AP0_to_S3SGamut3.lut_node
+_project.macOS_color_toolkit/AP0_to_S3SGamut3_Cine_Venice.lut_node
+_project.macOS_color_toolkit/AP0_to_S3SGamut3_Venice.lut_node
+_project.macOS_color_toolkit/AP1_to_ARRI_LogC3.lut_node
+_project.macOS_color_toolkit/AP1_to_ARRI_LogC4.lut_node
+_project.macOS_color_toolkit/AP1_to_Apple_Log.lut_node
+_project.macOS_color_toolkit/AP1_to_BMD.lut_node
+_project.macOS_color_toolkit/AP1_to_Canon_Daylight.lut_node
+_project.macOS_color_toolkit/AP1_to_Canon_Tungsten.lut_node
+_project.macOS_color_toolkit/AP1_to_LinearRec709_sRGB.lut_node
+_project.macOS_color_toolkit/AP1_to_Panasonic_VLog.lut_node
+_project.macOS_color_toolkit/AP1_to_R3D_Log3G10.lut_node
+_project.macOS_color_toolkit/AP1_to_Rec709.lut_node
+_project.macOS_color_toolkit/AP1_to_S3SGamut3.lut_node
+_project.macOS_color_toolkit/AP1_to_S3SGamut3_Cine_Venice.lut_node
+_project.macOS_color_toolkit/AP1_to_S3SGamut3_Venice.lut_node
+_project.macOS_color_toolkit/ARRI_LogC3_to_AP0.lut_node
+_project.macOS_color_toolkit/ARRI_LogC3_to_AP1.lut_node
+_project.macOS_color_toolkit/ARRI_LogC3_to_Rec709.lut_node
+_project.macOS_color_toolkit/ARRI_LogC4_to_AP0.lut_node
+_project.macOS_color_toolkit/ARRI_LogC4_to_AP1.lut_node
+_project.macOS_color_toolkit/ARRI_LogC4_to_Rec709.lut_node
+_project.macOS_color_toolkit/Apple_Log_to_AP0.lut_node
+_project.macOS_color_toolkit/Apple_Log_to_AP1.lut_node
+_project.macOS_color_toolkit/Apple_Log_to_Rec709.lut_node
+_project.macOS_color_toolkit/BMD_to_AP0.lut_node
+_project.macOS_color_toolkit/BMD_to_AP1.lut_node
+_project.macOS_color_toolkit/BMD_to_Rec709.lut_node
+_project.macOS_color_toolkit/Canon_Daylight_to_AP0.lut_node
+_project.macOS_color_toolkit/Canon_Daylight_to_AP1.lut_node
+_project.macOS_color_toolkit/Canon_Daylight_to_Rec709.lut_node
+_project.macOS_color_toolkit/Canon_Tungsten_to_AP0.lut_node
+_project.macOS_color_toolkit/Canon_Tungsten_to_AP1.lut_node
+_project.macOS_color_toolkit/Canon_Tungsten_to_Rec709.lut_node
+_project.macOS_color_toolkit/IDENTITY_ARRI_LogC3.mux_node
+_project.macOS_color_toolkit/IDENTITY_ARRI_LogC4.mux_node
+_project.macOS_color_toolkit/IDENTITY_Apple_Log.mux_node
+_project.macOS_color_toolkit/IDENTITY_BMD.mux_node
+_project.macOS_color_toolkit/IDENTITY_Canon_Daylight.mux_node
+_project.macOS_color_toolkit/IDENTITY_Canon_Tungsten.mux_node
+_project.macOS_color_toolkit/IDENTITY_Panasonic_VLog.mux_node
+_project.macOS_color_toolkit/IDENTITY_R3D_Log3G10.mux_node
+_project.macOS_color_toolkit/IDENTITY_S3SGamut3.mux_node
+_project.macOS_color_toolkit/IDENTITY_S3SGamut3_Cine_Venice.mux_node
+_project.macOS_color_toolkit/IDENTITY_S3SGamut3_Venice.mux_node
+_project.macOS_color_toolkit/KODAK_Digital_LAD.compass_node
+_project.macOS_color_toolkit/LinearRec709_sRGB_to_AP0.lut_node
+_project.macOS_color_toolkit/LinearRec709_sRGB_to_Rec709.lut_node
+_project.macOS_color_toolkit/Log_to_Lin__classic.lut_node
+_project.macOS_color_toolkit/Log_to_Lin__classic_AP0.lut_node
+_project.macOS_color_toolkit/Ls_Contacts218.1.glsl
+_project.macOS_color_toolkit/Ls_Contacts218.matchbox_node
+_project.macOS_color_toolkit/Ls_Contacts218.xml
+_project.macOS_color_toolkit/Ls_Contacts589.1.glsl
+_project.macOS_color_toolkit/Ls_Contacts589.matchbox_node
+_project.macOS_color_toolkit/Ls_Contacts589.xml
+_project.macOS_color_toolkit/Ls_Contacts590.1.glsl
+_project.macOS_color_toolkit/Ls_Contacts590.matchbox_node
+_project.macOS_color_toolkit/Ls_Contacts590.xml
+_project.macOS_color_toolkit/Ls_Contacts591.1.glsl
+_project.macOS_color_toolkit/Ls_Contacts591.matchbox_node
+_project.macOS_color_toolkit/Ls_Contacts591.xml
+_project.macOS_color_toolkit/Ls_Contacts592.1.glsl
+_project.macOS_color_toolkit/Ls_Contacts592.matchbox_node
+_project.macOS_color_toolkit/Ls_Contacts592.xml
+_project.macOS_color_toolkit/Ls_Contacts594.1.glsl
+_project.macOS_color_toolkit/Ls_Contacts594.matchbox_node
+_project.macOS_color_toolkit/Ls_Contacts594.xml
+_project.macOS_color_toolkit/Ls_Contacts595.1.glsl
+_project.macOS_color_toolkit/Ls_Contacts595.matchbox_node
+_project.macOS_color_toolkit/Ls_Contacts595.xml
+_project.macOS_color_toolkit/Ls_Contacts596.1.glsl
+_project.macOS_color_toolkit/Ls_Contacts596.matchbox_node
+_project.macOS_color_toolkit/Ls_Contacts596.xml
+_project.macOS_color_toolkit/Ls_Contacts597.1.glsl
+_project.macOS_color_toolkit/Ls_Contacts597.matchbox_node
+_project.macOS_color_toolkit/Ls_Contacts597.xml
+_project.macOS_color_toolkit/Ls_Contacts598.1.glsl
+_project.macOS_color_toolkit/Ls_Contacts598.matchbox_node
+_project.macOS_color_toolkit/Ls_Contacts598.xml
+_project.macOS_color_toolkit/Ls_Contacts599.1.glsl
+_project.macOS_color_toolkit/Ls_Contacts599.matchbox_node
+_project.macOS_color_toolkit/Ls_Contacts599.xml
+_project.macOS_color_toolkit/Panasonic_VLog_to_AP0.lut_node
+_project.macOS_color_toolkit/Panasonic_VLog_to_AP1.lut_node
+_project.macOS_color_toolkit/Panasonic_VLog_to_Rec709.lut_node
+_project.macOS_color_toolkit/R3D_Log3G10_to_AP0.lut_node
+_project.macOS_color_toolkit/R3D_Log3G10_to_AP1.lut_node
+_project.macOS_color_toolkit/R3D_Log3G10_to_Rec709.lut_node
+_project.macOS_color_toolkit/Rec709_to_AP0.lut_node
+_project.macOS_color_toolkit/Rec709_to_AP1.lut_node
+_project.macOS_color_toolkit/S3SGamut3_Cine_Venice_to_AP0.lut_node
+_project.macOS_color_toolkit/S3SGamut3_Cine_Venice_to_AP1.lut_node
+_project.macOS_color_toolkit/S3SGamut3_Cine_Venice_to_Rec709.lut_node
+_project.macOS_color_toolkit/S3SGamut3_Venice_to_AP0.lut_node
+_project.macOS_color_toolkit/S3SGamut3_Venice_to_AP1.lut_node
+_project.macOS_color_toolkit/S3SGamut3_Venice_to_Rec709.lut_node
+_project.macOS_color_toolkit/S3SGamut3_to_AP0.lut_node
+_project.macOS_color_toolkit/S3SGamut3_to_AP1.lut_node
+_project.macOS_color_toolkit/S3SGamut3_to_Rec709.lut_node
+_project.macOS_color_toolkit/SOURCE_CLIP_ARRI_LogC3.mux_node
+_project.macOS_color_toolkit/SOURCE_CLIP_ARRI_LogC4.mux_node
+_project.macOS_color_toolkit/SOURCE_CLIP_Apple_Log.mux_node
+_project.macOS_color_toolkit/SOURCE_CLIP_BMD.mux_node
+_project.macOS_color_toolkit/SOURCE_CLIP_Canon_Daylight.mux_node
+_project.macOS_color_toolkit/SOURCE_CLIP_Canon_Tungsten.mux_node
+_project.macOS_color_toolkit/SOURCE_CLIP_Panasonic_VLog.mux_node
+_project.macOS_color_toolkit/SOURCE_CLIP_R3D_Log3G10.mux_node
+_project.macOS_color_toolkit/SOURCE_CLIP_S3SGamut3.mux_node
+_project.macOS_color_toolkit/SOURCE_CLIP_S3SGamut3_Cine_Venice.mux_node
+_project.macOS_color_toolkit/SOURCE_CLIP_S3SGamut3_Venice.mux_node
+_project.macOS_color_toolkit/burnmetadata10004589.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004590.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004591.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004592.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004593.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004594.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004595.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004596.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004597.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004598.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004599.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004600.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004601.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004602.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004603.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004604.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004609.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004610.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004611.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004612.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004613.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004614.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004615.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004616.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004617.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004618.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004619.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004620.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004621.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004622.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004623.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004624.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004625.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004626.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004627.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004628.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004629.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004630.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004631.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata10004632.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata220.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata222.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata224.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata226.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata_ARRI_LogC3.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata_ARRI_LogC4.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata_Apple_Log.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata_BMD.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata_Canon_Daylight.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata_Canon_Tungsten.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata_Panasonic_VLog.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata_R3D_Log3G10.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata_S3SGamut3.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata_S3SGamut3_Cine_Venice.burnmetadata_node
+_project.macOS_color_toolkit/burnmetadata_S3SGamut3_Venice.burnmetadata_node
+_project.macOS_color_toolkit/clip591.clip_node
+_project.macOS_color_toolkit/clip591.clip_node_clip
+_project.macOS_color_toolkit/clip591.clip_node_format
+_project.macOS_color_toolkit/clip591.lut_node
+_project.macOS_color_toolkit/clip591.resize
+_project.macOS_color_toolkit/clip591.resize_node
+_project.macOS_color_toolkit/clrmgmt10002596.lut_node
+_project.macOS_color_toolkit/clrmgmt10002603.lut_node
+_project.macOS_color_toolkit/clrmgmt10002604.lut_node
+_project.macOS_color_toolkit/clrmgmt10002605.lut_node
+_project.macOS_color_toolkit/clrmgmt10002606.lut_node
+_project.macOS_color_toolkit/clrmgmt10002607.lut_node
+_project.macOS_color_toolkit/clrmgmt10002608.lut_node
+_project.macOS_color_toolkit/clrmgmt10002609.lut_node
+_project.macOS_color_toolkit/clrmgmt10002610.lut_node
+_project.macOS_color_toolkit/clrmgmt10002611.lut_node
+_project.macOS_color_toolkit/clrmgmt10002612.lut_node
+_project.macOS_color_toolkit/clrmgmt10002613.lut_node
+_project.macOS_color_toolkit/clrmgmt10002614.lut_node
+_project.macOS_color_toolkit/clrmgmt10002615.lut_node
+_project.macOS_color_toolkit/clrmgmt10002616.lut_node
+_project.macOS_color_toolkit/clrmgmt10002617.lut_node
+_project.macOS_color_toolkit/clrmgmt10002618.lut_node
+_project.macOS_color_toolkit/clrmgmt10002624.lut_node
+_project.macOS_color_toolkit/clrmgmt10002625.lut_node
+_project.macOS_color_toolkit/clrmgmt10002626.lut_node
+_project.macOS_color_toolkit/clrmgmt10002627.lut_node
+_project.macOS_color_toolkit/clrmgmt10002634.lut_node
+_project.macOS_color_toolkit/clrmgmt10002635.lut_node
+_project.macOS_color_toolkit/clrmgmt10002636.lut_node
+_project.macOS_color_toolkit/clrmgmt10002637.lut_node
+_project.macOS_color_toolkit/clrmgmt10002639.lut_node
+_project.macOS_color_toolkit/clrmgmt10002640.lut_node
+_project.macOS_color_toolkit/clrmgmt10002641.lut_node
+_project.macOS_color_toolkit/clrmgmt10002642.lut_node
+_project.macOS_color_toolkit/clrmgmt10002643.lut_node
+_project.macOS_color_toolkit/clrmgmt10002644.lut_node
+_project.macOS_color_toolkit/clrmgmt10002645.lut_node
+_project.macOS_color_toolkit/clrmgmt10002646.lut_node
+_project.macOS_color_toolkit/clrmgmt10002647.lut_node
+_project.macOS_color_toolkit/clrmgmt10002648.lut_node
+_project.macOS_color_toolkit/clrmgmt10002649.lut_node
+_project.macOS_color_toolkit/clrmgmt10002650.lut_node
+_project.macOS_color_toolkit/clrmgmt10002651.lut_node
+_project.macOS_color_toolkit/clrmgmt10002652.lut_node
+_project.macOS_color_toolkit/clrmgmt10002653.lut_node
+_project.macOS_color_toolkit/clrmgmt10002654.lut_node
+_project.macOS_color_toolkit/clrmgmt219.lut_node
+_project.macOS_color_toolkit/clrmgmt221.lut_node
+_project.macOS_color_toolkit/clrmgmt223.lut_node
+_project.macOS_color_toolkit/elbow1.elbow_node
+_project.macOS_color_toolkit/elbow10.elbow_node
+_project.macOS_color_toolkit/elbow11.elbow_node
+_project.macOS_color_toolkit/elbow12.elbow_node
+_project.macOS_color_toolkit/elbow13.elbow_node
+_project.macOS_color_toolkit/elbow14.elbow_node
+_project.macOS_color_toolkit/elbow15.elbow_node
+_project.macOS_color_toolkit/elbow16.elbow_node
+_project.macOS_color_toolkit/elbow17.elbow_node
+_project.macOS_color_toolkit/elbow18.elbow_node
+_project.macOS_color_toolkit/elbow19.elbow_node
+_project.macOS_color_toolkit/elbow2.elbow_node
+_project.macOS_color_toolkit/elbow20.elbow_node
+_project.macOS_color_toolkit/elbow21.elbow_node
+_project.macOS_color_toolkit/elbow22.elbow_node
+_project.macOS_color_toolkit/elbow23.elbow_node
+_project.macOS_color_toolkit/elbow24.elbow_node
+_project.macOS_color_toolkit/elbow25.elbow_node
+_project.macOS_color_toolkit/elbow26.elbow_node
+_project.macOS_color_toolkit/elbow27.elbow_node
+_project.macOS_color_toolkit/elbow28.elbow_node
+_project.macOS_color_toolkit/elbow29.elbow_node
+_project.macOS_color_toolkit/elbow3.elbow_node
+_project.macOS_color_toolkit/elbow30.elbow_node
+_project.macOS_color_toolkit/elbow31.elbow_node
+_project.macOS_color_toolkit/elbow32.elbow_node
+_project.macOS_color_toolkit/elbow33.elbow_node
+_project.macOS_color_toolkit/elbow34.elbow_node
+_project.macOS_color_toolkit/elbow35.elbow_node
+_project.macOS_color_toolkit/elbow36.elbow_node
+_project.macOS_color_toolkit/elbow37.elbow_node
+_project.macOS_color_toolkit/elbow38.elbow_node
+_project.macOS_color_toolkit/elbow39.elbow_node
+_project.macOS_color_toolkit/elbow4.elbow_node
+_project.macOS_color_toolkit/elbow40.elbow_node
+_project.macOS_color_toolkit/elbow41.elbow_node
+_project.macOS_color_toolkit/elbow42.elbow_node
+_project.macOS_color_toolkit/elbow43.elbow_node
+_project.macOS_color_toolkit/elbow44.elbow_node
+_project.macOS_color_toolkit/elbow45.elbow_node
+_project.macOS_color_toolkit/elbow46.elbow_node
+_project.macOS_color_toolkit/elbow47.elbow_node
+_project.macOS_color_toolkit/elbow48.elbow_node
+_project.macOS_color_toolkit/elbow49.elbow_node
+_project.macOS_color_toolkit/elbow5.elbow_node
+_project.macOS_color_toolkit/elbow50.elbow_node
+_project.macOS_color_toolkit/elbow51.elbow_node
+_project.macOS_color_toolkit/elbow52.elbow_node
+_project.macOS_color_toolkit/elbow53.elbow_node
+_project.macOS_color_toolkit/elbow54.elbow_node
+_project.macOS_color_toolkit/elbow55.elbow_node
+_project.macOS_color_toolkit/elbow56.elbow_node
+_project.macOS_color_toolkit/elbow57.elbow_node
+_project.macOS_color_toolkit/elbow58.elbow_node
+_project.macOS_color_toolkit/elbow59.elbow_node
+_project.macOS_color_toolkit/elbow6.elbow_node
+_project.macOS_color_toolkit/elbow60.elbow_node
+_project.macOS_color_toolkit/elbow61.elbow_node
+_project.macOS_color_toolkit/elbow62.elbow_node
+_project.macOS_color_toolkit/elbow63.elbow_node
+_project.macOS_color_toolkit/elbow64.elbow_node
+_project.macOS_color_toolkit/elbow65.elbow_node
+_project.macOS_color_toolkit/elbow66.elbow_node
+_project.macOS_color_toolkit/elbow67.elbow_node
+_project.macOS_color_toolkit/elbow68.elbow_node
+_project.macOS_color_toolkit/elbow69.elbow_node
+_project.macOS_color_toolkit/elbow7.elbow_node
+_project.macOS_color_toolkit/elbow71.elbow_node
+_project.macOS_color_toolkit/elbow72.elbow_node
+_project.macOS_color_toolkit/elbow73.elbow_node
+_project.macOS_color_toolkit/elbow74.elbow_node
+_project.macOS_color_toolkit/elbow75.elbow_node
+_project.macOS_color_toolkit/elbow76.elbow_node
+_project.macOS_color_toolkit/elbow77.elbow_node
+_project.macOS_color_toolkit/elbow78.elbow_node
+_project.macOS_color_toolkit/elbow79.elbow_node
+_project.macOS_color_toolkit/elbow80.elbow_node
+_project.macOS_color_toolkit/elbow81.elbow_node
+_project.macOS_color_toolkit/elbow82.elbow_node
+_project.macOS_color_toolkit/elbow83.elbow_node
+_project.macOS_color_toolkit/elbow9.elbow_node
+_project.macOS_color_toolkit/flame_colortoolkit_ARRI_LogC3.compass_node
+_project.macOS_color_toolkit/flame_colortoolkit_ARRI_LogC4.compass_node
+_project.macOS_color_toolkit/flame_colortoolkit_Apple_Log.compass_node
+_project.macOS_color_toolkit/flame_colortoolkit_BMD_Film5.compass_node
+_project.macOS_color_toolkit/flame_colortoolkit_Canon_Daylight.compass_node
+_project.macOS_color_toolkit/flame_colortoolkit_Canon_Tungsten.compass_node
+_project.macOS_color_toolkit/flame_colortoolkit_Panasonic_VLog.compass_node
+_project.macOS_color_toolkit/flame_colortoolkit_R3D_Log3G10.compass_node
+_project.macOS_color_toolkit/flame_colortoolkit_SONY_S3SGamut3.compass_node
+_project.macOS_color_toolkit/flame_colortoolkit_SONY_S3SGamut3_Cine_Venice.compass_node
+_project.macOS_color_toolkit/flame_colortoolkit_SONY_S3SGamut3_Venice.compass_node
+_project.macOS_color_toolkit/mux14.mux_node
+_project.macOS_color_toolkit/note1.note_node
+_project.macOS_color_toolkit/note2.note_node
+_project.macOS_color_toolkit/root.root_node
+sent 2507024 bytes
+received 17564 bytes
+1683058.67 bytes/sec
+total size is 2450904
+speedup is 0.97
+batch project bin created.
+# --------------------------------------------------------------------------- #
+
+# ================== UPDATING FLAME COLORTOOLKIT BOOKMARKS ================== #
+
+Bookmarks added successfully.
+# --------------------------------------------------------------------------- #
+
+# ======================== COPYING PROJEKT BOOKMARKS ======================== #
+
+
+Creating PROJEKT bookmarks.
+
+Successfully created PROJEKT bookmarks JSON in:
+
+cf_bookmarks.json
+# --------------------------------------------------------------------------- #
+
+# ===================== COPYING BURNIN METADATA PRESETS ===================== #
+
+
+synchronizing burn_metadata overlays.
+building file list ... done
+./
+overlay/
+sent 190 bytes
+received 32 bytes
+444.00 bytes/sec
+total size is 394371
+speedup is 1776.45
+media import preferences & rules synchronized.
+# --------------------------------------------------------------------------- #
+building file list ... done
+./
+overlay/
+overlay/burnin_info_HD.burnmetadata_node
+overlay/burnin_info_HD.burnmetadata_node.p
+overlay/burnin_info_UHD.burnmetadata_node
+overlay/burnin_info_UHD.burnmetadata_node.p
+sent 394785 bytes
+received 120 bytes
+789810.00 bytes/sec
+total size is 394371
+speedup is 1.00
+
+media import preferences & rules synchronized.
+# --------------------------------------------------------------------------- #
+
+# ===================== COPYING EXPORT / IMPORT PRESETS ===================== #
+
+
+synchronizing project export presets directories.
+building file list ... done
+./
+movie_file/
+movie_file/projekt-movie_file-color_grade.xml
+movie_file/projekt-movie_file-reference.xml
+movie_file/projekt-movie_file-wip-posting.xml
+sequence_publish/
+sequence_publish/projekt_sequence_publish-aaf.xml
+sequence_publish/projekt_sequence_publish-edl.xml
+sequence_publish/projekt_sequence_publish-xml.xml
+sequence_publish/projekt_shot_publish-ACEScg-v0000-batch_groups.xml
+sequence_publish/projekt_shot_publish-ACEScg-v0001-graded_pass.xml
+sent 34813 bytes
+received 214 bytes
+23351.33 bytes/sec
+total size is 34050
+speedup is 0.97
+
+Project export presets directories synchronized.
+# --------------------------------------------------------------------------- #
+
+synchronizing project import presets directories.
+building file list ... done
+./
+presets/
+presets/pattern.json
+sent 3263 bytes
+received 54 bytes
+6634.00 bytes/sec
+total size is 3093
+speedup is 0.93
+
+project import presets directories synchronized.
+# --------------------------------------------------------------------------- #
+
+# ======================= COPYING MEDIA IMPORT RULES ======================== #
+synchronizing media import preferences & rules.
+building file list ... done
+./
+pref/
+pref/ARRIMXF_1.fmt
+pref/ARRIRAW7_3.fmt
+pref/ARRIRAW_15.fmt
+pref/AVCHD_1.fmt
+pref/AudioIO_1.fmt
+pref/BMDRaw_2.fmt
+pref/Canon_13.fmt
+pref/ConformCurrent.json
+pref/Current.json
+pref/DPX_6.fmt
+pref/HDR_6.fmt
+pref/ImageIO_6.fmt
+pref/MIO Clip_2.fmt
+pref/MP4_9.fmt
+pref/MXF_13.fmt
+pref/OpenEXR_8.fmt
+pref/P2_13.fmt
+pref/PNG_6.fmt
+pref/PhotoShop_6.fmt
+pref/Quicktime_11.fmt
+pref/R3D_19.fmt
+pref/SonyMXF_13.fmt
+pref/SonyXAVC_2.fmt
+pref/XDCAMEX_9.fmt
+pref/XDCAM_13.fmt
+pref/conformResizeFormat
+pref/resizeFormat
+pref/resizeOptions
+sent 59310 bytes
+received 648 bytes
+119916.00 bytes/sec
+total size is 57393
+speedup is 0.96
+
+media import preferences & rules synchronized.
+# --------------------------------------------------------------------------- #
+
+# ========================= COPYING MEDIAHUB RULES ========================== #
+
+
+synchronizing mediahub preferences & rules.
+building file list ... done
+./
+pref/
+pref/ProjectsCurrent.json
+sent 300 bytes
+received 54 bytes
+708.00 bytes/sec
+total size is 125
+speedup is 0.35
+
+media import preferences & rules synchronized.
+# --------------------------------------------------------------------------- #
+# ======================== COPYING MEDIAIMPORT RULES ======================== #
+
+
+synchronizing mediaImport preferences & rules.
+building file list ... done
+./
+Project_Settings.ARRIMXF_1.0.rule
+Project_Settings.ARRIRAW7_3.0.rule
+Project_Settings.ARRIRAW_15.0.rule
+Project_Settings.AVCHD_1.0.rule
+Project_Settings.AudioIO_1.0.rule
+Project_Settings.BMDRaw_2.0.rule
+Project_Settings.Canon_13.0.rule
+Project_Settings.DPX_6.0.rule
+Project_Settings.HDR_6.0.rule
+Project_Settings.ImageIO_6.0.rule
+Project_Settings.MIO_Clip_2.0.rule
+Project_Settings.MP4_9.0.rule
+Project_Settings.MXF_13.0.rule
+Project_Settings.OpenEXR_8.0.rule
+Project_Settings.P2_13.0.rule
+Project_Settings.PNG_6.0.rule
+Project_Settings.PhotoShop_6.0.rule
+Project_Settings.Quicktime_11.0.rule
+Project_Settings.R3D_19.0.rule
+Project_Settings.SonyMXF_13.0.rule
+Project_Settings.SonyXAVC_2.0.rule
+Project_Settings.XDCAMEX_9.0.rule
+Project_Settings.XDCAM_13.0.rule
+pref/
+pref/ARRIMXF_1.fmt
+pref/ARRIRAW7_3.fmt
+pref/ARRIRAW_15.fmt
+pref/AVCHD_1.fmt
+pref/AudioIO_1.fmt
+pref/BMDRaw_2.fmt
+pref/Canon_13.fmt
+pref/ConformCurrent.json
+pref/Current.json
+pref/DPX_6.fmt
+pref/HDR_6.fmt
+pref/ImageIO_6.fmt
+pref/MIO Clip_2.fmt
+pref/MP4_9.fmt
+pref/MXF_13.fmt
+pref/OpenEXR_8.fmt
+pref/P2_13.fmt
+pref/PNG_6.fmt
+pref/PhotoShop_6.fmt
+pref/Quicktime_11.fmt
+pref/R3D_19.fmt
+pref/SonyMXF_13.fmt
+pref/SonyXAVC_2.fmt
+pref/XDCAMEX_9.fmt
+pref/XDCAM_13.fmt
+pref/conformResizeFormat
+pref/lutState
+pref/resizeFormat
+pref/resizeOptions
+sent 2259876 bytes
+received 1176 bytes
+4522104.00 bytes/sec
+total size is 2256082
+speedup is 1.00
+
+media import preferences & rules synchronized.
+# --------------------------------------------------------------------------- #
+
+# ======================== COPYING NUKE DIRECTORIES ========================= #
+synchronizing nuke directories.
+building file list ... done
+./
+init.py
+menu.py
+gizmos/
+gizmos/AlphaOps/
+gizmos/AlphaOps/AA_Curve.nk
+gizmos/AlphaOps/AA_Grade.nk
+gizmos/AlphaOps/AA_Keymix.nk
+gizmos/AlphaOps/AA_Mask.nk
+gizmos/AlphaOps/AA_Screen.nk
+gizmos/AlphaOps/AA_Stencil.nk
+pyScripts/
+pyScripts/__init__.py
+pyScripts/colorspace/
+pyScripts/colorspace/__init__.py
+pyScripts/colorspace/change_colorspace_to_raw.py
+pyScripts/colorspace/change_colorspace_to_scene_linear.py
+pyScripts/colorspace/change_colorspace_to_texture_paint.py
+pyScripts/dev/
+pyScripts/dev/__init__.py
+pyScripts/dev/print_environment_variables.py
+pyScripts/dev/print_nuke_environment.py
+pyScripts/gpu/
+pyScripts/gpu/__init__.py
+pyScripts/gpu/disableGPUAcceleration.py
+pyScripts/gpu/enableGPUAcceleration.py
+pyScripts/projekt/
+pyScripts/projekt/__init__.py
+pyScripts/projekt/hello_from_pyside2.py
+pyScripts/projekt/unpack_direnv_diff.py
+repo/
+repo/download_tools.py
+repo/projekt_core_v0.0.1/
+repo/projekt_core_v0.0.1/__init__.py
+repo/projekt_core_v0.0.1/projekt_core/
+repo/projekt_core_v0.0.1/projekt_core/__init__.py
+repo/projekt_core_v0.0.1/projekt_core/defaults.py
+repo/projekt_core_v0.0.1/projekt_core/favoritesRedux.py
+repo/projekt_core_v0.0.1/projekt_core/gizmoUtilities.py
+repo/projekt_core_v0.0.1/projekt_core/settings.py
+repo/projekt_core_v0.0.1/projekt_core/setupScripts.py
+repo/projekt_core_v0.0.1/projekt_core/toolsetUtilities.py
+repo/projekt_core_v0.0.1/projekt_core/utilities.py
+repo/projekt_core_v0.0.1/projekt_core/version_up.py
+repo/projekt_core_v0.0.1/projekt_core/vfxtools.py
+toolsets/
+toolsets/color/
+toolsets/color/LogConvert_ACESLog.nk
+sent 182611 bytes
+received 868 bytes
+366958.00 bytes/sec
+total size is 179772
+speedup is 0.98
+
+Logik PROJEKT Nuke directories synchronized.
+building file list ... done
+./
+flame_version
+nuke_version
+sent 221 bytes
+received 70 bytes
+582.00 bytes/sec
+total size is 7
+speedup is 0.02
+
+Logik PROJEKT etc directories synchronized.
+building file list ... done
+./
+download_aces_1_2_config.py
+download_aces_1_3_configs.py
+sent 19814 bytes
+received 70 bytes
+13256.00 bytes/sec
+total size is 19585
+speedup is 0.98
+
+Logik PROJEKT ocio directories synchronized.
+building file list ... done
+./
+company_templates/
+company_templates/significant_others/
+company_templates/significant_others/AE_OUTPUT_MODULES_20240110.aom
+company_templates/significant_others/default_folder_tree_with_file_templates-tree
+company_templates/significant_others/software/
+company_templates/significant_others/software/Indesign/
+company_templates/significant_others/software/Indesign/00000_JOB_NAME_YYYYMMDD_xx Folder.zip
+company_templates/significant_others/software/Indesign/00000_JOB_NAME_YYYYMMDD_xx Folder/
+company_templates/significant_others/software/Indesign/00000_JOB_NAME_YYYYMMDD_xx Folder/00000_JOB_NAME_2024MMDD_xx.indd
+company_templates/significant_others/software/Indesign/00000_JOB_NAME_YYYYMMDD_xx Folder/00000_JOB_NAME_YYYYMMDD_xx.idml
+company_templates/significant_others/software/Indesign/00000_JOB_NAME_YYYYMMDD_xx Folder/00000_JOB_NAME_YYYYMMDD_xx.indd
+company_templates/significant_others/software/Indesign/00000_JOB_NAME_YYYYMMDD_xx Folder/00000_JOB_NAME_YYYYMMDD_xx.pdf
+company_templates/significant_others/software/Indesign/00000_JOB_NAME_YYYYMMDD_xx Folder/Document fonts/
+company_templates/significant_others/software/Indesign/00000_JOB_NAME_YYYYMMDD_xx Folder/Document fonts/AdobeFnt23.lst
+company_templates/significant_others/software/Indesign/00000_JOB_NAME_YYYYMMDD_xx Folder/Document fonts/AdobeFnt24.lst
+company_templates/significant_others/software/Indesign/00000_JOB_NAME_YYYYMMDD_xx Folder/Document fonts/Apercu-Bold.otf
+company_templates/significant_others/software/Indesign/00000_JOB_NAME_YYYYMMDD_xx Folder/Document fonts/Apercu.otf
+company_templates/significant_others/software/Indesign/00000_JOB_NAME_YYYYMMDD_xx Folder/Links/
+company_templates/significant_others/software/Indesign/00000_JOB_NAME_YYYYMMDD_xx Folder/Links/210406_SignificantOthers_LogoTypeHorizontal_white.ai
+company_templates/significant_others/software/Indesign/00000_JOB_NAME_YYYYMMDD_xx Folder/Links/210406_SignificantOthers_LogoTypeIcon_White.ai
+company_templates/significant_others/software/Indesign/00000_JOB_NAME_YYYYMMDD_xx Folder/Links/Significant_Ohers_LogoOnly_White.ai
+company_templates/significant_others/software/Indesign/00000_JOB_NAME_YYYYMMDD_xx Folder/Links/Significant_Ohers_Logo_White.ai
+company_templates/significant_others/software/aftereffects/
+company_templates/significant_others/software/aftereffects/AE_OUTPUT_MODULES_20240110.aom
+company_templates/significant_others/software/aftereffects/01_GFX_Stringouts/
+company_templates/significant_others/software/aftereffects/01_GFX_Stringouts/0000_JOB_TEMPLATE_YYYYMMDD_xx.aep
+company_templates/significant_others/software/aftereffects/SH0010/
+company_templates/significant_others/software/aftereffects/SH0010/0000_JOB_TEMPLATE_YYYYMMDD_xx.aep
+company_templates/significant_others/software/aftereffects/SLATE_TEMPLATE/
+company_templates/significant_others/software/aftereffects/SLATE_TEMPLATE/00000_Slate_Template_16x9_MMDDYY.aep
+company_templates/significant_others/software/aftereffects/SLATE_TEMPLATE/0000_SLATE_TEMPLATE_YYYYMMDD_xx.aep
+company_templates/significant_others/software/aftereffects/SLATE_TEMPLATE/00000_Slate_Template_16x9_MMDDYY folder/
+company_templates/significant_others/software/aftereffects/SLATE_TEMPLATE/00000_Slate_Template_16x9_MMDDYY folder/00000_Slate_Template_16x9_MMDDYY.aep
+company_templates/significant_others/software/aftereffects/SLATE_TEMPLATE/00000_Slate_Template_16x9_MMDDYY folder/00000_Slate_Template_16x9_MMDDYYReport.txt
+company_templates/significant_others/software/aftereffects/SLATE_TEMPLATE/00000_Slate_Template_16x9_MMDDYY folder/(Footage)/
+company_templates/significant_others/software/aftereffects/SLATE_TEMPLATE/00000_Slate_Template_16x9_MMDDYY folder/(Footage)/02_Assets/
+company_templates/significant_others/software/aftereffects/SLATE_TEMPLATE/00000_Slate_Template_16x9_MMDDYY folder/(Footage)/02_Assets/internal/
+company_templates/significant_others/software/aftereffects/SLATE_TEMPLATE/00000_Slate_Template_16x9_MMDDYY folder/(Footage)/02_Assets/internal/2024-06-11/
+company_templates/significant_others/software/aftereffects/SLATE_TEMPLATE/00000_Slate_Template_16x9_MMDDYY folder/(Footage)/02_Assets/internal/2024-06-11/ASO2_SLATE_kl_v001 - TEST_02.csv
+company_templates/significant_others/software/aftereffects/SLATE_TEMPLATE/00000_Slate_Template_16x9_MMDDYY folder/(Footage)/02_Assets/internal/2024-06-11/ASO2_SLATE_kl_v001 - TEST_06_25_2024.csv
+company_templates/significant_others/software/aftereffects/SLATE_TEMPLATE/00000_Slate_Template_16x9_MMDDYY folder/(Footage)/02_Assets/internal/2024-06-11/ASO2_SLATE_kl_v001 - TEST_09_29_2024.csv
+company_templates/significant_others/software/aftereffects/SLATE_TEMPLATE/00000_Slate_Template_16x9_MMDDYY folder/(Footage)/02_Assets/internal/2024-06-11/ASO_SLATE_kl_v001 - Sheet1.csv
+company_templates/significant_others/software/aftereffects/SLATE_TEMPLATE/00000_Slate_Template_16x9_MMDDYY folder/(Footage)/02_Assets/internal/2024-06-11/ASO_SLATE_kl_v002 - Sheet1.csv
+company_templates/significant_others/software/aftereffects/SLATE_TEMPLATE/00000_Slate_Template_16x9_MMDDYY folder/(Footage)/02_Assets/internal/2024-06-11/ASO_SLATE_kl_v003 - Sheet1.csv
+company_templates/significant_others/software/aftereffects/SLATE_TEMPLATE/00000_Slate_Template_16x9_MMDDYY folder/(Footage)/03_Ref/
+company_templates/significant_others/software/aftereffects/SLATE_TEMPLATE/00000_Slate_Template_16x9_MMDDYY folder/(Footage)/03_Ref/SO_Slate_2398-20160229-PRORES_HQ_REF_1920x1080.mov
+company_templates/significant_others/software/aftereffects/SLATE_TEMPLATE/0000_SLATE_TEMPLATE_YYYYMMDD_xx_AME/
+company_templates/significant_others/software/aftereffects/SLATE_TEMPLATE/0000_SLATE_TEMPLATE_YYYYMMDD_xx_AME/tmpAEtoAMEProject-ISCI_TITLE_RESOLUTION.aep
+company_templates/significant_others/software/c4d/
+company_templates/significant_others/software/c4d/SH0010/
+company_templates/significant_others/software/c4d/SH0010/0000_SH0010_xx_v001.c4d
+company_templates/significant_others/software/premiere/
+company_templates/significant_others/software/premiere/SRTs/
+company_templates/significant_others/software/premiere/SRTs/xxxxx_jobtitle_AudioQC_xx_v001 copy.prproj
+company_templates/significant_others/software/premiere/SRTs/xxxxx_jobtitle_SRT_xx_v001.prproj
+nuke/
+nuke/ING_LogConvert_ACESLog2.nk
+nuke/00_script-start/
+nuke/00_script-start/00_2d-start_v001.nk
+nuke/99_tasks/
+nuke/99_tasks/task-comp.nk
+nuke/99_tasks/task-roto.nk
+sent 299327 bytes
+received 990 bytes
+600634.00 bytes/sec
+total size is 295627
+speedup is 0.98
+
+Logik PROJEKT templates directories synchronized.
+Logik PROJEKT .envrc file created.
+# --------------------------------------------------------------------------- #
+
+# ================= CREATING EDITORIAL STRUCTURE - PREMIERE ================= #
+
+
+Creating Premiere project directory structure.
+
+Created directory: /PROJEKTS/555_test_test/editorial/adobe_premiere/02_footage
+Created directory: /PROJEKTS/555_test_test/editorial/adobe_premiere/03_audio
+Created directory: /PROJEKTS/555_test_test/editorial/adobe_premiere/04_gfx
+Created directory: /PROJEKTS/555_test_test/editorial/adobe_premiere/05_stills
+Created directory: /PROJEKTS/555_test_test/editorial/adobe_premiere/06_color
+Created directory: /PROJEKTS/555_test_test/editorial/adobe_premiere/07_misc
+Created directory: /PROJEKTS/555_test_test/editorial/adobe_premiere/08_postings
+Creating symbolic links...
+Created symlink: /PROJEKTS/555_test_test/editorial/adobe_premiere/02_footage/03_misc -> /PROJEKTS/555_test_test/assets/footage
+Created symlink: /PROJEKTS/555_test_test/editorial/adobe_premiere/02_footage/05_graded -> /PROJEKTS/555_test_test/assets/footage/graded
+Created symlink: /PROJEKTS/555_test_test/editorial/adobe_premiere/02_footage/04_raw -> /PROJEKTS/555_test_test/assets/footage/raw
+Created symlink: /PROJEKTS/555_test_test/editorial/adobe_premiere/02_footage/02_stock -> /PROJEKTS/555_test_test/assets/footage/stock
+Created symlink: /PROJEKTS/555_test_test/editorial/adobe_premiere/02_footage/01_transcodes -> /PROJEKTS/555_test_test/assets/footage/transcodes
+Created symlink: /PROJEKTS/555_test_test/editorial/adobe_premiere/03_audio/01_mix -> /PROJEKTS/555_test_test/assets/audio/mix
+Created symlink: /PROJEKTS/555_test_test/editorial/adobe_premiere/03_audio/02_music -> /PROJEKTS/555_test_test/assets/audio/music
+Created symlink: /PROJEKTS/555_test_test/editorial/adobe_premiere/03_audio/03_sfx -> /PROJEKTS/555_test_test/assets/audio/sound_effects
+Created symlink: /PROJEKTS/555_test_test/editorial/adobe_premiere/03_audio/04_vo -> /PROJEKTS/555_test_test/assets/audio/voiceover
+Created symlink: /PROJEKTS/555_test_test/editorial/adobe_premiere/03_audio/05_production -> /PROJEKTS/555_test_test/assets/audio/production
+Created symlink: /PROJEKTS/555_test_test/editorial/adobe_premiere/04_gfx/01_aftereffects -> /PROJEKTS/555_test_test/assets/graphics
+Created symlink: /PROJEKTS/555_test_test/editorial/adobe_premiere/04_gfx/02_input -> /PROJEKTS/555_test_test/assets/graphics
+Created symlink: /PROJEKTS/555_test_test/editorial/adobe_premiere/04_gfx/03_output -> /PROJEKTS/555_test_test/assets/graphics
+Created symlink: /PROJEKTS/555_test_test/editorial/adobe_premiere/05_stills/01_photoshop -> /PROJEKTS/555_test_test/assets/photoshop
+Created symlink: /PROJEKTS/555_test_test/editorial/adobe_premiere/05_stills/02_images -> /PROJEKTS/555_test_test/assets/images
+Created symlink: /PROJEKTS/555_test_test/editorial/adobe_premiere/05_stills/03_supers -> /PROJEKTS/555_test_test/assets/supers
+Created symlink: /PROJEKTS/555_test_test/editorial/adobe_premiere/05_stills/04_legal -> /PROJEKTS/555_test_test/assets/legal
+Created symlink: /PROJEKTS/555_test_test/editorial/adobe_premiere/08_postings/01_postings -> /PROJEKTS/555_test_test/work_in_progress/postings
+Created symlink: /PROJEKTS/555_test_test/editorial/adobe_premiere/08_postings/02_masters -> /PROJEKTS/555_test_test/masters
+Copying template directories...
+Copied directory: /Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/resources/adobe/premiere/premiere_templates/premiere_projekts -> /PROJEKTS/555_test_test/editorial/adobe_premiere/01_projekts
+Copied directory: /Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/resources/adobe/premiere/premiere_presets/premiere_export_presets -> /PROJEKTS/555_test_test/editorial/adobe_premiere/07_misc/01_export_presets
+Copied directory: /Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/resources/adobe/premiere/premiere_fonts -> /PROJEKTS/555_test_test/editorial/adobe_premiere/07_misc/02_fonts
+Copied directory: /Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/resources/adobe/premiere/premiere_scripts -> /PROJEKTS/555_test_test/editorial/adobe_premiere/07_misc/03_scripts
+Copied directory: /Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/resources/adobe/premiere/premiere_templates/premiere_slates -> /PROJEKTS/555_test_test/editorial/adobe_premiere/07_misc/04_slates
+Copied directory: /Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/resources/adobe/premiere/premiere_notes -> /PROJEKTS/555_test_test/editorial/adobe_premiere/07_misc/05_notes
+Copied directory: /Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/resources/adobe/premiere/premiere_templates/premiere_aspect_ratio_masks -> /PROJEKTS/555_test_test/editorial/adobe_premiere/07_misc/06_aspect_ratio_masks
+Premiere project directory structure, symbolic links, and templates created successfully.
+Location: /PROJEKTS/555_test_test/editorial/adobe_premiere
+# --------------------------------------------------------------------------- #
+# ========================= COPYING PYTHON SCRIPTS ========================== #
+
+
+synchronizing python directories.
+building file list ... done
+./
+sent 3119 bytes
+received 26 bytes
+6290.00 bytes/sec
+total size is 1173741
+speedup is 373.21
+
+Logik PROJEKT Python scripts synchronized.
+# --------------------------------------------------------------------------- #
+# ======================== COPYING SYNCOLOR POLICIES ======================== #
+
+
+Debug: the_projekt_os:
+Darwin
+Debug: the_projekts_dir:
+/PROJEKTS
+Debug: the_projekt_dir:
+/PROJEKTS/555_test_test
+Debug: the_projekt_flame_dirs:
+/Volumes/flame_projekts
+Debug: the_projekt_flame_dir:
+/Volumes/flame_projekts/555_test_test_2026_0_1_studio1
+Debug: tgt_projekt_policies_dir:
+/PROJEKTS/555_test_test/utilities/Synergy/SynColor/Shared/policies
+Debug: src_policies_dir:
+resources/flame/Syncolor/Shared/policies
+Debug: tgt_policies_dir:
+/Applications/Autodesk/Synergy/SynColor/Shared/policies
+synchronizing Syncolor policies directories.
+building file list ... done
+./
+sent 1883 bytes
+received 26 bytes
+3818.00 bytes/sec
+total size is 83315
+speedup is 43.64
+
+Syncolor policies synchronized.
+# --------------------------------------------------------------------------- #
+# --------------------------------------------------------------------------- #
+
+# ======================= COPYING SYNCOLOR TRANSFORMS ======================= #
+
+
+Debug: the_projekt_os:
+Darwin
+Debug: the_projekts_dir:
+/PROJEKTS
+Debug: the_projekt_dir:
+/PROJEKTS/555_test_test
+Debug: the_projekt_flame_dirs:
+/Volumes/flame_projekts
+Debug: the_projekt_flame_dir:
+/Volumes/flame_projekts/555_test_test_2026_0_1_studio1
+Debug: tgt_projekt_transforms_dir:
+/PROJEKTS/555_test_test/utilities/Synergy/SynColor/Shared/transforms
+Debug: src_transforms_dir:
+resources/flame/Syncolor/Shared/transforms
+Debug: tgt_transforms_dir:
+/Applications/Autodesk/Synergy/SynColor/Shared/transforms
+synchronizing Syncolor transforms directories.
+building file list ... done
+./
+sent 6746 bytes
+received 26 bytes
+13544.00 bytes/sec
+total size is 812686571
+speedup is 120006.88
+
+media import preferences & rules synchronized.
+# --------------------------------------------------------------------------- #
+# --------------------------------------------------------------------------- #
+
+# ==================== CREATING A FLAME ARCHIVING SCRIPT ==================== #
+Creating PROJEKT archive script.
+Successfully created PROJEKT flame archive template to:
+555_test_test-archive_script-studio1.sh
+# --------------------------------------------------------------------------- #
+
+Creating PROJEKT archive crontab script.
+Successfully created PROJEKT flame archive crontab script to:
+
+555_test_test-add_archive_script_to_crontab-studio1.sh
+# --------------------------------------------------------------------------- #
+
+Modifying PROJEKT archive scripts.
+Successfully modified script: 555_test_test-archive_script-studio1.sh
+
+Successfully modified script: 555_test_test-add_archive_script_to_crontab-studio1.sh
+
+# --------------------------------------------------------------------------- #
+
+Successfully modified PROJEKT flame archive scripts:
+
+555_test_test-archive_script-studio1.sh
+
+555_test_test-add_archive_script_to_crontab-studio1.sh
+
+# --------------------------------------------------------------------------- #
+
+# ===================== CREATING AN RSYNC BACKUP SCRIPT ===================== #
+
+
+Creating PROJEKT rsync script.
+Successfully copied PROJEKT flame rsync template to:
+
+555_test_test-backup_script-studio1.sh
+# --------------------------------------------------------------------------- #
+
+Creating PROJEKT rsync script.
+Successfully copied PROJEKT flame rsync crontab script to:
+
+555_test_test-add_backup_script_to_crontab-studio1.sh
+# --------------------------------------------------------------------------- #
+
+Modifying PROJEKT rsync script.
+Successfully modified script: 555_test_test-backup_script-studio1.sh
+Successfully modified script: 555_test_test-add_backup_script_to_crontab-studio1.sh
+# --------------------------------------------------------------------------- #
+
+Successfully modified PROJEKT flame archive:
+
+555_test_test-backup_script-studio1.sh
+555_test_test-add_backup_script_to_crontab-studio1.sh
+
+# --------------------------------------------------------------------------- #
+
+# ==================== CREATING A FLAME LAUNCHER SCRIPT ===================== #
+Creating PROJEKT flame launcher script.
+Successfully copied PROJEKT flame launcher template to:
+
+555_test_test-flame_launcher-studio1-2025_06_08.bak
+# --------------------------------------------------------------------------- #
+
+Modifying PROJEKT launcher script.
+
+Successfully modified script: 555_test_test-flame_launcher-studio1.sh
+Successfully modified PROJEKT flame launcher:
+
+555_test_test-flame_launcher-studio1.sh
+# --------------------------------------------------------------------------- #
+
+# ====================== BACKING UP PROJEKT FLAME XML ======================= #
+
+
+Archiving PROJEKT parameters XML.
+Successfully archived PROJEKT parameters XML to:
+
+projekt_parameters-2025_06_08-555_test_test-studio1.xml
+# --------------------------------------------------------------------------- #
+# ======================= BACKING UP PROJEKT TEMPLATE ======================= #
+
+
+Archiving PROJEKT template JSON.
+Successfully archived PROJEKT template JSON to:
+
+projekt_template-2025_06_08-555_test_test.json
+# --------------------------------------------------------------------------- #
+
+# ===================== BACKING UP PROJEKT CREATION LOG ===================== #
+
+
+Archiving PROJEKT creation log.
+Successfully archived PROJEKT creation log to:
+
+projekt_creation_log-2025_06_08-555_test_test-studio1
+# --------------------------------------------------------------------------- #
+Successfully completed modules/functions/create/create_projekt.py
 Started execution of modules/functions/run/run_flame_launcher_script.py
 # ==================== CREATING A CUSTOM FLAME LAUNCHER ===================== #
 Flame can now be launched with the following options:
@@ -297,12 +2428,12 @@ Flame can now be launched with the following options:
 
 
   /opt/Autodesk/flame_2026.0.1/bin/startFlame
-   -J lions_film_2026_0_1_studio1
+   -J 555_test_test_2026_0_1_studio1
    --start-workspace="studio1" --create-workspace
    create_projekt_layout.py
 Graphics : VULKAN
----------------------------------------------------------------------------
 
+---------------------------------------------------------------------------
 MP: Using 20 cpus (20 visible)
 Output log to: '/opt/Autodesk/log/flame202601_studio1_app.log'.
 Parsing Tooltips XML
@@ -314,14 +2445,14 @@ Autodesk reserves the right to alter product offerings and specifications at any
 Autodesk(R) Flame(R) 2026.0.1  RELEASE
 
 BUILD DATE : Fri May 16 02:05:15 2025
-EXEC DATE  : Sun Jun  8 17:07:29 2025 - (1749395249)
-SYS CONFIG : ERROR parsing /opt/Autodesk/cfg/.2026.0.1/sysconfig.cfg:30:9: Missing a name for object member.
+EXEC DATE  : Sun Jun  8 17:55:51 2025 - (1749398151)
+SYS CONFIG : /opt/Autodesk/cfg/.2026.0.1/sysconfig.cfg
 POINTER    : Trying wacom
 CONFIG     : /opt/Autodesk/.flamefamily_2026.0.1/cfg/init.cfg
 AUDIO      : Core Audio
 CLIPMGT    : ArchiveLibrary = /opt/Autodesk/archive/.
 MENU       : /opt/Autodesk/.flamefamily_2026.0.1/menu/default.menu
-2025-06-08 17:07:29.873 flame[42513:114727] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+2025-06-08 17:55:51.975 flame[74188:418520] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
 POINTER : Initialising.
 POINTER : Initialising Wacom UD.
 MEDIA : Initialising I/O...
@@ -339,14 +2470,17 @@ current_script_dir: /opt/Autodesk/shared/python/logik_projekt/projekt_tools/logi
 modules_dir: /opt/Autodesk/shared/python/logik_projekt/projekt_tools/logik_projekt_create_scripts/scripts/modules
 current_script_dir: /opt/Autodesk/shared/python/logik_projekt/projekt_tools/logik_projekt_create_scripts/scripts
 modules_dir: /opt/Autodesk/shared/python/logik_projekt/projekt_tools/logik_projekt_create_scripts/scripts/modules
-PROJECT    : lions_film_2026_0_1_studio1
+Cannot send to destination framestore ID: 322: Failed establishing connection to marseille (322)
+Cannot send to destination framestore ID: 322: Failed establishing connection to marseille (322)
+Failed to retrieve volumes list on framestore id 322: Connection refused
+PROJECT    : 555_test_test_2026_0_1_studio1
 USER DIR   : /Users/chadiabo/Library/Preferences/Autodesk/flame
-Locking target lions_film_2026_0_1_studio1...
+Locking target 555_test_test_2026_0_1_studio1...
 Options: LIMIT_PURGE_TIME
-Initiating integrity check ...
-Extracting frames from /Volumes/flame_projekts/lions_film_2026_0_1_studio1/catalog/studio1.wksp/.#workspace.000.wks.
+      Initiating integrity check ...
+Extracting frames from /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/catalog/studio1.wksp/.#workspace.000.wks.
 Extracted 0 frame.
-Extracting frames from /Volumes/flame_projekts/lions_film_2026_0_1_studio1/catalog/.#project.000.clib.
+Extracting frames from /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/catalog/.#project.000.clib.
 Extracted 0 frame.
 Adding references to attachments...
 Verifying video stonefs frames ...
@@ -354,25 +2488,26 @@ Verifying video stonefs frames ...
          Verifying waveform stonefs frames ...
       Recovering lost frames ...
 Recovered 0 lost frames ...
-         Processing unreferenced (leaked) media on target lions_film_2026_0_1_studio1...:
-         {
+         Processing unreferenced (leaked) media on target 555_test_test_2026_0_1_studio1...:
+{
          }
-Integrity check successful in 0.028535 sec
+Integrity check successful in 0.030152 sec
       Purging unreferenced frames ...
-Unlocking target lions_film_2026_0_1_studio1 ...
-Closing target lions_film_2026_0_1_studio1...
-CONFIG     : /Volumes/flame_projekts/lions_film_2026_0_1_studio1/setups/cfg/lions_film_2026_0_1_studio1.cfg
+Unlocking target 555_test_test_2026_0_1_studio1 ...
+Closing target 555_test_test_2026_0_1_studio1...
+CONFIG     : /Volumes/flame_projekts/555_test_test_2026_0_1_studio1/setups/cfg/555_test_test_2026_0_1_studio1.cfg
 VIDEO PREVIEW : DVI broadcast, channel 1, 2560x1440, +0, +0, , freesync (none), 10-bit, YCrCb Rec.709 4:2:2, Normal
-VIDEO WINDOW: no device matching (1920,1080,8-bit 2997p, YCrCb Rec.709 4:2:2, Normal)
+VIDEO WINDOW: no device matching (3840,2160,8-bit 25000p, YCrCb Rec.709 4:2:2, Normal)
 VIDEO WINDOW: video preview will be disabled.
 PROJECT VIDEO PREVIEW: Using the following parameters for the preview device:
 VIDEO PREVIEW : , channel -1, 0x0, +0, +0, ,  (none), 0-bit, None
 VIDEO      : width: 1920, height: 1080, pixelFormat = 10-bit, timing: 1920X1080_5994I
 MEMORY     : Bytes available: 58818 MB
-MEMORY     : Allocated 11796 MB at address 0x43ef94000 using mmap()
+MEMORY     : Allocated 11796 MB at address 0x460000000 using mmap()
 VIDEO: Display refresh rate detected as: 60.00 Hz
+
 EDL Module: Portions Copyright 1991-1998 ALBA Editorial, Inc.,
-All Rights Reserved.
+            All Rights Reserved.
 Cannot clear slate cache: No configured partition [Partition not configured or unmounted]
 Output log to: '/opt/Autodesk/log/slateDiskCacheCleaner.log'.
 Python encountered ModuleNotFoundError("No module named 'nuke'") in unknown code
@@ -392,9 +2527,9 @@ New folder 'ch' created successfully in library ''desktops''.
 desktops_library = \
 	create_or_validate_library(
 		the_current_workspace,
-		'desktops',
+'desktops',
 		object_colors.get("Dark Red")
-)
+	)
 Library 'desktops' already exists in workspace ''studio1''.
 
 + --------------------------------------------------------------------------- +
@@ -412,8 +2547,8 @@ New folder 'common' created successfully in library ''desktops''.
 
 
 + --------------------------------------------------------------------------- +
-Processing file: library_template_02.json
 
+  Processing file: library_template_02.json
 + --------------------------------------------------------------------------- +
 
   Creating: library: 'reference'
@@ -421,7 +2556,7 @@ Processing file: library_template_02.json
 reference_library = \
 	create_or_validate_library(
 		the_current_workspace,
-'reference',
+		'reference',
 		object_colors.get("Dark Orange")
 	)
 New library 'reference' created successfully in workspace ''studio1''.
@@ -443,9 +2578,9 @@ New folder 'reference_images' created successfully in library ''reference''.
 
 reference_movies_folder = \
 	create_or_validate_object(
-reference_library,
+		reference_library,
 		'reference_movies',
-		'folder'
+'folder'
 	)
 New folder 'reference_movies' created successfully in library ''reference''.
 + --------------------------------------------------------------------------- +
@@ -453,7 +2588,7 @@ New folder 'reference_movies' created successfully in library ''reference''.
   Creating: folder: 'reference_style_guide'
 
 reference_style_guide_folder = \
-	create_or_validate_object(
+create_or_validate_object(
 		reference_library,
 		'reference_style_guide',
 		'folder'
@@ -464,11 +2599,11 @@ New folder 'reference_style_guide' created successfully in library ''reference''
   Creating: folder: today_date + '-reference'
 
 todays_reference_folder = \
-	create_or_validate_object(
+create_or_validate_object(
 		reference_library,
 		today_date + '-reference',
 		'folder'
-)
+	)
 New folder '2025-06-08-reference' created successfully in library ''reference''.
 + --------------------------------------------------------------------------- +
 
@@ -476,13 +2611,12 @@ New folder '2025-06-08-reference' created successfully in library ''reference''.
 + --------------------------------------------------------------------------- +
 
   Processing file: library_template_03.json
-
 + --------------------------------------------------------------------------- +
 
   Creating: library: 'editorial'
 
 editorial_library = \
-create_or_validate_library(
+	create_or_validate_library(
 		the_current_workspace,
 		'editorial',
 		object_colors.get("Dark Gold")
@@ -497,16 +2631,17 @@ conforms_folder = \
 		editorial_library,
 		'conforms',
 		'folder'
-	)
-New folder 'conforms' created successfully in library ''editorial''.
+)
+
+  New folder 'conforms' created successfully in library ''editorial''.
 
 + --------------------------------------------------------------------------- +
 
   Creating: folder: 'work_in_progress'
 
 work_in_progress_folder = \
-	create_or_validate_object(
-editorial_library,
+create_or_validate_object(
+		editorial_library,
 		'work_in_progress',
 		'folder'
 	)
@@ -531,8 +2666,8 @@ New folder 'postings' created successfully in library ''work_in_progress''.
   Processing file: library_template_04.json
 
 + --------------------------------------------------------------------------- +
+Creating: library: 'assets'
 
-  Creating: library: 'assets'
 assets_library = \
 	create_or_validate_library(
 		the_current_workspace,
@@ -560,7 +2695,7 @@ audio_folder = \
 	create_or_validate_object(
 		assets_library,
 		'audio',
-'folder'
+		'folder'
 	)
 New folder 'audio' created successfully in library ''assets''.
 + --------------------------------------------------------------------------- +
@@ -568,29 +2703,28 @@ New folder 'audio' created successfully in library ''assets''.
   Creating: folder: 'dub'
 
 dub_folder = \
-	create_or_validate_object(
+create_or_validate_object(
 		audio_folder,
 		'dub',
 		'folder'
-)
+	)
 New folder 'dub' created successfully in library ''audio''.
 + --------------------------------------------------------------------------- +
 
   Creating: folder: 'mix'
-
 mix_folder = \
 	create_or_validate_object(
 		audio_folder,
 		'mix',
 		'folder'
 	)
-
 New folder 'mix' created successfully in library ''audio''.
 + --------------------------------------------------------------------------- +
 
   Creating: folder: 'music'
+
 music_folder = \
-	create_or_validate_object(
+create_or_validate_object(
 		audio_folder,
 		'music',
 		'folder'
@@ -604,9 +2738,8 @@ production_folder = \
 	create_or_validate_object(
 		audio_folder,
 		'production',
-		'folder'
+'folder'
 	)
-
 New folder 'production' created successfully in library ''audio''.
 + --------------------------------------------------------------------------- +
 
@@ -617,7 +2750,7 @@ sound_effects_folder = \
 		audio_folder,
 		'sound_effects',
 		'folder'
-)
+	)
 New folder 'sound_effects' created successfully in library ''audio''.
 + --------------------------------------------------------------------------- +
 
@@ -625,9 +2758,9 @@ New folder 'sound_effects' created successfully in library ''audio''.
 
 stems_folder = \
 	create_or_validate_object(
-		audio_folder,
+audio_folder,
 		'stems',
-'folder'
+		'folder'
 	)
 New folder 'stems' created successfully in library ''audio''.
 + --------------------------------------------------------------------------- +
@@ -635,8 +2768,8 @@ New folder 'stems' created successfully in library ''audio''.
   Creating: folder: 'voiceover'
 
 voiceover_folder = \
-	create_or_validate_object(
-audio_folder,
+create_or_validate_object(
+		audio_folder,
 		'voiceover',
 		'folder'
 	)
@@ -650,7 +2783,7 @@ cgi_folder = \
 		assets_library,
 		'CGI',
 		'folder'
-	)
+)
 New folder 'CGI' created successfully in library ''assets''.
 + --------------------------------------------------------------------------- +
 
@@ -658,7 +2791,7 @@ New folder 'CGI' created successfully in library ''assets''.
 
 font_folder = \
 	create_or_validate_object(
-		assets_library,
+assets_library,
 		'font',
 		'folder'
 	)
@@ -670,9 +2803,10 @@ New folder 'font' created successfully in library ''assets''.
 footage_folder = \
 	create_or_validate_object(
 		assets_library,
-'footage',
+		'footage',
 		'folder'
 	)
+
 New folder 'footage' created successfully in library ''assets''.
 + --------------------------------------------------------------------------- +
 
@@ -680,7 +2814,7 @@ New folder 'footage' created successfully in library ''assets''.
 
 graded_folder = \
 	create_or_validate_object(
-footage_folder,
+		footage_folder,
 		'graded',
 		'folder'
 	)
@@ -692,20 +2826,21 @@ New folder 'graded' created successfully in library ''footage''.
 raw_folder = \
 	create_or_validate_object(
 		footage_folder,
-		'raw',
+'raw',
 		'folder'
-)
+	)
 New folder 'raw' created successfully in library ''footage''.
 + --------------------------------------------------------------------------- +
 
   Creating: folder: 'stock'
 
 stock_folder = \
-create_or_validate_object(
+	create_or_validate_object(
 		footage_folder,
 		'stock',
 		'folder'
 	)
+
 New folder 'stock' created successfully in library ''footage''.
 + --------------------------------------------------------------------------- +
 
@@ -715,7 +2850,7 @@ transcodes_folder = \
 	create_or_validate_object(
 		footage_folder,
 		'transcodes',
-		'folder'
+'folder'
 	)
 New folder 'transcodes' created successfully in library ''footage''.
 + --------------------------------------------------------------------------- +
@@ -723,10 +2858,10 @@ New folder 'transcodes' created successfully in library ''footage''.
   Creating: folder: 'graphics'
 
 graphics_folder = \
-create_or_validate_object(
+	create_or_validate_object(
 		assets_library,
 		'graphics',
-		'folder'
+'folder'
 	)
 New folder 'graphics' created successfully in library ''assets''.
 + --------------------------------------------------------------------------- +
@@ -734,19 +2869,20 @@ New folder 'graphics' created successfully in library ''assets''.
   Creating: folder: 'images'
 
 images_folder = \
-create_or_validate_object(
+	create_or_validate_object(
 		assets_library,
-		'images',
+'images',
 		'folder'
 	)
 New folder 'images' created successfully in library ''assets''.
 + --------------------------------------------------------------------------- +
 
   Creating: folder: 'legal'
+
 legal_folder = \
 	create_or_validate_object(
 		assets_library,
-		'legal',
+'legal',
 		'folder'
 	)
 New folder 'legal' created successfully in library ''assets''.
@@ -760,7 +2896,6 @@ matchmoving_folder = \
 		'matchmoving',
 		'folder'
 	)
-
 New folder 'matchmoving' created successfully in library ''assets''.
 + --------------------------------------------------------------------------- +
 
@@ -770,7 +2905,7 @@ miscellaneous_folder = \
 	create_or_validate_object(
 		assets_library,
 		'miscellaneous',
-		'folder'
+'folder'
 	)
 New folder 'miscellaneous' created successfully in library ''assets''.
 + --------------------------------------------------------------------------- +
@@ -780,7 +2915,7 @@ New folder 'miscellaneous' created successfully in library ''assets''.
 paint_folder = \
 	create_or_validate_object(
 		assets_library,
-'paint',
+		'paint',
 		'folder'
 	)
 New folder 'paint' created successfully in library ''assets''.
@@ -790,9 +2925,9 @@ New folder 'paint' created successfully in library ''assets''.
 
 photoshop_folder = \
 	create_or_validate_object(
-		assets_library,
+assets_library,
 		'photoshop',
-'folder'
+		'folder'
 	)
 New folder 'photoshop' created successfully in library ''assets''.
 + --------------------------------------------------------------------------- +
@@ -813,9 +2948,9 @@ New folder 'roto' created successfully in library ''assets''.
 slates_folder = \
 	create_or_validate_object(
 		assets_library,
-'slates',
+		'slates',
 		'folder'
-	)
+)
 New folder 'slates' created successfully in library ''assets''.
 + --------------------------------------------------------------------------- +
 
@@ -825,8 +2960,8 @@ subtitles_folder = \
 	create_or_validate_object(
 		assets_library,
 		'subtitles',
-'folder'
-	)
+		'folder'
+)
 New folder 'subtitles' created successfully in library ''assets''.
 + --------------------------------------------------------------------------- +
 
@@ -836,8 +2971,8 @@ supers_folder = \
 	create_or_validate_object(
 		assets_library,
 		'supers',
-'folder'
-	)
+		'folder'
+)
 New folder 'supers' created successfully in library ''assets''.
 + --------------------------------------------------------------------------- +
 
@@ -846,38 +2981,39 @@ New folder 'supers' created successfully in library ''assets''.
 titles_folder = \
 	create_or_validate_object(
 		assets_library,
-'titles',
+		'titles',
 		'folder'
 	)
+
 New folder 'titles' created successfully in library ''assets''.
 + --------------------------------------------------------------------------- +
 
   Creating: folder: 'tracking'
 
 tracking_folder = \
-	create_or_validate_object(
+create_or_validate_object(
 		assets_library,
-'tracking',
+		'tracking',
 		'folder'
 	)
 New folder 'tracking' created successfully in library ''assets''.
 + --------------------------------------------------------------------------- +
-Creating: folder: 'video'
+
+  Creating: folder: 'video'
 
 video_folder = \
 	create_or_validate_object(
 		assets_library,
 		'video',
-		'folder'
+'folder'
 	)
-
 New folder 'video' created successfully in library ''assets''.
 + --------------------------------------------------------------------------- +
 
 
 + --------------------------------------------------------------------------- +
-Processing file: library_template_05.json
 
+  Processing file: library_template_05.json
 + --------------------------------------------------------------------------- +
 
   Creating: library: 'masters'
@@ -886,7 +3022,7 @@ masters_library = \
 	create_or_validate_library(
 		the_current_workspace,
 		'masters',
-object_colors.get("Dark Blue")
+		object_colors.get("Dark Blue")
 	)
 New library 'masters' created successfully in workspace ''studio1''.
 + --------------------------------------------------------------------------- +
@@ -913,6 +3049,7 @@ final_masters_reel = \
 		'reel',
 		object_colors.get("Red")
 	)
+
 New reel 'final_masters' created successfully in library ''final_masters''.
 + --------------------------------------------------------------------------- +
 
@@ -922,7 +3059,7 @@ versions_reel = \
 	create_or_validate_object(
 		final_masters_folder,
 		'versions',
-		'reel',
+'reel',
 		object_colors.get("Green")
 	)
 New reel 'versions' created successfully in library ''final_masters''.
@@ -934,13 +3071,13 @@ slates_reel = \
 	create_or_validate_object(
 		final_masters_folder,
 		'slates',
-'reel',
+		'reel',
 		object_colors.get("Blue")
-	)
+)
 New reel 'slates' created successfully in library ''final_masters''.
-
 + --------------------------------------------------------------------------- +
-Creating: reel: 'slated_masters'
+
+  Creating: reel: 'slated_masters'
 
 slated_masters_reel = \
 	create_or_validate_object(
@@ -948,7 +3085,7 @@ slated_masters_reel = \
 		'slated_masters',
 		'reel',
 		object_colors.get("Dark Gold")
-	)
+)
 New reel 'slated_masters' created successfully in library ''final_masters''.
 + --------------------------------------------------------------------------- +
 
@@ -987,19 +3124,13 @@ New reel 'Published-Sequences' created successfully in library ''2025-06-08-conf
 New reel 'Published-Versions' created successfully in library ''2025-06-08-conform''.
 New reel '2025-06-08-postings' created successfully in library ''2025-06-08-conform''.
 Project layout setup completed.
-Cannot get list of jobs No route to host
-Cannot get list of jobs No route to host
-Cannot get list of jobs No route to host
-stat: *.otoc: stat: No such file or directory
-Done
 AUDIO: Uninitialisation complete.
 VIDEO: Display refresh rate detected as: 60.00 Hz
 LOG : Uninitialising.
 Stopping managed threads.
-Executing command: /bin/sh -p -c '/usr/sbin/system_profiler SPPCIDataType -xml > /var/tmp/tmpG74vbq'
+Executing command: /bin/sh -p -c '/usr/sbin/system_profiler SPPCIDataType -xml > /var/tmp/tmpZdyAUq'
 Uninitialisation complete.
-Disconnecting socket [fd:55]
-
+Disconnecting socket [fd:57]
 # --------------------------------------------------------------------------- #
 Successfully completed modules/functions/run/run_flame_launcher_script.py
 All processes completed.
