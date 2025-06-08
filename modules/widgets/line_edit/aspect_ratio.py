@@ -146,9 +146,14 @@ the_projekts_dir = config.get(
     "/PROJEKTS"
 )
 
+# the_projekt_flame_dirs = config.get(
+#     'the_projekt_flame_dirs',
+#     "/opt/Autodesk/project"
+# )
+
 the_projekt_flame_dirs = config.get(
     'the_projekt_flame_dirs',
-    "/opt/Autodesk/project"
+    "/Volumes/flame_projekts"
 )
 
 the_adsk_dir = config.get(

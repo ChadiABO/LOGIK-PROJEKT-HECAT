@@ -1,2 +1,1005 @@
-An error occurred while importing the template:
-[Errno 13] Permission denied: 'resources/tmp/current_projekt_template.json'
+LOGIK PROJEKT is initialized.
+
+Creating your LOGIK PROJEKT will take a moment.
+
+Breathe deeply and make a happy wish...
+
+Starting PROJEKT creation...
+Started execution of modules/functions/create/create_projekt.py
+Looking for templates in: /Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/resources/flame/presets/cfg/init.cfg/template
+
+  Template directory found. Contents:
+
+  1280x720@5000p.cfg
+  1280x720@5994p.cfg
+  1280x720@6000p.cfg
+  1920x1080@23976p.cfg
+  1920x1080@23976psf.cfg
+  1920x1080@24000psf.cfg
+  1920x1080@25000p.cfg
+  1920x1080@25000psf.cfg
+  1920x1080@2997p.cfg
+  1920x1080@3000p.cfg
+  1920x1080@5000p.cfg
+  1920x1080@50i.cfg
+  1920x1080@5994i.cfg
+  1920x1080@5994p.cfg
+  1920x1080@6000i.cfg
+  1920x1080@6000p.cfg
+  2048x1080@23976p.cfg
+  2048x1080@23976psf.cfg
+  2048x1080@24000p.cfg
+  2048x1080@24000psf.cfg
+  2048x1080@25000p.cfg
+  2048x1080@25000psf.cfg
+  2048x1080@2997p.cfg
+  2048x1080@3000p.cfg
+  2048x1080@5000p.cfg
+  2048x1080@5994p.cfg
+  2048x1080@6000p.cfg
+  24p.cfg
+  24p_1280x720@5994p.cfg
+  24p_1280x720@6000p.cfg
+  24p_1920x1080@5994i.cfg
+  24p_ntsc.cfg
+  30i_1280x720@5994p.cfg
+  30i_1280x720@6000p.cfg
+  3840x2160@23976p.cfg
+  3840x2160@24000p.cfg
+  3840x2160@25000p.cfg
+  3840x2160@2997p.cfg
+  3840x2160@3000p.cfg
+  3840x2160@5000p.cfg
+  3840x2160@5994p.cfg
+  3840x2160@6000p.cfg
+  4096x2160@23976p.cfg
+  4096x2160@24000p.cfg
+  4096x2160@25000p.cfg
+  4096x2160@2997p.cfg
+  4096x2160@3000p.cfg
+  4096x2160@5000p.cfg
+  4096x2160@5994p.cfg
+  4096x2160@6000p.cfg
+  film.cfg
+  film_ntsc.cfg
+  ntsc.cfg
+  pal.cfg
+  readme
+
+  Found 54 template files
+  Error reading JSON configuration file: [Errno 2] No such file or directory: '/Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/modules/functions/update/resources/cfg/projekt_configuration/roots/projekt_roots.json'  # ADDRESSED
+
+# ============================ CREATING PROJEKT ============================= #
+
+# --------------------------------------------------------------------------- #
+projekt: lions_film
+
+# --------------------------------------------------------------------------- #
+
+hostname: studio1
+
+host OS: Darwin
+
+username: chadiabo
+
+groupname: staff
+
+flame ver: flame_2026.0.1
+
+framestore: N/A
+
+datestamp: 2025_06_08
+
+timestamp: 17_07_22
+
+# ========================= THE PROJEKT INFORMATION ========================= #
+
+
+the_projekt_serial_number: 
+
+the_projekt_client_name: lions
+
+the_projekt_campaign_name: film
+
+the_projekt_name: lions_film
+
+the_projekt_resolution: 4096 x 2160 | DCP 4K Full 1.90
+
+the_projekt_width: 4096
+
+the_projekt_height: 2160
+
+the_projekt_storage_aspect_ratio: 
+
+the_projekt_display_aspect_ratio: 
+
+the_projekt_pixel_aspect_ratio: 
+
+the_projekt_aspect_ratio: 1.8962963
+
+the_projekt_bit_depth: 16-bit fp
+
+the_projekt_frame_rate: 24 fps
+
+the_projekt_scan_mode: PROGRESSIVE
+
+the_projekt_start_frame: 1001
+
+the_projekt_init_config: 4096x2160@24000p.cfg
+
+the_projekt_color_science: ADSK_ACES_1.1
+
+the_projekt_user_name: chadiabo
+
+the_projekt_primary_group: staff
+
+the_projekt_os: Darwin
+
+the_hostname: studio1
+
+the_projekt_localhostname: 
+
+the_projekt_computername: 
+
+the_software_version: flame_2026.0.1
+
+the_framestore: N/A
+
+the_sanitized_sw_ver: 
+
+the_sanitized_version: 
+
+the_projekt_flame_name: lions_film_2026_0_1_studio1
+
+xml_project_dir: /Volumes/flame_projekts/lions_film_2026_0_1_studio1
+
+xml_setup_dir: /Volumes/flame_projekts/lions_film_2026_0_1_studio1/setups
+
+xml_media_dir: /Volumes/flame_projekts/lions_film_2026_0_1_studio1/media
+
+xml_ocio_config: /opt/Autodesk/colour_mgmt/configs/flame_configs/2026.0/aces2.0_config/config.ocio
+
+xml_intermediates_profile: 0:596088
+
+# --------------------------------------------------------------------------- #
+
+# ======================== CREATING PROJEKT XML FILE ======================== #
+
+
+XML file created at:
+resources/tmp/current_projekt_parameters.xml
+
+
+# --------------------------------------------------------------------------- #
+
+# ========================= CREATING FLAME PROJEKT ========================== #
+
+
+Running the following bash command:
+# set -ex
+# Set the umask to 0
+umask 0
+# ---------------------------------------------------------------------- #
+# echo -e "resources/tmp/current_projekt_parameters.xml"
+# ---------------------------------------------------------------------- #
+# Create the logik projekt flame project node using wiretap_create_node
+# -n <parent node ID>
+# -d <display name>
+# -t <server-specific node type string (default = NODE)>
+# [-h <host name or IP address> (default = 127.0.0.1)]
+# [-s <metadata stream name> (default = none]
+# [-f <file containing metadata> (default = none)]
+# [-g <effective group>] (assumes super-user privileges)
+# ---------------------------------------------------------------------- #
+# THIS IS THE COMMAND FOR 2026
+# Create a logik projekt flame project node using wiretap
+/opt/Autodesk/wiretap/tools/current/wiretap_create_node \
+-h 127.0.0.1:IFFFS \
+-n /projects \
+-t PROJECT \
+-d "lions_film_2026_0_1_studio1" \
+-s XML \
+-f "resources/tmp/current_projekt_parameters.xml"
+# ---------------------------------------------------------------------- #
+Command output:
+Created node '/projects/C8CDB799-E6D2-4D59-AC16-F1B34BD277D4'.
+# --------------------------------------------------------------------------- #
+
+# ====================== CREATING PROJEKT DIRECTORIES ======================= #
+Bookmarks written to: resources/tmp/current_projekt_bookmarks.json
+
+Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/assets.json
+Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/backup.json
+
+Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/cfg.json
+
+Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/docs.json
+
+Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/editorial.json
+Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/flame.json
+
+Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/masters.json
+Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/reference.json
+
+Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/scenes.json
+
+Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/shots.json
+
+Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/software.json
+
+Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/tmp.json
+Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/utilities.json
+
+Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/version.json
+Reading JSON config file: resources/cfg/projekt_configuration/tree/projekt/work_in_progress.json
+
+Processing bookmarks: assets
+
+Processing bookmarks: audio
+
+Processing bookmarks: footage
+Processing bookmarks: editorial
+Processing bookmarks: flame
+Processing bookmarks: masters
+Processing bookmarks: reference
+
+Processing bookmarks: scenes
+
+Processing bookmarks: shots
+
+Processing bookmarks: tmp
+
+Processing bookmarks: utilities
+
+Processing bookmarks: version
+
+Processing bookmarks: work_in_progress
+Additional bookmarks written to resources/tmp/tmp_bookmarks.json
+Bookmarks file updated successfully.
+# --------------------------------------------------------------------------- #
+
+# ======================= CREATING FLAME DIRECTORIES ======================== #
+
+
+Reading JSON config file: resources/cfg/projekt_configuration/tree/flame/flame_setup_dirs.json
+
+Successfully loaded JSON data.
+* Error: An unexpected error occurred: [Errno 45] Operation not supported: '/opt/Autodesk/project/lions_film_2026_0_1_studio1'  # ADDRESSED
+# --------------------------------------------------------------------------- #
+
+# =================== LINKING BATCH ITERATIONS DIRECTORY ==================== #
+Linking batch iterations directory
+
+from: /PROJEKTS/lions_film/flame/iterations
+to:
+/opt/Autodesk/project/lions_film_2026_0_1_studio1/setups/batch/flame/iterations
+Traceback (most recent call last):
+  File "/Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/modules/functions/create/create_projekt.py", line 1216, in <module>
+main()
+  File "/Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/modules/functions/create/create_projekt.py", line 669, in main
+    symlink_iterations_dir(
+  File "/Volumes/RESOURCES/GITHUB/LOGIK-PROJEKT-HECAT/modules/functions/link/link_iterations_dir.py", line 255, in symlink_iterations_dir
+os.makedirs(os.path.dirname(target_path), exist_ok=True)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 45] Operation not supported: '/opt/Autodesk/project/lions_film_2026_0_1_studio1'
+Error executing modules/functions/create/create_projekt.py. Exit code: 1
+Started execution of modules/functions/run/run_flame_launcher_script.py
+# ==================== CREATING A CUSTOM FLAME LAUNCHER ===================== #
+Flame can now be launched with the following options:
+
+
+
+  /opt/Autodesk/flame_2026.0.1/bin/startFlame
+   -J lions_film_2026_0_1_studio1
+   --start-workspace="studio1" --create-workspace
+   create_projekt_layout.py
+Graphics : VULKAN
+---------------------------------------------------------------------------
+
+MP: Using 20 cpus (20 visible)
+Output log to: '/opt/Autodesk/log/flame202601_studio1_app.log'.
+Parsing Tooltips XML
+Tooltips loaded
+---------------------------------------------------------------------------
+Autodesk(R) Flame(R) Version 2026.0.1 Build 2026.0.1.445
+Autodesk and Flame are registered trademarks or trademarks of Autodesk, Inc., and/or its subsidiaries and/or affiliates in the USA and/or other countries. All other brand names, product names, or trademarks belong to their respective holders.
+Autodesk reserves the right to alter product offerings and specifications at any time without notice, and is not responsible for typographical or graphical errors that may appear in this document. (C) 2025 Autodesk, Inc.
+Autodesk(R) Flame(R) 2026.0.1  RELEASE
+
+BUILD DATE : Fri May 16 02:05:15 2025
+EXEC DATE  : Sun Jun  8 17:07:29 2025 - (1749395249)
+SYS CONFIG : ERROR parsing /opt/Autodesk/cfg/.2026.0.1/sysconfig.cfg:30:9: Missing a name for object member.
+POINTER    : Trying wacom
+CONFIG     : /opt/Autodesk/.flamefamily_2026.0.1/cfg/init.cfg
+AUDIO      : Core Audio
+CLIPMGT    : ArchiveLibrary = /opt/Autodesk/archive/.
+MENU       : /opt/Autodesk/.flamefamily_2026.0.1/menu/default.menu
+2025-06-08 17:07:29.873 flame[42513:114727] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+POINTER : Initialising.
+POINTER : Initialising Wacom UD.
+MEDIA : Initialising I/O...
+Cannot get the current Project.
+Python encountered RuntimeError('Cannot get the current Project.') in unknown code
+[PYTHON HOOK] An error occurred. Ignoring python hooks from /opt/Autodesk/shared/python/shot_sheet_maker/pyflame_lib_shot_sheet_maker.py
+Cannot get the current Project.
+Python encountered RuntimeError('Cannot get the current Project.') in unknown code
+[PYTHON HOOK] An error occurred. Ignoring python hooks from /opt/Autodesk/shared/python/shot_sheet_maker/shot_sheet_maker.py
+current_script_dir: /opt/Autodesk/shared/python/logik_projekt/openclip_tools/logik_projekt_openclip/scripts
+modules_dir: /opt/Autodesk/shared/python/logik_projekt/openclip_tools/logik_projekt_openclip/scripts/modules
+Python encountered ModuleNotFoundError("No module named 'nuke'") in unknown code
+[PYTHON HOOK] An error occurred. Ignoring python hooks from /opt/Autodesk/shared/python/logik_projekt/projekt_tools/logik_projekt_create_scripts/config/menu.py
+current_script_dir: /opt/Autodesk/shared/python/logik_projekt/projekt_tools/logik_projekt_create_scripts/scripts
+modules_dir: /opt/Autodesk/shared/python/logik_projekt/projekt_tools/logik_projekt_create_scripts/scripts/modules
+current_script_dir: /opt/Autodesk/shared/python/logik_projekt/projekt_tools/logik_projekt_create_scripts/scripts
+modules_dir: /opt/Autodesk/shared/python/logik_projekt/projekt_tools/logik_projekt_create_scripts/scripts/modules
+PROJECT    : lions_film_2026_0_1_studio1
+USER DIR   : /Users/chadiabo/Library/Preferences/Autodesk/flame
+Locking target lions_film_2026_0_1_studio1...
+Options: LIMIT_PURGE_TIME
+Initiating integrity check ...
+Extracting frames from /Volumes/flame_projekts/lions_film_2026_0_1_studio1/catalog/studio1.wksp/.#workspace.000.wks.
+Extracted 0 frame.
+Extracting frames from /Volumes/flame_projekts/lions_film_2026_0_1_studio1/catalog/.#project.000.clib.
+Extracted 0 frame.
+Adding references to attachments...
+Verifying video stonefs frames ...
+         Verifying audio stonefs frames ...
+         Verifying waveform stonefs frames ...
+      Recovering lost frames ...
+Recovered 0 lost frames ...
+         Processing unreferenced (leaked) media on target lions_film_2026_0_1_studio1...:
+         {
+         }
+Integrity check successful in 0.028535 sec
+      Purging unreferenced frames ...
+Unlocking target lions_film_2026_0_1_studio1 ...
+Closing target lions_film_2026_0_1_studio1...
+CONFIG     : /Volumes/flame_projekts/lions_film_2026_0_1_studio1/setups/cfg/lions_film_2026_0_1_studio1.cfg
+VIDEO PREVIEW : DVI broadcast, channel 1, 2560x1440, +0, +0, , freesync (none), 10-bit, YCrCb Rec.709 4:2:2, Normal
+VIDEO WINDOW: no device matching (1920,1080,8-bit 2997p, YCrCb Rec.709 4:2:2, Normal)
+VIDEO WINDOW: video preview will be disabled.
+PROJECT VIDEO PREVIEW: Using the following parameters for the preview device:
+VIDEO PREVIEW : , channel -1, 0x0, +0, +0, ,  (none), 0-bit, None
+VIDEO      : width: 1920, height: 1080, pixelFormat = 10-bit, timing: 1920X1080_5994I
+MEMORY     : Bytes available: 58818 MB
+MEMORY     : Allocated 11796 MB at address 0x43ef94000 using mmap()
+VIDEO: Display refresh rate detected as: 60.00 Hz
+EDL Module: Portions Copyright 1991-1998 ALBA Editorial, Inc.,
+All Rights Reserved.
+Cannot clear slate cache: No configured partition [Partition not configured or unmounted]
+Output log to: '/opt/Autodesk/log/slateDiskCacheCleaner.log'.
+Python encountered ModuleNotFoundError("No module named 'nuke'") in unknown code
+[PYTHON HOOK] An error occurred. Ignoring python hooks from /opt/Autodesk/shared/python/logik_projekt/projekt_tools/logik_projekt_create_scripts/config/menu.py
+Library 'Default Library' already exists in workspace ''studio1''.
+Color of 'Default Library' changed to Dark Red.
+Name of 'Default Library' changed to 'desktops'.
+New folder 'ch' created successfully in library ''desktops''.
++ --------------------------------------------------------------------------- +
+
+  Processing file: library_template_01.json
+
++ --------------------------------------------------------------------------- +
+
+  Creating: library: 'desktops'
+
+desktops_library = \
+	create_or_validate_library(
+		the_current_workspace,
+		'desktops',
+		object_colors.get("Dark Red")
+)
+Library 'desktops' already exists in workspace ''studio1''.
+
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'common'
+
+common_folder = \
+	create_or_validate_object(
+		desktops_library,
+		'common',
+		'folder'
+	)
+New folder 'common' created successfully in library ''desktops''.
++ --------------------------------------------------------------------------- +
+
+
++ --------------------------------------------------------------------------- +
+Processing file: library_template_02.json
+
++ --------------------------------------------------------------------------- +
+
+  Creating: library: 'reference'
+
+reference_library = \
+	create_or_validate_library(
+		the_current_workspace,
+'reference',
+		object_colors.get("Dark Orange")
+	)
+New library 'reference' created successfully in workspace ''studio1''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'reference_images'
+
+reference_images_folder = \
+	create_or_validate_object(
+		reference_library,
+		'reference_images',
+		'folder'
+	)
+New folder 'reference_images' created successfully in library ''reference''.
+
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'reference_movies'
+
+reference_movies_folder = \
+	create_or_validate_object(
+reference_library,
+		'reference_movies',
+		'folder'
+	)
+New folder 'reference_movies' created successfully in library ''reference''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'reference_style_guide'
+
+reference_style_guide_folder = \
+	create_or_validate_object(
+		reference_library,
+		'reference_style_guide',
+		'folder'
+	)
+New folder 'reference_style_guide' created successfully in library ''reference''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: today_date + '-reference'
+
+todays_reference_folder = \
+	create_or_validate_object(
+		reference_library,
+		today_date + '-reference',
+		'folder'
+)
+New folder '2025-06-08-reference' created successfully in library ''reference''.
++ --------------------------------------------------------------------------- +
+
+
++ --------------------------------------------------------------------------- +
+
+  Processing file: library_template_03.json
+
++ --------------------------------------------------------------------------- +
+
+  Creating: library: 'editorial'
+
+editorial_library = \
+create_or_validate_library(
+		the_current_workspace,
+		'editorial',
+		object_colors.get("Dark Gold")
+	)
+New library 'editorial' created successfully in workspace ''studio1''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'conforms'
+
+conforms_folder = \
+	create_or_validate_object(
+		editorial_library,
+		'conforms',
+		'folder'
+	)
+New folder 'conforms' created successfully in library ''editorial''.
+
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'work_in_progress'
+
+work_in_progress_folder = \
+	create_or_validate_object(
+editorial_library,
+		'work_in_progress',
+		'folder'
+	)
+New folder 'work_in_progress' created successfully in library ''editorial''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'postings'
+
+postings_folder = \
+	create_or_validate_object(
+		work_in_progress_folder,
+		'postings',
+		'folder'
+	)
+
+New folder 'postings' created successfully in library ''work_in_progress''.
++ --------------------------------------------------------------------------- +
+
+
++ --------------------------------------------------------------------------- +
+
+  Processing file: library_template_04.json
+
++ --------------------------------------------------------------------------- +
+
+  Creating: library: 'assets'
+assets_library = \
+	create_or_validate_library(
+		the_current_workspace,
+		'assets',
+		object_colors.get("Dark Green")
+	)
+New library 'assets' created successfully in workspace ''studio1''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'artwork'
+
+artwork_folder = \
+	create_or_validate_object(
+		assets_library,
+		'artwork',
+		'folder'
+	)
+New folder 'artwork' created successfully in library ''assets''.
+
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'audio'
+
+audio_folder = \
+	create_or_validate_object(
+		assets_library,
+		'audio',
+'folder'
+	)
+New folder 'audio' created successfully in library ''assets''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'dub'
+
+dub_folder = \
+	create_or_validate_object(
+		audio_folder,
+		'dub',
+		'folder'
+)
+New folder 'dub' created successfully in library ''audio''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'mix'
+
+mix_folder = \
+	create_or_validate_object(
+		audio_folder,
+		'mix',
+		'folder'
+	)
+
+New folder 'mix' created successfully in library ''audio''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'music'
+music_folder = \
+	create_or_validate_object(
+		audio_folder,
+		'music',
+		'folder'
+	)
+New folder 'music' created successfully in library ''audio''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'production'
+
+production_folder = \
+	create_or_validate_object(
+		audio_folder,
+		'production',
+		'folder'
+	)
+
+New folder 'production' created successfully in library ''audio''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'sound_effects'
+
+sound_effects_folder = \
+	create_or_validate_object(
+		audio_folder,
+		'sound_effects',
+		'folder'
+)
+New folder 'sound_effects' created successfully in library ''audio''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'stems'
+
+stems_folder = \
+	create_or_validate_object(
+		audio_folder,
+		'stems',
+'folder'
+	)
+New folder 'stems' created successfully in library ''audio''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'voiceover'
+
+voiceover_folder = \
+	create_or_validate_object(
+audio_folder,
+		'voiceover',
+		'folder'
+	)
+New folder 'voiceover' created successfully in library ''audio''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'CGI'
+
+cgi_folder = \
+	create_or_validate_object(
+		assets_library,
+		'CGI',
+		'folder'
+	)
+New folder 'CGI' created successfully in library ''assets''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'font'
+
+font_folder = \
+	create_or_validate_object(
+		assets_library,
+		'font',
+		'folder'
+	)
+New folder 'font' created successfully in library ''assets''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'footage'
+
+footage_folder = \
+	create_or_validate_object(
+		assets_library,
+'footage',
+		'folder'
+	)
+New folder 'footage' created successfully in library ''assets''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'graded'
+
+graded_folder = \
+	create_or_validate_object(
+footage_folder,
+		'graded',
+		'folder'
+	)
+New folder 'graded' created successfully in library ''footage''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'raw'
+
+raw_folder = \
+	create_or_validate_object(
+		footage_folder,
+		'raw',
+		'folder'
+)
+New folder 'raw' created successfully in library ''footage''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'stock'
+
+stock_folder = \
+create_or_validate_object(
+		footage_folder,
+		'stock',
+		'folder'
+	)
+New folder 'stock' created successfully in library ''footage''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'transcodes'
+
+transcodes_folder = \
+	create_or_validate_object(
+		footage_folder,
+		'transcodes',
+		'folder'
+	)
+New folder 'transcodes' created successfully in library ''footage''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'graphics'
+
+graphics_folder = \
+create_or_validate_object(
+		assets_library,
+		'graphics',
+		'folder'
+	)
+New folder 'graphics' created successfully in library ''assets''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'images'
+
+images_folder = \
+create_or_validate_object(
+		assets_library,
+		'images',
+		'folder'
+	)
+New folder 'images' created successfully in library ''assets''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'legal'
+legal_folder = \
+	create_or_validate_object(
+		assets_library,
+		'legal',
+		'folder'
+	)
+New folder 'legal' created successfully in library ''assets''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'matchmoving'
+
+matchmoving_folder = \
+	create_or_validate_object(
+		assets_library,
+		'matchmoving',
+		'folder'
+	)
+
+New folder 'matchmoving' created successfully in library ''assets''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'miscellaneous'
+
+miscellaneous_folder = \
+	create_or_validate_object(
+		assets_library,
+		'miscellaneous',
+		'folder'
+	)
+New folder 'miscellaneous' created successfully in library ''assets''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'paint'
+
+paint_folder = \
+	create_or_validate_object(
+		assets_library,
+'paint',
+		'folder'
+	)
+New folder 'paint' created successfully in library ''assets''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'photoshop'
+
+photoshop_folder = \
+	create_or_validate_object(
+		assets_library,
+		'photoshop',
+'folder'
+	)
+New folder 'photoshop' created successfully in library ''assets''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'roto'
+
+roto_folder = \
+	create_or_validate_object(
+		assets_library,
+		'roto',
+		'folder'
+	)
+New folder 'roto' created successfully in library ''assets''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'slates'
+
+slates_folder = \
+	create_or_validate_object(
+		assets_library,
+'slates',
+		'folder'
+	)
+New folder 'slates' created successfully in library ''assets''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'subtitles'
+
+subtitles_folder = \
+	create_or_validate_object(
+		assets_library,
+		'subtitles',
+'folder'
+	)
+New folder 'subtitles' created successfully in library ''assets''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'supers'
+
+supers_folder = \
+	create_or_validate_object(
+		assets_library,
+		'supers',
+'folder'
+	)
+New folder 'supers' created successfully in library ''assets''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'titles'
+
+titles_folder = \
+	create_or_validate_object(
+		assets_library,
+'titles',
+		'folder'
+	)
+New folder 'titles' created successfully in library ''assets''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'tracking'
+
+tracking_folder = \
+	create_or_validate_object(
+		assets_library,
+'tracking',
+		'folder'
+	)
+New folder 'tracking' created successfully in library ''assets''.
++ --------------------------------------------------------------------------- +
+Creating: folder: 'video'
+
+video_folder = \
+	create_or_validate_object(
+		assets_library,
+		'video',
+		'folder'
+	)
+
+New folder 'video' created successfully in library ''assets''.
++ --------------------------------------------------------------------------- +
+
+
++ --------------------------------------------------------------------------- +
+Processing file: library_template_05.json
+
++ --------------------------------------------------------------------------- +
+
+  Creating: library: 'masters'
+
+masters_library = \
+	create_or_validate_library(
+		the_current_workspace,
+		'masters',
+object_colors.get("Dark Blue")
+	)
+New library 'masters' created successfully in workspace ''studio1''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'final_masters'
+
+final_masters_folder = \
+	create_or_validate_object(
+		masters_library,
+		'final_masters',
+		'folder',
+		object_colors.get("Dark Red")
+	)
+New folder 'final_masters' created successfully in library ''masters''.
+
++ --------------------------------------------------------------------------- +
+
+  Creating: reel: 'final_masters'
+
+final_masters_reel = \
+	create_or_validate_object(
+		final_masters_folder,
+		'final_masters',
+		'reel',
+		object_colors.get("Red")
+	)
+New reel 'final_masters' created successfully in library ''final_masters''.
++ --------------------------------------------------------------------------- +
+
+  Creating: reel: 'versions'
+
+versions_reel = \
+	create_or_validate_object(
+		final_masters_folder,
+		'versions',
+		'reel',
+		object_colors.get("Green")
+	)
+New reel 'versions' created successfully in library ''final_masters''.
++ --------------------------------------------------------------------------- +
+
+  Creating: reel: 'slates'
+
+slates_reel = \
+	create_or_validate_object(
+		final_masters_folder,
+		'slates',
+'reel',
+		object_colors.get("Blue")
+	)
+New reel 'slates' created successfully in library ''final_masters''.
+
++ --------------------------------------------------------------------------- +
+Creating: reel: 'slated_masters'
+
+slated_masters_reel = \
+	create_or_validate_object(
+		final_masters_folder,
+		'slated_masters',
+		'reel',
+		object_colors.get("Dark Gold")
+	)
+New reel 'slated_masters' created successfully in library ''final_masters''.
++ --------------------------------------------------------------------------- +
+
+
++ --------------------------------------------------------------------------- +
+
+  Processing file: library_template_06.json
++ --------------------------------------------------------------------------- +
+
+  Creating: library: 'shots'
+
+shots_library = \
+	create_or_validate_library(
+		the_current_workspace,
+		'shots',
+		object_colors.get("Dark Purple")
+	)
+New library 'shots' created successfully in workspace ''studio1''.
++ --------------------------------------------------------------------------- +
+
+  Creating: folder: 'batch_groups'
+
+batch_groups_folder = \
+	create_or_validate_object(
+		shots_library,
+		'batch_groups',
+		'folder',
+		object_colors.get("Purple")
+	)
+New folder 'batch_groups' created successfully in library ''shots''.
+
++ --------------------------------------------------------------------------- +
+
+Current desktop: '2025-06-08-ch'
+New reel 'Published-Sequences' created successfully in library ''2025-06-08-conform''.
+New reel 'Published-Versions' created successfully in library ''2025-06-08-conform''.
+New reel '2025-06-08-postings' created successfully in library ''2025-06-08-conform''.
+Project layout setup completed.
+Cannot get list of jobs No route to host
+Cannot get list of jobs No route to host
+Cannot get list of jobs No route to host
+stat: *.otoc: stat: No such file or directory
+Done
+AUDIO: Uninitialisation complete.
+VIDEO: Display refresh rate detected as: 60.00 Hz
+LOG : Uninitialising.
+Stopping managed threads.
+Executing command: /bin/sh -p -c '/usr/sbin/system_profiler SPPCIDataType -xml > /var/tmp/tmpG74vbq'
+Uninitialisation complete.
+Disconnecting socket [fd:55]
+
+# --------------------------------------------------------------------------- #
+Successfully completed modules/functions/run/run_flame_launcher_script.py
+All processes completed.

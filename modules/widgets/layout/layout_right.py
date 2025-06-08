@@ -187,7 +187,7 @@ the_projekts_dir = config.get(
 
 the_projekt_flame_dirs = config.get(
     'the_projekt_flame_dirs',
-    "/opt/Autodesk/project"
+    "/Volumes/flame_projekts"
 )
 
 the_adsk_dir = config.get(
@@ -521,7 +521,7 @@ class WidgetLayoutRight(QWidget):
                 the_projekt_flame_name = "N/A"
 
             # Calculate xml_project_dir, xml_setup_dir, and xml_media_dir
-            xml_project_dir = projekt_flame_directory or f"/opt/Autodesk/project/{the_projekt_flame_name}"
+            xml_project_dir = projekt_flame_directory or f"/Volumes/flame_projekts/{the_projekt_flame_name}"
             xml_setup_dir = setups_directory or f"{xml_project_dir}/setups"
             xml_media_dir = media_cache_directory or f"{xml_project_dir}/media"
 
@@ -759,7 +759,7 @@ class WidgetLayoutRight(QWidget):
 
         the_projekt_flame_name = env_dict.get("Projekt Flame Name", "")
         # xml_project_dir = f"{the_projekt_flame_dirs}/{the_projekt_flame_name}"
-        xml_project_dir = f"/opt/Autodesk/project/{the_projekt_flame_name}"
+        xml_project_dir = f"/Volumes/flame_projekts/{the_projekt_flame_name}"
         xml_setup_dir = f"{xml_project_dir}/setups"
         xml_media_dir = f"{xml_project_dir}/media"
         # xml_ocio_config = f"/opt/Autodesk/colour_mgmt/configs/flame_configs/example_config/config.ocio"

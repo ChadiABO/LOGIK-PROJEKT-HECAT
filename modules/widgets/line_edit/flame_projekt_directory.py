@@ -145,9 +145,14 @@ the_projekts_dir = config.get(
     "/PROJEKTS"
 )
 
+# the_projekt_flame_dirs = config.get(
+#     'the_projekt_flame_dirs',
+#     "/opt/Autodesk/project"
+# )
+
 the_projekt_flame_dirs = config.get(
     'the_projekt_flame_dirs',
-    "/opt/Autodesk/project"
+    "/Volumes/flame_projekts"
 )
 
 the_adsk_dir = config.get(
@@ -201,7 +206,8 @@ class WidgetFlameProjektDirectory(QLineEdit):
         self.setObjectName("template_flame_projekt_directory")
 
         # Set default properties
-        self.setPlaceholderText("/opt/Autodesk/project/<project name>")
+        # self.setPlaceholderText("/Volumes/flame_projekts/<project name>")
+        self.setPlaceholderText("/Volumes/flame_projekts/<project name>")
         self.setReadOnly(True)
 
         # Optionally, set additional properties based on widget_parameters
@@ -212,7 +218,8 @@ class WidgetFlameProjektDirectory(QLineEdit):
             "widget_type": "QLineEdit",
             "widget_label_name": "Projekt Flame Directory: ",
             "widget_default_value": "",
-            "widget_placeholder_value": "/opt/Autodesk/project/<project name>",
+            # "widget_placeholder_value": "/Volumes/flame_projekts/<project name>",
+            "widget_placeholder_value": "/Volumes/flame_projekts/<project name>",
             "widget_item_values": "",
             "widget_read_only": True
         }
