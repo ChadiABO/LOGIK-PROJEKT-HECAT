@@ -157,4 +157,4 @@ Thumbs.db
 
 # Temporary session files
 scratch
-._*
+._.DS_Store
