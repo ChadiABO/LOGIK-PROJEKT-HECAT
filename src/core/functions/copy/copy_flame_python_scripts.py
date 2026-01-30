@@ -123,7 +123,7 @@ if __name__ == "__main__":
     # For testing, create the base directories if they don't exist
     if not os.path.exists(setups_path):
         print(f"Creating test directory: {setups_path}")
-        os.makedirs(setups_path)
+        os.makedirs(setups_path, exist_ok=True)
 
     copy_flame_python_scripts(setups_path)
 

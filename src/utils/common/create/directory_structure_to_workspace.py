@@ -88,7 +88,7 @@ def directory_structure_to_workspace(filesystem_tree_file, workspace_file, chose
         output_dir = os.path.dirname(workspace_file)
         if not os.path.exists(output_dir):
             logging.info(f"Output directory does not exist. Creating: {output_dir}")
-            os.makedirs(output_dir)
+            os.makedirs(output_dir, exist_ok=True)
 
         with open(workspace_file, 'w', encoding='utf-8') as f:
             json.dump(workspace, f, indent=2, ensure_ascii=False)

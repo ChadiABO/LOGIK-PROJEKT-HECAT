@@ -155,7 +155,7 @@ if __name__ == "__main__":
     # For testing, create the base directory if it doesn't exist
     if not os.path.exists(setups_path):
         print(f"Creating test directory: {setups_path}")
-        os.makedirs(setups_path)
+        os.makedirs(setups_path, exist_ok=True)
 
     create_flame_startup_script(setups_path, workspace_json_path)
 
