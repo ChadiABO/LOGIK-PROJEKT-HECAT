@@ -14,11 +14,11 @@
 # License:      GNU General Public License v3.0 (GPL-3.0).
 #               https://www.gnu.org/licenses/gpl-3.0.en.html
 
-# Version:      2026.2.0
+# Version:      2026.2.1
 # Status:       Development
 # Type:         Utility
 # Created:      2024-01-19
-# Modified:     2025-10-30
+# Modified:     2025-01-29
 
 # Changelog:    Changelog at bottom of script.
 # -------------------------------------------------------------------------- #
@@ -67,7 +67,7 @@ app_name_sanitize=$(echo "$app_name" | tr -d '[:punct:]' | tr ' ' '_')
 app_name_lc=$(echo "$app_name_sanitize" | tr '[:upper:]' '[:lower:]')
 
 # Define the application version number
-app_version="2026.2.0"
+app_version="2026.2.1"
 
 # Define the macOS application name
 macos_app_name="${app_name}-${app_version}.app"
@@ -385,7 +385,7 @@ printf "\n%s\n" "$separator"
 # comments:         Added logic to compare and update the preference file only if needed.
 # -------------------------------------------------------------------------- #
 
-# version:          2026.2.0
+# version:          2026.2.1
 # created:          2025-10-30
-# comments:         Updated version to 2026.2.0. Verified compatibility with Autodesk Flame 2026.2.0. No code changes required.
+# comments:         Updated version to 2026.2.1. Verified compatibility with Autodesk Flame 2026.2.1. No code changes required.
 # -------------------------------------------------------------------------- #
